@@ -1,0 +1,27 @@
+{
+  "common_start": "1995-01-03",
+  "is_locked": true,
+  "known_limitations": [
+    "The primary universe measures US equity-sector structure, not cross-asset structure.",
+    "Research portfolios are not directly investable instruments.",
+    "The provider may revise full history; point-in-time vintages begin with the locally archived approval vintage.",
+    "No standalone Swedish equity, emerging-market equity, rates, credit, commodity, gold or SEK basket channel is present in v1.",
+    "This universe may support unsupervised PH research, but supervised production promotion still needs a licensed and frozen target series."
+  ],
+  "local_archives_verified": true,
+  "owner_approval": {
+    "approved_at": "2026-07-31T18:32:27Z",
+    "approved_by": "Gunnar Östberg",
+    "decision_note": "Godkänner tda_ff12_us_sectors@1.0.0-rc1 som låst Baseline PH v0 enligt punkterna 1–4 i källregistrets avsnitt 9.5.",
+    "required": true,
+    "role": "Produktägare"
+  },
+  "primary_series_count": 12,
+  "replication_series_count": 3,
+  "status": "LOCKED",
+  "universe_id": "tda_ff12_us_sectors",
+  "verified_common_rows": 7904,
+  "verified_through": "2026-05-29",
+  "version": "1.0.0",
+  "version_id": "tda_ff12_us_sectors@1.0.0"
+}

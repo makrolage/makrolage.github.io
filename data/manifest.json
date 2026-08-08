@@ -1,0 +1,15 @@
+{
+  "counts": {
+    "failed_fetches": 0,
+    "observation_vintages": 8992,
+    "raw_artifacts": 19,
+    "successful_fetches": 0
+  },
+  "generated_at": "2026-08-08T18:22:31.262478Z",
+  "mode": "STATIC_SNAPSHOT",
+  "notice": "Analysstöd; inte individuell finansiell rådgivning.",
+  "public_data": "derived_only",
+  "schema_version": "1.0.0",
+  "snapshot_sha256": "f11fbdcd43eda9ff8ab8857f4ff75cf5d1fb5a6a6611fd1815d745c137cfa860",
+  "tda_quality_status": "RESEARCH"
+}

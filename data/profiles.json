@@ -1,0 +1,29 @@
+{
+  "balanced": {
+    "explanation": "Viktad syntes av tre domäner",
+    "policy_target": 50,
+    "preview": true,
+    "profile_id": "synthesis_balanced",
+    "quality_status": "CURRENT",
+    "score": 0.04349999999999998,
+    "state": "NEUTRAL"
+  },
+  "global-fund-heavy": {
+    "explanation": "Viktad syntes av tre domäner",
+    "policy_target": 25,
+    "preview": true,
+    "profile_id": "synthesis_global-fund-heavy",
+    "quality_status": "CURRENT",
+    "score": -0.285,
+    "state": "DEFENSIVE"
+  },
+  "sweden-heavy": {
+    "explanation": "Viktad syntes av tre domäner",
+    "policy_target": 80,
+    "preview": true,
+    "profile_id": "synthesis_sweden-heavy",
+    "quality_status": "CURRENT",
+    "score": 0.32999999999999996,
+    "state": "RISK_ON"
+  }
+}

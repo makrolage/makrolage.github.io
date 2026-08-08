@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Spårbar dashboard för konjunkturregimer och illustrativa risksignaler">
+  <title>Makroläge — Regimöversikt</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./fixes.css">
+</head>
+<body>
+  <a class="skip-link" href="#content">Hoppa till innehåll</a>
+  <header class="topbar">
+    <a class="brand" href="#overview" aria-label="Makroläge startsida">
+      <span class="brand-mark" aria-hidden="true">M</span>
+      <span><strong>Makroläge</strong><small>Macro regime desk</small></span>
+    </a>
+    <nav aria-label="Huvudnavigation">
+      <button class="nav-link active" data-view="overview">Översikt</button>
+      <button class="nav-link" data-view="compare">Jämförelse</button>
+      <button class="nav-link" data-view="quality">Audit & kvalitet</button>
+      <button class="nav-link experiment" data-view="tda">TDA Lab <span id="tda-nav-status">Demo</span></button>
+    </nav>
+    <div class="top-actions">
+      <button id="alert-button" class="icon-button" aria-label="Visa larm"><span aria-hidden="true">◌</span><b id="alert-count">0</b></button>
+      <div class="as-of"><span>Senast beräknad</span><strong id="global-asof">—</strong></div>
+    </div>
+  </header>
+
+  <main id="content">
+    <section id="view-overview" class="view active" aria-labelledby="overview-title">
+      <div class="hero-row">
+        <div>
+          <p class="eyebrow">Månatlig regimbedömning</p>
+          <h1 id="overview-title">Marknadens temperatur,<br><em>utan svarta lådor.</em></h1>
+          <p class="lede">Tre oberoende makroperspektiv, sammanvägda efter din valda exponering. Varje signal går att följa hela vägen tillbaka till källdatan.</p>
+        </div>
+        <div class="profile-control">
+          <label for="profile-select">Exponeringsprofil</label>
+          <select id="profile-select">
+            <option value="global-fund-heavy">Globalfonds-tung</option>
+            <option value="balanced">Balanserad</option>
+            <option value="sweden-heavy">Sverige-tung</option>
+          </select>
+          <span>Påverkar syntesen, inte domänsignalerna</span>
+        </div>
+      </div>
+
+      <div id="empty-state" class="empty-state hidden">
+        <div class="empty-symbol">○</div>
+        <h2>Ingen signaldata ännu</h2>
+        <p>Ingen publicerbar snapshot har byggts ännu. Starta en ny datainsamling och kontrollera körloggen.</p>
+      </div>
+
+      <div id="dashboard-content">
+        <section class="synthesis-panel" aria-labelledby="synthesis-title">
+          <div class="synthesis-copy">
+            <div class="label-row"><span class="eyebrow">Samlad syntes</span><span id="synthesis-quality" class="status-pill">—</span></div>
+            <h2 id="synthesis-title">—</h2>
+            <p id="synthesis-explanation">—</p>
+            <button id="synthesis-audit" class="text-button">Öppna full audit <span aria-hidden="true">→</span></button>
+          </div>
+          <div class="allocation">
+            <span>Illustrativt riskmål</span>
+            <strong id="risk-target">—</strong>
+            <div class="meter" aria-label="Illustrativt riskmål"><i id="risk-meter"></i></div>
+            <small>Riskbärande tillgångar · ingen automatisk handel</small>
+          </div>
+          <div class="synthesis-score">
+            <span>Viktad score</span><strong id="synthesis-score">—</strong><small>Kompositskala</small>
+          </div>
+        </section>
+
+        <div class="section-heading"><div><p class="eyebrow">Domäner</p><h2>Tre perspektiv. En tydlig divergens.</h2></div><p>Signalerna beräknas var för sig. Syntesen får aldrig dölja när domänerna säger olika saker.</p></div>
+        <div id="domain-cards" class="domain-grid"></div>
+
+        <section class="history-panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Signalhistorik · månadsvis</p>
+              <h2>Senaste 24 månaderna</h2>
+              <p class="panel-subtitle">Varje stapel visar den samlade regimbedömningen för en kalendermånad.</p>
+            </div>
+            <div class="legend" aria-label="Färgförklaring för huvudstatusar">
+              <span><i class="dot risk-on" aria-hidden="true"></i>Risk on</span>
+              <span><i class="dot neutral" aria-hidden="true"></i>Neutral</span>
+              <span><i class="dot defensive" aria-hidden="true"></i>Defensiv</span>
+              <span><i class="dot risk-off" aria-hidden="true"></i>Risk off</span>
+            </div>
+          </div>
+          <div id="history-chart" class="history-chart" role="img" aria-label="Månadsvis historik över syntesscore för de senaste 24 månaderna"></div>
+          <div id="history-table" class="sr-only" aria-live="polite"></div>
+          <section class="status-explainer" aria-labelledby="status-explainer-title">
+            <div class="status-explainer-heading">
+              <div>
+                <p class="eyebrow">Så läser du signalen</p>
+                <h3 id="status-explainer-title">Status är en regimbedömning, inte en prognosgaranti</h3>
+              </div>
+              <p>Procentsatserna är den nuvarande standardpolicyns illustrativa riskmål. De är analysstöd, inte individuell rådgivning.</p>
+            </div>
+            <div class="status-guide">
+              <article class="status-guide-item risk-on"><h4><i aria-hidden="true"></i>Risk on <small>80 %</small></h4><p>Bred positiv regim. Hög riskexponering är tillåten, men normal riskspridning och löpande uppföljning gäller.</p></article>
+              <article class="status-guide-item neutral"><h4><i aria-hidden="true"></i>Neutral <small>50 %</small></h4><p>Signalerna är blandade eller nära normalläge. Behåll balanserad exponering och invänta tydligare riktning.</p></article>
+              <article class="status-guide-item defensive"><h4><i aria-hidden="true"></i>Defensiv <small>25 %</small></h4><p>Försvagad regim utan fullt risk-off-läge. Minska cyklisk risk och prioritera motståndskraft och likviditet.</p></article>
+              <article class="status-guide-item risk-off"><h4><i aria-hidden="true"></i>Risk off <small>0 %</small></h4><p>Tydlig och kraftig försämring. Standardpolicyn drar ned risk direkt; statusen kräver inte två månaders bekräftelse.</p></article>
+              <article class="status-guide-item re-entry"><h4><i aria-hidden="true"></i>Återinträde <small>80 %</small></h4><p>Bekräftad förbättring efter en stabil defensiv eller risk-off-period. Risk byggs upp igen enligt policyn.</p></article>
+              <article class="status-guide-item overheated"><h4><i aria-hidden="true"></i>Överhettad <small>60 %</small></h4><p>Stark nivå men avtagande momentum eller bredd. Fortsatt exponering, men lägre än risk on och med extra vaksamhet.</p></article>
+              <article class="status-guide-item unavailable"><h4><i aria-hidden="true"></i>Ej tillgänglig <small>—</small></h4><p>Kritisk data saknas. Det är inte samma sak som neutral: någon ny regimbedömning eller riskallokering ska inte utläsas.</p></article>
+            </div>
+          </section>
+        </section>
+      </div>
+    </section>
+
+    <section id="view-compare" class="view" aria-labelledby="compare-title">
+      <p class="eyebrow">Korsdomän</p><h1 id="compare-title">Jämförelse</h1>
+      <p class="lede">De senaste officiella kalendermånaderna sida vid sida.</p>
+      <div class="table-shell"><table><thead id="compare-head"></thead><tbody id="compare-body"></tbody></table></div>
+    </section>
+
+    <section id="view-quality" class="view" aria-labelledby="quality-title">
+      <p class="eyebrow">Spårbarhet</p><h1 id="quality-title">Audit & datakvalitet</h1>
+      <div class="quality-grid"><section class="audit-panel"><h2>Vald signal</h2><div id="audit-content" class="audit-content"><p>Välj ”Visa audit” på ett domänkort.</p></div></section><section class="alerts-panel"><h2>Senaste larm</h2><div id="alerts-list"></div></section></div>
+    </section>
+
+    <section id="view-tda" class="view" aria-labelledby="tda-title">
+      <div class="lab-banner"><span>Forskningsläge</span>Riktiga topologiska features kan visas här, men stressnivå, riktning och prognosvärde är inte kalibrerade eller validerade. Ingenting här påverkar produktionssignalen.</div>
+      <p class="eyebrow">Topological data analysis</p><h1 id="tda-title">TDA Lab</h1>
+      <p class="lede">Marknadsstrukturens avvikelse från sin historiska normalbild. Högt värde betyder förändring — inte automatiskt börsfall.</p>
+      <section class="tda-explainer" aria-labelledby="tda-explainer-title">
+        <div>
+          <p class="eyebrow">Vad TDA ska undersöka</p>
+          <h2 id="tda-explainer-title">Förändras formen på marknadens samvariation?</h2>
+          <p>Varje handelsdag ska de senaste 60 dagarnas avkastningar bilda ett punktmoln. Persistent homology sammanfattar hur sammanhängande strukturer och slingor uppstår och består när avståndsskalan ändras.</p>
+        </div>
+        <dl>
+          <div><dt>H₀</dt><dd>Sammanhängande grupper. Kan visa hur segment av marknaden binds ihop eller separeras.</dd></div>
+          <div><dt>H₁</dt><dd>Slingor i punktmolnet. Kan fånga mer komplex beroendestruktur än enskilda korrelationer.</dd></div>
+          <div><dt>Persistens</dt><dd>Hur länge en struktur överlever över flera avståndsskalor. Kortlivade strukturer behandlas oftare som brus.</dd></div>
+          <div><dt>Diagramavstånd</dt><dd>Hur mycket den topologiska strukturen förändrats sedan föregående handelsdag eller historisk referens.</dd></div>
+        </dl>
+        <aside>
+          <strong>Så ska sidan läsas just nu</strong>
+          <p><b>DEMO</b> betyder syntetiskt gränssnittsexempel. <b>RESEARCH</b> betyder att diagram och features är verkligt beräknade, men ännu saknar validerad prognostolkning. Då visas även dataintervall, biblioteksversion och inputhash.</p>
+          <p>TDA måste slå enklare mått som volatilitet, drawdown, korrelation och PCA utanför träningsperioden innan det får beskrivas som ett mervärde.</p>
+        </aside>
+      </section>
+      <div id="tda-content" class="tda-layout"></div>
+    </section>
+  </main>
+
+  <footer><span>Makroläge v0.1</span><span>Analysstöd · inte individuell finansiell rådgivning</span><span>Europe/Stockholm · UTC i audit</span></footer>
+  <script src="./app.js" defer></script>
+</body>
+</html>

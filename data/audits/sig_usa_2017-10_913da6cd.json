@@ -1,0 +1,73 @@
+{
+  "as_of": "2026-08-08T18:22:03.302129Z",
+  "breadth": 1.0,
+  "candidate_state": "RISK_ON",
+  "code_version": "0.1.0",
+  "component_contributions": [
+    {
+      "contribution": 0.22902399999999887,
+      "effective_weight": 0.3,
+      "id": 6381,
+      "indicator_score": 0.7634133333333296,
+      "label": "Consumer confidence USA",
+      "original_weight": 0.3,
+      "raw_value": null,
+      "run_id": "sig_usa_2017-10_913da6cd",
+      "series_id": "oecd_cci_usa",
+      "vintage_id": "sha256:8e98c7ef4da1b372cf572e7b0645999375bbd61dc58a228b970f6ec4c8e320fd"
+    },
+    {
+      "contribution": 0.22523199999999918,
+      "effective_weight": 0.3,
+      "id": 6380,
+      "indicator_score": 0.7507733333333306,
+      "label": "Business confidence USA",
+      "original_weight": 0.3,
+      "raw_value": null,
+      "run_id": "sig_usa_2017-10_913da6cd",
+      "series_id": "oecd_bci_usa",
+      "vintage_id": "sha256:d4d2ac4c771a457219e6787934131182ac27b02e41bc037666f3f3c395accf68"
+    },
+    {
+      "contribution": 0.11745600000000121,
+      "effective_weight": 0.4,
+      "id": 6379,
+      "indicator_score": 0.293640000000003,
+      "label": "CLI USA",
+      "original_weight": 0.4,
+      "raw_value": null,
+      "run_id": "sig_usa_2017-10_913da6cd",
+      "series_id": "oecd_cli_usa",
+      "vintage_id": "sha256:6a6f63b5209c3ac2999f7c78c512eb299677723692446fa1b1fb562d3ee77c83"
+    }
+  ],
+  "confirmation_count": 4,
+  "created_at": "2026-08-08T18:22:03.305271Z",
+  "data_mode": "LATEST_VINTAGE_SIMULATION",
+  "domain_id": "usa",
+  "explanation": "Kompositscore 0.57; tremånadersmomentum stiger. Bredden är 100%.",
+  "momentum": 0.35072999999999865,
+  "period": "2017-10",
+  "policy": {
+    "id": "illustrative_standard",
+    "targets": {
+      "DEFENSIVE": 25,
+      "NEUTRAL": 50,
+      "OVERHEATED": 60,
+      "RE_ENTRY": 80,
+      "RISK_OFF": 0,
+      "RISK_ON": 80
+    },
+    "unavailable_ttl": 2,
+    "version": "1.0.0"
+  },
+  "policy_target": 80,
+  "profile_id": "usa_bas",
+  "profile_version": "1.0.0",
+  "quality_status": "CURRENT",
+  "run_id": "sig_usa_2017-10_913da6cd",
+  "score": 0.5717119999999992,
+  "score_change": 0.050176000000004106,
+  "state": "RISK_ON",
+  "warnings": []
+}
