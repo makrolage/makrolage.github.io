@@ -177,6 +177,300 @@
   }
 }
 
+.nav-anchor {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.about-topbar .language-links {
+  margin-left: auto;
+}
+
+.language-links {
+  display: flex;
+  gap: .4rem;
+}
+
+.language-links a {
+  padding: .45rem .7rem;
+  border: 1px solid var(--line);
+  color: var(--ink);
+  font-size: .72rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.language-links a:hover,
+.language-links a:focus-visible {
+  border-color: var(--green);
+  color: var(--green);
+}
+
+.about-page {
+  max-width: 1320px;
+}
+
+.about-language {
+  scroll-margin-top: 6rem;
+}
+
+.about-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.45fr) minmax(280px, .55fr);
+  gap: 4rem;
+  align-items: end;
+  padding-bottom: 4rem;
+}
+
+.about-hero h1 {
+  max-width: 900px;
+}
+
+.truth-card,
+.calibration-card {
+  padding: 1.6rem;
+  background: var(--ink);
+  color: white;
+  box-shadow: var(--shadow);
+}
+
+.truth-card > strong,
+.calibration-card > span {
+  display: block;
+  margin-bottom: 1rem;
+  color: #80c4a4;
+  font-size: .68rem;
+  font-weight: 800;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+.truth-card p,
+.calibration-card p {
+  margin: .75rem 0 0;
+  color: #bdc6c0;
+  font-size: .82rem;
+  line-height: 1.6;
+}
+
+.truth-card b,
+.calibration-card b {
+  color: white;
+}
+
+.about-block {
+  padding: 4rem 0;
+  border-top: 1px solid var(--line);
+}
+
+.about-block > h2,
+.about-block > div > h2 {
+  max-width: 850px;
+  margin-bottom: 2rem;
+  font-size: clamp(2rem, 4vw, 3.6rem);
+  line-height: 1.05;
+}
+
+.value-grid,
+.proof-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1px;
+  border: 1px solid var(--line);
+  background: var(--line);
+}
+
+.value-grid article,
+.proof-grid article {
+  min-height: 230px;
+  padding: 1.5rem;
+  background: var(--card);
+}
+
+.value-grid article > span {
+  color: var(--green);
+  font-family: Georgia, serif;
+  font-size: 2rem;
+}
+
+.value-grid h3,
+.proof-grid h3,
+.source-columns h3,
+.calibration-card h3 {
+  margin: 1rem 0 .7rem;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.35rem;
+  font-weight: 400;
+}
+
+.value-grid p,
+.proof-grid p,
+.source-columns li,
+.source-note,
+.answer-block > p:last-child,
+.tda-about > div > p {
+  color: var(--muted);
+  font-size: .84rem;
+  line-height: 1.65;
+}
+
+.split-block,
+.tda-about,
+.source-block {
+  display: grid;
+  grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr);
+  gap: 4rem;
+}
+
+.use-steps {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: use-step;
+}
+
+.use-steps li {
+  display: grid;
+  grid-template-columns: minmax(150px, .55fr) minmax(0, 1fr);
+  gap: 1rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--line);
+  counter-increment: use-step;
+}
+
+.use-steps li b:before {
+  content: counter(use-step, decimal-leading-zero) "  ";
+  color: var(--green);
+}
+
+.use-steps li span {
+  color: var(--muted);
+  font-size: .82rem;
+  line-height: 1.55;
+}
+
+.tda-about {
+  grid-template-columns: minmax(0, 1.1fr) minmax(300px, .7fr);
+  align-items: start;
+}
+
+.calibration-card h3 {
+  margin-top: 0;
+  font-size: 1.8rem;
+}
+
+.comparison-line {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr auto 1fr;
+  gap: 1rem;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.comparison-line span {
+  padding: 1rem;
+  border: 1px solid var(--line);
+  background: var(--card);
+  text-align: center;
+  font-weight: 800;
+}
+
+.comparison-line i {
+  color: var(--muted);
+  font-size: .72rem;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.source-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  border: 1px solid var(--line);
+  background: var(--line);
+}
+
+.source-columns > div {
+  padding: 1.5rem;
+  background: var(--card);
+}
+
+.source-columns h3 {
+  margin-top: 0;
+}
+
+.source-columns ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.source-columns li + li {
+  margin-top: .7rem;
+}
+
+.source-note {
+  grid-column: 1 / -1;
+  margin: 0;
+  padding: 1rem 1.25rem;
+  border-left: 4px solid var(--status-defensive);
+  background: var(--amber-soft);
+  color: #755020;
+}
+
+.answer-block {
+  max-width: 950px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.answer-block > h2 {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.answer-block > p:last-child {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1rem;
+}
+
+.language-divider {
+  margin: 5rem 0;
+  border: 0;
+  border-top: 6px double var(--line);
+}
+
+.about-page footer a,
+footer a {
+  color: inherit;
+}
+
+@media (max-width: 1050px) {
+  .value-grid,
+  .proof-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .split-block,
+  .tda-about,
+  .source-block {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 950px) {
+  .about-topbar .language-links {
+    margin-left: auto;
+  }
+
+  .about-hero {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
 @media (max-width: 560px) {
   .stress-value {
     font-size: 2.65rem;
@@ -184,10 +478,10 @@
   }
 
   nav .nav-link {
-    flex: 1 1 25%;
+    flex: 1 1 20%;
     min-width: 0;
     padding: 0 .15rem;
-    font-size: .62rem;
+    font-size: .56rem;
   }
 
   nav .nav-link.experiment span {
@@ -209,6 +503,51 @@
 
   .status-guide-item {
     min-height: 0;
+  }
+
+  .about-topbar .brand small {
+    display: block;
+  }
+
+  .about-topbar .language-links {
+    display: none;
+  }
+
+  .about-page {
+    padding-top: 2.5rem;
+  }
+
+  .about-hero {
+    padding-bottom: 2.5rem;
+  }
+
+  .about-block {
+    padding: 2.7rem 0;
+  }
+
+  .value-grid,
+  .proof-grid,
+  .source-columns,
+  .comparison-line {
+    grid-template-columns: 1fr;
+  }
+
+  .value-grid article,
+  .proof-grid article {
+    min-height: 0;
+  }
+
+  .comparison-line i {
+    text-align: center;
+  }
+
+  .use-steps li {
+    grid-template-columns: 1fr;
+    gap: .35rem;
+  }
+
+  .language-divider {
+    margin: 2.5rem 0;
   }
 }
 
@@ -322,6 +661,22 @@
   color: #173f70;
   font-weight: 700;
   font-size: .78rem;
+}
+
+.stress-value.uncalibrated {
+  max-width: 20ch;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  line-height: 1.02;
+}
+
+.calibration-note {
+  padding: .9rem 1rem;
+  border-left: 4px solid var(--status-neutral);
+  background: #eef3f8;
+  color: #173f70;
+  font-size: .78rem;
+  line-height: 1.55;
 }
 
 .tda-provenance {

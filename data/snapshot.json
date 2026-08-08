@@ -52512,12 +52512,12 @@
       "raw_artifacts": 19,
       "successful_fetches": 19
     },
-    "generated_at": "2026-08-08T18:56:58.159600Z",
+    "generated_at": "2026-08-08T19:17:39.006936Z",
     "mode": "STATIC_SNAPSHOT",
     "notice": "Analysstöd; inte individuell finansiell rådgivning.",
     "public_data": "derived_only",
     "schema_version": "1.0.0",
-    "snapshot_sha256": "e5baf45d293f09610e8bfb741fafc59f35c2ced02c9f63fa98faa0a7cfee1824",
+    "snapshot_sha256": "2fd8e232d7cb6528d40ca08aea911eaedbc6c9c4ef1be58f2216a044e96203c3",
     "tda_quality_status": "RESEARCH"
   },
   "policy": {

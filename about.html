@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Så fungerar Makroläge: nytta, användning, datakällor, begränsningar och TDA-forskning — på svenska och engelska.">
+  <title>Om Makroläge / About Makroläge</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./fixes.css">
+</head>
+<body>
+  <a class="skip-link" href="#content">Hoppa till innehåll / Skip to content</a>
+  <header class="topbar about-topbar">
+    <a class="brand" href="./#overview" aria-label="Makroläge startsida">
+      <span class="brand-mark" aria-hidden="true">M</span>
+      <span><strong>Makroläge</strong><small>Macro regime desk</small></span>
+    </a>
+    <nav aria-label="Sidnavigation">
+      <a class="nav-link nav-anchor" href="./#overview">Dashboard</a>
+      <a class="nav-link nav-anchor active" href="./about.html">Om / About</a>
+    </nav>
+    <div class="language-links" aria-label="Välj språk / Choose language">
+      <a href="#sv">Svenska</a><a href="#en" lang="en">English</a>
+    </div>
+  </header>
+
+  <main id="content" class="about-page">
+    <section id="sv" class="about-language" aria-labelledby="sv-title">
+      <div class="about-hero">
+        <div>
+          <p class="eyebrow">Om Makroläge</p>
+          <h1 id="sv-title">Ett disciplinerat sätt att se <em>vilken miljö vi befinner oss i.</em></h1>
+          <p class="lede">Makroläge samlar svenska, amerikanska och globala konjunktursignaler i en spårbar regimöversikt. Syftet är inte att förutsäga varje börsrörelse, utan att göra förändringar i riskmiljön lättare att upptäcka, diskutera och följa upp.</p>
+        </div>
+        <aside class="truth-card">
+          <strong>Kort sagt</strong>
+          <p><b>Nytta:</b> gemensam lägesbild, färre impulsbeslut och tydligt revisionsspår.</p>
+          <p><b>Inte:</b> automatisk handel, personlig rådgivning eller en garanti om framtida avkastning.</p>
+        </aside>
+      </div>
+
+      <section class="about-block" aria-labelledby="sv-value">
+        <p class="eyebrow">Vad sajten gör</p><h2 id="sv-value">Från spridda indikatorer till en läsbar beslutsbild</h2>
+        <div class="value-grid">
+          <article><span>01</span><h3>Samlar</h3><p>Månadsdata från Konjunkturinstitutet och OECD hämtas automatiskt och sparas som vintages, så att senare revideringar kan skiljas från vad som faktiskt var känt.</p></article>
+          <article><span>02</span><h3>Bedömer</h3><p>Sverige, USA och global ekonomi beräknas separat. Nivå, tremånadersmomentum och bredd vägs till tydliga regimstatusar.</p></article>
+          <article><span>03</span><h3>Visar skillnader</h3><p>Syntesen ger en överblick, men domänkorten finns kvar så att oenighet mellan regioner inte döljs.</p></article>
+          <article><span>04</span><h3>Gör granskningsbart</h3><p>Varje publicerad signal har period, datavintage, regelversion, komponentbidrag och innehållsbaserat körnings-ID.</p></article>
+        </div>
+      </section>
+
+      <section class="about-block split-block" aria-labelledby="sv-use">
+        <div><p class="eyebrow">Så kan den användas</p><h2 id="sv-use">En rutin för bättre beslut — inte en köpknapp</h2></div>
+        <ol class="use-steps">
+          <li><b>Börja med syntesen.</b><span>Se om miljön är risk on, neutral, defensiv, risk off, överhettad eller i återinträde.</span></li>
+          <li><b>Kontrollera domänerna.</b><span>En stark global signal och en svag svensk signal kan vara viktigare än medelvärdet.</span></li>
+          <li><b>Jämför månader.</b><span>Följ om förändringen bekräftas eller om en enstaka rörelse går tillbaka.</span></li>
+          <li><b>Öppna audit.</b><span>Kontrollera datavintage, kvalitet, komponenter och regelversion innan slutsatser dras.</span></li>
+          <li><b>Översätt till din process.</b><span>Använd statusen som en fråga om riskbudget, bevakning eller scenarioanalys — inte som individuell rådgivning.</span></li>
+        </ol>
+      </section>
+
+      <section class="about-block tda-about" aria-labelledby="sv-tda">
+        <div>
+          <p class="eyebrow">TDA Lab</p><h2 id="sv-tda">Kan marknadens “form” varna innan enklare mått gör det?</h2>
+          <p>Topologisk dataanalys (TDA) undersöker strukturen i hur tillgångar eller sektorer rör sig tillsammans. Den nuvarande låsta baslinjen använder tolv amerikanska branschportföljer och rullande fönster om 60 handelsdagar.</p>
+          <p>Persistent homology mäter bland annat sammanhängande grupper (H₀), slingor (H₁), deras persistens och hur mycket topologin ändras från föregående handelsdag. Det kan i teorin fånga icke-linjära strukturförändringar som inte syns fullt ut i volatilitet eller genomsnittlig korrelation.</p>
+        </div>
+        <aside class="calibration-card">
+          <span>RESEARCH · säkerhetslås</span>
+          <h3>Vad betyder “Ej kalibrerat”?</h3>
+          <p>De topologiska features som visas är verkligt beräknade. Men vi har ännu inte låst och validerat en regel som översätter dem till exempelvis “72 av 100 i stress”, upp/ner-riktning eller sannolikhet för ett framtida regimskifte.</p>
+          <p>Det är alltså <b>inte ett datafel</b>. Det betyder att sajten avstår från att visa en skenbart exakt prognos innan kopplingen till framtida utfall har bevisats utanför träningsdata.</p>
+        </aside>
+      </section>
+
+      <section class="about-block evidence-block" aria-labelledby="sv-proof">
+        <p class="eyebrow">När vet vi att TDA skapar värde?</p><h2 id="sv-proof">Först när TDA tillför något utöver enklare modeller</h2>
+        <div class="comparison-line" role="img" aria-label="Jämförelse mellan enkel statistik, befintlig regimmodell och modell med TDA">
+          <span>Enkel statistik</span><i>mot</i><span>Nuvarande regimsignaler</span><i>mot</i><span>Statistik + TDA</span>
+        </div>
+        <div class="proof-grid">
+          <article><h3>1. Lås frågan först</h3><p>Bestäm målutfall, prognoshorisonter, labels, kostnader och primära mätetal innan resultat studeras. Den senast inspekterade perioden får inte kallas orörd holdout.</p></article>
+          <article><h3>2. Testa som tiden går</h3><p>Använd nested walk-forward med purge och embargo. All träning ska ske på det förflutna; varje testperiod ska vara osedd när modellen byggs.</p></article>
+          <article><h3>3. Kräv robust förbättring</h3><p>TDA måste ge tidigare användbar varning, bättre kalibrering, färre falsklarm eller bättre utfall efter kostnader — stabilt över flera perioder och rimliga parameterförändringar.</p></article>
+          <article><h3>4. Replikera och följ framåt</h3><p>Resultatet ska hålla i en separat geografi eller marknad och därefter i frysta, framåtriktade signalvintages. Ett enstaka lyckat krisfall räcker inte.</p></article>
+        </div>
+      </section>
+
+      <section class="about-block source-block" aria-labelledby="sv-sources">
+        <div><p class="eyebrow">Data som krävs</p><h2 id="sv-sources">Bra TDA behöver fler oberoende marknadsdimensioner — och ett tydligt facit</h2></div>
+        <div class="source-columns">
+          <div><h3>Det vi har</h3><ul><li>Daglig, låst FF12-branschdata från 1995 för en reproducerbar amerikansk equity-sector-baslinje.</li><li>Separata regionala Fama/French-serier för replikering.</li><li>Månatliga KI/OECD-vintages för långsammare konjunkturkontext.</li></ul></div>
+          <div><h3>Det som behövs för starkare bevis</h3><ul><li>En licensierad och fryst målserie eller beslutsportfölj som definierar framtida utfall.</li><li>Dagliga, synkroniserade totalavkastningar för 8–16 ekonomiskt skilda tillgångar: aktieregioner/storlekar, statsräntedurationer, IG/HY-kredit, råvara eller guld och valuta.</li><li>Punkt-i-tid-data utan survivorship bias, med utdelningar, kuponger, valuta, helgdagar och revideringar dokumenterade.</li><li>Historik från helst 1995, absolut minimum 2000, eftersom antalet oberoende stressperioder är viktigare än antalet datapunkter.</li></ul></div>
+        </div>
+        <p class="source-note"><b>Viktig begränsning:</b> gratis tillgång är inte samma sak som rätt att använda, modellera och publicera data. MSCI, vissa obligationsindex, svensk total return och guldhistorik kräver särskild tillgänglighets- och licensprövning. En ny cross-asset-generation får inte blandas in i den redan låsta FF12-baslinjen.</p>
+      </section>
+
+      <section class="about-block answer-block" aria-labelledby="sv-when">
+        <p class="eyebrow">Tid till svar</p><h2 id="sv-when">Historiskt stöd kan mätas när datakontraktet är klart. Slutligt förtroende tar längre tid.</h2>
+        <p>När målserie, labels och experimentregler har beslutats kan vi bygga den jämförande walk-forward-utvärderingen och få ett första ärligt historiskt go/no-go-resultat. Framåtriktad drift kan sedan bekräfta att processen fungerar utan efterhandsanpassning. Tolv till tjugofyra månader kan ge teknisk och normalregim-evidens, men verklig prövning under nya stressregimer kan ta flera år.</p>
+      </section>
+    </section>
+
+    <hr class="language-divider">
+
+    <section id="en" class="about-language" lang="en" aria-labelledby="en-title">
+      <div class="about-hero">
+        <div>
+          <p class="eyebrow">About Makroläge</p>
+          <h1 id="en-title">A disciplined view of <em>the environment we are in.</em></h1>
+          <p class="lede">Makroläge combines Swedish, US and global business-cycle signals in an auditable regime dashboard. Its purpose is not to predict every market move, but to make changes in the risk environment easier to detect, discuss and review.</p>
+        </div>
+        <aside class="truth-card"><strong>In brief</strong><p><b>Value:</b> a shared situational picture, fewer impulsive decisions and a clear audit trail.</p><p><b>Not:</b> automated trading, personal advice or a guarantee of future returns.</p></aside>
+      </div>
+
+      <section class="about-block" aria-labelledby="en-value">
+        <p class="eyebrow">What the site does</p><h2 id="en-value">From scattered indicators to a readable decision picture</h2>
+        <div class="value-grid">
+          <article><span>01</span><h3>Collects</h3><p>Monthly data from Sweden's National Institute of Economic Research and the OECD is collected automatically and stored as vintages, preserving what was known at each point in time.</p></article>
+          <article><span>02</span><h3>Assesses</h3><p>Sweden, the US and the global economy are calculated separately. Level, three-month momentum and breadth are mapped to explicit regime states.</p></article>
+          <article><span>03</span><h3>Exposes divergence</h3><p>The synthesis provides an overview, while the domain cards preserve disagreement between regions instead of hiding it in an average.</p></article>
+          <article><span>04</span><h3>Makes it auditable</h3><p>Every published signal carries its period, data vintage, rule version, component contributions and content-based run ID.</p></article>
+        </div>
+      </section>
+
+      <section class="about-block split-block" aria-labelledby="en-use">
+        <div><p class="eyebrow">How to use it</p><h2 id="en-use">A routine for better decisions — not a buy button</h2></div>
+        <ol class="use-steps">
+          <li><b>Start with the synthesis.</b><span>Identify whether the environment is risk on, neutral, defensive, risk off, overheated or re-entry.</span></li>
+          <li><b>Check the domains.</b><span>A strong global signal alongside a weak Swedish signal may matter more than their average.</span></li>
+          <li><b>Compare months.</b><span>See whether a change is confirmed or reverses after a single observation.</span></li>
+          <li><b>Open the audit.</b><span>Review data vintage, quality, components and rule version before drawing conclusions.</span></li>
+          <li><b>Map it to your process.</b><span>Use the state as a risk-budget, monitoring or scenario question — not as personal financial advice.</span></li>
+        </ol>
+      </section>
+
+      <section class="about-block tda-about" aria-labelledby="en-tda">
+        <div><p class="eyebrow">TDA Lab</p><h2 id="en-tda">Can market “shape” warn before simpler measures do?</h2><p>Topological data analysis studies the structure of how assets or sectors move together. The current locked baseline uses twelve US industry portfolios and rolling 60-trading-day windows.</p><p>Persistent homology measures connected groups (H₀), loops (H₁), their persistence and day-to-day topological change. In theory, this may capture nonlinear structural change not fully described by volatility or average correlation.</p></div>
+        <aside class="calibration-card"><span>RESEARCH · safety lock</span><h3>What does “Uncalibrated” mean?</h3><p>The displayed topological features are genuinely computed. We have not yet locked and validated a mapping from those features to, for example, a 0–100 stress score, direction or probability of a future regime change.</p><p>It is <b>not a data error</b>. It means the site refuses to show false precision before the relationship to future outcomes has been demonstrated out of sample.</p></aside>
+      </section>
+
+      <section class="about-block evidence-block" aria-labelledby="en-proof">
+        <p class="eyebrow">When will we know TDA creates value?</p><h2 id="en-proof">Only when it adds information beyond simpler models</h2>
+        <div class="comparison-line"><span>Simple statistics</span><i>versus</i><span>Current regime signals</span><i>versus</i><span>Statistics + TDA</span></div>
+        <div class="proof-grid">
+          <article><h3>1. Lock the question</h3><p>Define target outcomes, horizons, labels, costs and primary metrics before inspecting results. The latest period already inspected cannot be called an untouched holdout.</p></article>
+          <article><h3>2. Test through time</h3><p>Use nested walk-forward validation with purge and embargo. Training must use the past only; every test interval must be unseen during model construction.</p></article>
+          <article><h3>3. Demand robust improvement</h3><p>TDA must produce earlier useful warnings, better calibration, fewer false alarms or better net outcomes across multiple periods and reasonable parameter changes.</p></article>
+          <article><h3>4. Replicate and track forward</h3><p>The result must transfer to a separate geography or market and then survive frozen prospective scoring. One successful crisis episode is not enough.</p></article>
+        </div>
+      </section>
+
+      <section class="about-block source-block" aria-labelledby="en-sources">
+        <div><p class="eyebrow">Required data</p><h2 id="en-sources">Strong TDA needs independent market dimensions — and a clear outcome</h2></div>
+        <div class="source-columns">
+          <div><h3>What we have</h3><ul><li>Locked daily FF12 industry data from 1995 for a reproducible US equity-sector baseline.</li><li>Separate regional Fama/French series for replication.</li><li>Monthly KI/OECD vintages for slower business-cycle context.</li></ul></div>
+          <div><h3>What stronger evidence requires</h3><ul><li>A licensed, frozen target series or decision portfolio defining future outcomes.</li><li>Synchronized daily total returns for 8–16 economically distinct assets: equity regions and sizes, government-bond durations, IG/HY credit, commodities or gold, and currencies.</li><li>Point-in-time data without survivorship bias, with dividends, coupons, currencies, holidays and revisions documented.</li><li>History preferably from 1995, with 2000 as an absolute minimum, because independent stress episodes matter more than row count.</li></ul></div>
+        </div>
+        <p class="source-note"><b>Important limitation:</b> free access is not the same as permission to model and publish data. MSCI, some bond indices, Swedish total-return history and gold require separate availability and licensing review. A new cross-asset generation must remain separate from the locked FF12 baseline.</p>
+      </section>
+
+      <section class="about-block answer-block" aria-labelledby="en-when">
+        <p class="eyebrow">Time to an answer</p><h2 id="en-when">Historical evidence can be measured once the data contract is fixed. Final confidence takes longer.</h2><p>Once the target series, labels and experiment rules are approved, we can build the comparative walk-forward evaluation and obtain an honest historical go/no-go result. Prospective operation can then show whether the process survives without hindsight. Twelve to twenty-four months may provide operational and normal-regime evidence, while genuine testing in new stress regimes may take several years.</p>
+      </section>
+    </section>
+  </main>
+
+  <footer><span>Makroläge v0.1</span><span>Research and decision support · not personal financial advice</span><span><a href="./#overview">Öppna dashboard / Open dashboard</a></span></footer>
+</body>
+</html>
