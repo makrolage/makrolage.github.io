@@ -1,202 +1,202 @@
 [
   {
-    "alert_id": "alert_fb58f67d05a6",
-    "created_at": "2026-08-08T18:38:56.369629Z",
-    "domain_id": "global",
-    "event_type": "STATE_CHANGED",
-    "experimental": 0,
-    "level": "INFO",
-    "message": "Global: NEUTRAL. Kompositscore 0.22; tremånadersmomentum faller. Bredden är 64%.",
-    "run_id": "sig_global_2026-06_d52168ed"
-  },
-  {
-    "alert_id": "alert_f836b956ca42",
-    "created_at": "2026-08-08T18:38:56.349780Z",
-    "domain_id": "usa",
-    "event_type": "STATE_CHANGED",
-    "experimental": 0,
-    "level": "INFO",
-    "message": "Usa: DEFENSIVE. Kompositscore -0.25; tremånadersmomentum faller. Bredden är 67%.",
-    "run_id": "sig_usa_2026-06_0a219472"
-  },
-  {
-    "alert_id": "alert_ad04d3a45a16",
-    "created_at": "2026-08-08T18:38:56.341974Z",
+    "alert_id": "alert_f8c35f2611b9",
+    "created_at": "2026-07-31T19:35:11.110332Z",
     "domain_id": "sweden",
     "event_type": "STATE_CHANGED",
     "experimental": 0,
     "level": "INFO",
-    "message": "Sweden: RE_ENTRY. Kompositscore 1.16; tremånadersmomentum stiger. Bredden är 60%.",
-    "run_id": "sig_sweden_2026-06_ba2aded1"
+    "message": "Sweden: DEFENSIVE. Kompositscore -0.53; tremånadersmomentum stiger. Bredden är 0%.",
+    "run_id": "sig_sweden_2009-06_646ba179aadd"
   },
   {
-    "alert_id": "alert_b976174dbdf7",
-    "created_at": "2026-08-08T18:38:56.215601Z",
+    "alert_id": "alert_f847d6dbea36",
+    "created_at": "2026-07-31T19:35:11.110332Z",
     "domain_id": "sweden",
     "event_type": "STATE_CHANGED",
     "experimental": 0,
     "level": "INFO",
-    "message": "Sweden: DEFENSIVE. Kompositscore -0.57; tremånadersmomentum faller. Bredden är 20%.",
-    "run_id": "sig_sweden_2026-03_5ab57bca"
+    "message": "Sweden: RISK_ON. Kompositscore 0.62; tremånadersmomentum faller. Bredden är 60%.",
+    "run_id": "sig_sweden_2014-07_408602498a3b"
   },
   {
-    "alert_id": "alert_e943e33d37f0",
-    "created_at": "2026-08-08T18:38:56.181977Z",
-    "domain_id": "usa",
-    "event_type": "STATE_CHANGED",
-    "experimental": 0,
-    "level": "INFO",
-    "message": "Usa: NEUTRAL. Kompositscore -0.03; tremånadersmomentum stiger. Bredden är 67%.",
-    "run_id": "sig_usa_2026-02_6e030a66"
-  },
-  {
-    "alert_id": "alert_5401264fa446",
-    "created_at": "2026-08-08T18:38:56.118780Z",
-    "domain_id": "global",
-    "event_type": "STATE_CHANGED",
-    "experimental": 0,
-    "level": "INFO",
-    "message": "Global: RISK_ON. Kompositscore 0.34; tremånadersmomentum stiger. Bredden är 93%.",
-    "run_id": "sig_global_2025-12_d252f519"
-  },
-  {
-    "alert_id": "alert_c0d654aa780c",
-    "created_at": "2026-08-08T18:38:56.050258Z",
+    "alert_id": "alert_f8472fd01ef6",
+    "created_at": "2026-07-31T19:35:11.110332Z",
     "domain_id": "sweden",
     "event_type": "STATE_CHANGED",
     "experimental": 0,
     "level": "INFO",
-    "message": "Sweden: RE_ENTRY. Kompositscore 1.24; tremånadersmomentum stiger. Bredden är 80%.",
-    "run_id": "sig_sweden_2025-11_57a99fe6"
+    "message": "Sweden: RISK_ON. Kompositscore 1.72; tremånadersmomentum stiger. Bredden är 80%.",
+    "run_id": "sig_sweden_1999-09_e6369cba774c"
   },
   {
-    "alert_id": "alert_5cc8dfad6596",
-    "created_at": "2026-08-08T18:38:55.730973Z",
-    "domain_id": "usa",
-    "event_type": "STATE_CHANGED",
+    "alert_id": "alert_f6da2cea33f1",
+    "created_at": "2026-07-31T19:35:11.110332Z",
+    "domain_id": "synthesis",
+    "event_type": "QUALITY_DEGRADED",
     "experimental": 0,
-    "level": "INFO",
-    "message": "Usa: DEFENSIVE. Kompositscore -0.76; tremånadersmomentum faller. Bredden är 0%.",
-    "run_id": "sig_usa_2025-03_9c62697d"
+    "level": "WARNING",
+    "message": "Synthesis: NEUTRAL. Omnormaliserad syntes",
+    "run_id": "sig_synthesis_1996-05_ea901492bef0"
   },
   {
-    "alert_id": "alert_e1cfbc369e10",
-    "created_at": "2026-08-08T18:38:55.723445Z",
+    "alert_id": "alert_ed35041c5759",
+    "created_at": "2026-07-31T19:35:11.110332Z",
     "domain_id": "sweden",
     "event_type": "STATE_CHANGED",
     "experimental": 0,
     "level": "INFO",
-    "message": "Sweden: RISK_OFF. Kompositscore -1.42; tremånadersmomentum faller. Bredden är 20%.",
-    "run_id": "sig_sweden_2025-03_78d0d660"
+    "message": "Sweden: RISK_OFF. Kompositscore -1.52; tremånadersmomentum faller. Bredden är 40%.",
+    "run_id": "sig_sweden_2001-02_4e656ada692c"
   },
   {
-    "alert_id": "alert_d853c61c5199",
-    "created_at": "2026-08-08T18:38:55.603836Z",
+    "alert_id": "alert_eb6f65db4cbb",
+    "created_at": "2026-07-31T19:35:11.110332Z",
+    "domain_id": "sweden",
+    "event_type": "STATE_CHANGED",
+    "experimental": 0,
+    "level": "INFO",
+    "message": "Sweden: RE_ENTRY. Kompositscore 1.04; tremånadersmomentum stiger. Bredden är 80%.",
+    "run_id": "sig_sweden_2012-04_b335f90b53a1"
+  },
+  {
+    "alert_id": "alert_e9f39b9d38cf",
+    "created_at": "2026-07-31T19:35:11.110332Z",
+    "domain_id": "sweden",
+    "event_type": "STATE_CHANGED",
+    "experimental": 0,
+    "level": "INFO",
+    "message": "Sweden: NEUTRAL. Kompositscore -0.22; tremånadersmomentum faller. Bredden är 40%.",
+    "run_id": "sig_sweden_2019-01_0c456537a149"
+  },
+  {
+    "alert_id": "alert_e970b23014e2",
+    "created_at": "2026-07-31T19:35:11.110332Z",
+    "domain_id": "sweden",
+    "event_type": "SIGNAL_UNAVAILABLE",
+    "experimental": 0,
+    "level": "CRITICAL",
+    "message": "Sweden: UNAVAILABLE. Sweden kan inte publiceras eftersom kritisk data saknas.",
+    "run_id": "sig_sweden_1996-02_6a7aada6d63c"
+  },
+  {
+    "alert_id": "alert_e7cd01c34982",
+    "created_at": "2026-07-31T19:35:11.110332Z",
+    "domain_id": "sweden",
+    "event_type": "SIGNAL_UNAVAILABLE",
+    "experimental": 0,
+    "level": "CRITICAL",
+    "message": "Sweden: UNAVAILABLE. Sweden kan inte publiceras eftersom kritisk data saknas.",
+    "run_id": "sig_sweden_1996-07_4b4fbbc6abbc"
+  },
+  {
+    "alert_id": "alert_dfd9c5602e5d",
+    "created_at": "2026-07-31T19:35:11.110332Z",
+    "domain_id": "sweden",
+    "event_type": "STATE_CHANGED",
+    "experimental": 0,
+    "level": "INFO",
+    "message": "Sweden: NEUTRAL. Kompositscore -0.00; tremånadersmomentum faller. Bredden är 60%.",
+    "run_id": "sig_sweden_2014-03_b84c47c08da0"
+  },
+  {
+    "alert_id": "alert_df928795a1b8",
+    "created_at": "2026-07-31T19:35:11.110332Z",
+    "domain_id": "sweden",
+    "event_type": "STATE_CHANGED",
+    "experimental": 0,
+    "level": "INFO",
+    "message": "Sweden: DEFENSIVE. Kompositscore -0.43; tremånadersmomentum faller. Bredden är 40%.",
+    "run_id": "sig_sweden_1998-09_4cb25112d36e"
+  },
+  {
+    "alert_id": "alert_d77043edd861",
+    "created_at": "2026-07-31T19:35:11.110332Z",
     "domain_id": "sweden",
     "event_type": "STATE_CHANGED",
     "experimental": 0,
     "level": "INFO",
     "message": "Sweden: DEFENSIVE. Kompositscore -0.62; tremånadersmomentum stiger. Bredden är 40%.",
-    "run_id": "sig_sweden_2024-12_a5e42736"
+    "run_id": "sig_sweden_2024-12_c2f888ee0bf6"
   },
   {
-    "alert_id": "alert_3e30ba235797",
-    "created_at": "2026-08-08T18:38:55.571072Z",
-    "domain_id": "usa",
-    "event_type": "STATE_CHANGED",
-    "experimental": 0,
-    "level": "INFO",
-    "message": "Usa: NEUTRAL. Kompositscore -0.13; tremånadersmomentum stiger. Bredden är 33%.",
-    "run_id": "sig_usa_2024-11_12e22d4e"
-  },
-  {
-    "alert_id": "alert_e4749f0e7b72",
-    "created_at": "2026-08-08T18:38:55.445033Z",
+    "alert_id": "alert_d6b110c2ac49",
+    "created_at": "2026-07-31T19:35:11.110332Z",
     "domain_id": "sweden",
     "event_type": "STATE_CHANGED",
     "experimental": 0,
     "level": "INFO",
-    "message": "Sweden: RISK_OFF. Kompositscore -1.10; tremånadersmomentum faller. Bredden är 20%.",
-    "run_id": "sig_sweden_2024-08_60cbeedd"
+    "message": "Sweden: RISK_ON. Kompositscore 1.43; tremånadersmomentum stiger. Bredden är 80%.",
+    "run_id": "sig_sweden_2005-09_9eca1d84017d"
   },
   {
-    "alert_id": "alert_bda17a4096ff",
-    "created_at": "2026-08-08T18:38:55.333776Z",
-    "domain_id": "usa",
+    "alert_id": "alert_d6a7fc1b119f",
+    "created_at": "2026-07-31T19:35:11.110332Z",
+    "domain_id": "sweden",
     "event_type": "STATE_CHANGED",
     "experimental": 0,
     "level": "INFO",
-    "message": "Usa: DEFENSIVE. Kompositscore -0.48; tremånadersmomentum faller. Bredden är 0%.",
-    "run_id": "sig_usa_2024-05_95bbe077"
+    "message": "Sweden: NEUTRAL. Kompositscore 0.18; tremånadersmomentum stiger. Bredden är 60%.",
+    "run_id": "sig_sweden_2005-07_0b1b90f7531e"
   },
   {
-    "alert_id": "alert_563760e5719a",
-    "created_at": "2026-08-08T18:38:55.215725Z",
-    "domain_id": "usa",
+    "alert_id": "alert_cc6a08b517e1",
+    "created_at": "2026-07-31T19:35:11.110332Z",
+    "domain_id": "sweden",
     "event_type": "STATE_CHANGED",
     "experimental": 0,
     "level": "INFO",
-    "message": "Usa: NEUTRAL. Kompositscore -0.01; tremånadersmomentum stiger. Bredden är 33%.",
-    "run_id": "sig_usa_2024-02_0a9fbf41"
+    "message": "Sweden: NEUTRAL. Kompositscore -0.13; tremånadersmomentum stiger. Bredden är 40%.",
+    "run_id": "sig_sweden_2020-10_0bfebc1ab4a3"
   },
   {
-    "alert_id": "alert_6d7e3112cd83",
-    "created_at": "2026-08-08T18:38:55.208389Z",
+    "alert_id": "alert_c31293890ece",
+    "created_at": "2026-07-31T19:35:11.110332Z",
+    "domain_id": "sweden",
+    "event_type": "SIGNAL_UNAVAILABLE",
+    "experimental": 0,
+    "level": "CRITICAL",
+    "message": "Sweden: UNAVAILABLE. Sweden kan inte publiceras eftersom kritisk data saknas.",
+    "run_id": "sig_sweden_1996-09_0302bd409575"
+  },
+  {
+    "alert_id": "alert_c17becf18ba1",
+    "created_at": "2026-07-31T19:35:11.110332Z",
+    "domain_id": "synthesis",
+    "event_type": "QUALITY_DEGRADED",
+    "experimental": 0,
+    "level": "WARNING",
+    "message": "Synthesis: NEUTRAL. Omnormaliserad syntes",
+    "run_id": "sig_synthesis_1996-06_20169db8140b"
+  },
+  {
+    "alert_id": "alert_b424ce1c4c32",
+    "created_at": "2026-07-31T19:35:11.110332Z",
+    "domain_id": "sweden",
+    "event_type": "STATE_CHANGED",
+    "experimental": 0,
+    "level": "INFO",
+    "message": "Sweden: RISK_ON. Kompositscore 1.70; tremånadersmomentum stiger. Bredden är 80%.",
+    "run_id": "sig_sweden_1997-11_8712d6338008"
+  },
+  {
+    "alert_id": "alert_b400dc879bf8",
+    "created_at": "2026-07-31T19:35:11.110332Z",
     "domain_id": "sweden",
     "event_type": "STATE_CHANGED",
     "experimental": 0,
     "level": "INFO",
     "message": "Sweden: DEFENSIVE. Kompositscore -0.37; tremånadersmomentum stiger. Bredden är 0%.",
-    "run_id": "sig_sweden_2024-02_f6e50f87"
+    "run_id": "sig_sweden_2024-02_b23cad1c3231"
   },
   {
-    "alert_id": "alert_16ecea539cd0",
-    "created_at": "2026-08-08T18:38:54.811099Z",
-    "domain_id": "global",
-    "event_type": "STATE_CHANGED",
-    "experimental": 0,
-    "level": "INFO",
-    "message": "Global: NEUTRAL. Kompositscore -0.12; tremånadersmomentum stiger. Bredden är 14%.",
-    "run_id": "sig_global_2023-03_bc5139a4"
-  },
-  {
-    "alert_id": "alert_cd429acdfc43",
-    "created_at": "2026-08-08T18:38:54.559589Z",
+    "alert_id": "alert_b384ef50c9e0",
+    "created_at": "2026-07-31T19:35:11.110332Z",
     "domain_id": "sweden",
     "event_type": "STATE_CHANGED",
     "experimental": 0,
     "level": "INFO",
-    "message": "Sweden: RISK_OFF. Kompositscore -1.53; tremånadersmomentum faller. Bredden är 40%.",
-    "run_id": "sig_sweden_2022-09_dd19229b"
-  },
-  {
-    "alert_id": "alert_c9cb554093e9",
-    "created_at": "2026-08-08T18:38:54.484744Z",
-    "domain_id": "sweden",
-    "event_type": "STATE_CHANGED",
-    "experimental": 0,
-    "level": "INFO",
-    "message": "Sweden: NEUTRAL. Kompositscore 0.02; tremånadersmomentum faller. Bredden är 40%.",
-    "run_id": "sig_sweden_2022-07_0931bd59"
-  },
-  {
-    "alert_id": "alert_ef302a9eae24",
-    "created_at": "2026-08-08T18:38:54.434592Z",
-    "domain_id": "global",
-    "event_type": "STATE_CHANGED",
-    "experimental": 0,
-    "level": "INFO",
-    "message": "Global: DEFENSIVE. Kompositscore -0.49; tremånadersmomentum faller. Bredden är 29%.",
-    "run_id": "sig_global_2022-05_6e223500"
-  },
-  {
-    "alert_id": "alert_cceea8956e81",
-    "created_at": "2026-08-08T18:38:54.340880Z",
-    "domain_id": "usa",
-    "event_type": "STATE_CHANGED",
-    "experimental": 0,
-    "level": "INFO",
-    "message": "Usa: DEFENSIVE. Kompositscore -0.38; tremånadersmomentum faller. Bredden är 67%.",
-    "run_id": "sig_usa_2022-03_4ba15c33"
+    "message": "Sweden: RISK_ON. Kompositscore 1.79; tremånadersmomentum stiger. Bredden är 100%.",
+    "run_id": "sig_sweden_2019-04_951672cfe3e7"
   }
 ]

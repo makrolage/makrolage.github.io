@@ -3,7 +3,6 @@
     "artifact_sha256": "0b112812596c9449ba5361a1b8f20c0d07126a3ded67116a9a55db6bf7a11670",
     "backend": "ripser+scikit-learn",
     "backend_version": "ripser 0.6.15; scikit-learn 1.9.0",
-    "compute_ms": 12.406171999998605,
     "diagram_counts": {
       "branch_a": [
         60,

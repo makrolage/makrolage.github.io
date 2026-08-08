@@ -1,0 +1,109 @@
+{
+  "as_of": "2026-07-31T19:35:11.110332Z",
+  "breadth": 0.6,
+  "candidate_state": "RISK_ON",
+  "code_version": "0.1.0",
+  "component_contributions": [
+    {
+      "contribution": 1.2,
+      "effective_weight": 0.6,
+      "id": 7333,
+      "indicator_score": 2.0,
+      "label": "Barometerindikatorn",
+      "original_weight": 0.6,
+      "raw_value": null,
+      "run_id": "sig_sweden_2021-02_fbb4cc15e574",
+      "series_id": "ki_barometerindikatorn",
+      "vintage_id": "sha256:397e06d59a7f625f1cd19c8b72736b9852d4d1578c32ac969412afeb6f79460c"
+    },
+    {
+      "contribution": 0.16,
+      "effective_weight": 0.08,
+      "id": 7334,
+      "indicator_score": 2.0,
+      "label": "Tillverkningsindustri",
+      "original_weight": 0.08,
+      "raw_value": null,
+      "run_id": "sig_sweden_2021-02_fbb4cc15e574",
+      "series_id": "ki_tillverkning",
+      "vintage_id": "sha256:397e06d59a7f625f1cd19c8b72736b9852d4d1578c32ac969412afeb6f79460c"
+    },
+    {
+      "contribution": 0.12480000000000019,
+      "effective_weight": 0.08,
+      "id": 7338,
+      "indicator_score": 1.5600000000000023,
+      "label": "Hushåll",
+      "original_weight": 0.08,
+      "raw_value": null,
+      "run_id": "sig_sweden_2021-02_fbb4cc15e574",
+      "series_id": "ki_hushall",
+      "vintage_id": "sha256:397e06d59a7f625f1cd19c8b72736b9852d4d1578c32ac969412afeb6f79460c"
+    },
+    {
+      "contribution": 0.07359999999999992,
+      "effective_weight": 0.08,
+      "id": 7336,
+      "indicator_score": 0.9199999999999989,
+      "label": "Handel",
+      "original_weight": 0.08,
+      "raw_value": null,
+      "run_id": "sig_sweden_2021-02_fbb4cc15e574",
+      "series_id": "ki_handel",
+      "vintage_id": "sha256:397e06d59a7f625f1cd19c8b72736b9852d4d1578c32ac969412afeb6f79460c"
+    },
+    {
+      "contribution": -0.01919999999999982,
+      "effective_weight": 0.08,
+      "id": 7337,
+      "indicator_score": -0.23999999999999777,
+      "label": "Tjänstesektorn",
+      "original_weight": 0.08,
+      "raw_value": null,
+      "run_id": "sig_sweden_2021-02_fbb4cc15e574",
+      "series_id": "ki_tjanster",
+      "vintage_id": "sha256:397e06d59a7f625f1cd19c8b72736b9852d4d1578c32ac969412afeb6f79460c"
+    },
+    {
+      "contribution": -0.13013333333333382,
+      "effective_weight": 0.08,
+      "id": 7335,
+      "indicator_score": -1.6266666666666727,
+      "label": "Byggverksamhet",
+      "original_weight": 0.08,
+      "raw_value": null,
+      "run_id": "sig_sweden_2021-02_fbb4cc15e574",
+      "series_id": "ki_bygg",
+      "vintage_id": "sha256:397e06d59a7f625f1cd19c8b72736b9852d4d1578c32ac969412afeb6f79460c"
+    }
+  ],
+  "confirmation_count": 2,
+  "created_at": "2026-07-31T19:35:11.110332Z",
+  "data_mode": "LATEST_VINTAGE_SIMULATION",
+  "domain_id": "sweden",
+  "explanation": "Kompositscore 1.41; tremånadersmomentum stiger. Bredden är 60%.",
+  "momentum": 6.799999999999997,
+  "period": "2021-02",
+  "policy": {
+    "id": "illustrative_standard",
+    "targets": {
+      "DEFENSIVE": 25,
+      "NEUTRAL": 50,
+      "OVERHEATED": 60,
+      "RE_ENTRY": 80,
+      "RISK_OFF": 0,
+      "RISK_ON": 80
+    },
+    "unavailable_ttl": 2,
+    "version": "1.0.0"
+  },
+  "policy_target": 80,
+  "profile_id": "sweden_bas",
+  "profile_version": "1.0.0",
+  "quality_status": "CURRENT",
+  "run_id": "sig_sweden_2021-02_fbb4cc15e574",
+  "score": 1.4090666666666665,
+  "score_change": 0.23146666666666738,
+  "state": "RISK_ON",
+  "warnings": []
+}
