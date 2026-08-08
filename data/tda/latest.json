@@ -1,9 +1,9 @@
 {
   "artifact": {
-    "artifact_sha256": "6f434a6101c80f6c39e7cfa6f05601c7591dccb223f4e00025a2269564f80101",
+    "artifact_sha256": "0b112812596c9449ba5361a1b8f20c0d07126a3ded67116a9a55db6bf7a11670",
     "backend": "ripser+scikit-learn",
     "backend_version": "ripser 0.6.15; scikit-learn 1.9.0",
-    "compute_ms": 31.10362502047792,
+    "compute_ms": 12.406171999998605,
     "diagram_counts": {
       "branch_a": [
         60,
@@ -15,7 +15,7 @@
       ]
     },
     "input_end": "2026-05-29",
-    "input_sha256": "560b80e68091323f3dc934f54c8e3bd29d29da70f2f1588cd883ba667c1f9414",
+    "input_sha256": "e47367ee55261029a3d8d7b030978f0c018dbaba20b7a1ec1c891de70744c2ec",
     "input_start": "2026-03-05",
     "preprocessing": {
       "epsilon": 1e-12,
@@ -23,7 +23,7 @@
       "zero_scale_columns": []
     },
     "row_count": 60,
-    "run_id": "tda_research_20260529_6f434a61"
+    "run_id": "tda_research_20260529_0b112812"
   },
   "as_of": "2026-05-29T23:59:59Z",
   "change_probability": null,
@@ -54,7 +54,7 @@
   },
   "novelty_status": "UNCALIBRATED",
   "quality_status": "RESEARCH",
-  "run_id": "tda_research_20260529_6f434a61",
+  "run_id": "tda_research_20260529_0b112812",
   "stress_score": null,
   "universe_version": "tda_ff12_us_sectors@1.0.0",
   "warnings": [

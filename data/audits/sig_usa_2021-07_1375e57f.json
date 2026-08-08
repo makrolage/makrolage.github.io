@@ -1,0 +1,73 @@
+{
+  "as_of": "2026-08-08T18:38:54.041740Z",
+  "breadth": 0.6666666666666666,
+  "candidate_state": "NEUTRAL",
+  "code_version": "0.1.0",
+  "component_contributions": [
+    {
+      "contribution": 0.21307733333333392,
+      "effective_weight": 0.4,
+      "id": 7459,
+      "indicator_score": 0.5326933333333348,
+      "label": "CLI USA",
+      "original_weight": 0.4,
+      "raw_value": null,
+      "run_id": "sig_usa_2021-07_1375e57f",
+      "series_id": "oecd_cli_usa",
+      "vintage_id": "sha256:6a6f63b5209c3ac2999f7c78c512eb299677723692446fa1b1fb562d3ee77c83"
+    },
+    {
+      "contribution": 0.13690799999999795,
+      "effective_weight": 0.3,
+      "id": 7460,
+      "indicator_score": 0.4563599999999932,
+      "label": "Business confidence USA",
+      "original_weight": 0.3,
+      "raw_value": null,
+      "run_id": "sig_usa_2021-07_1375e57f",
+      "series_id": "oecd_bci_usa",
+      "vintage_id": "sha256:d4d2ac4c771a457219e6787934131182ac27b02e41bc037666f3f3c395accf68"
+    },
+    {
+      "contribution": -0.18135960000000068,
+      "effective_weight": 0.3,
+      "id": 7461,
+      "indicator_score": -0.6045320000000023,
+      "label": "Consumer confidence USA",
+      "original_weight": 0.3,
+      "raw_value": null,
+      "run_id": "sig_usa_2021-07_1375e57f",
+      "series_id": "oecd_cci_usa",
+      "vintage_id": "sha256:8e98c7ef4da1b372cf572e7b0645999375bbd61dc58a228b970f6ec4c8e320fd"
+    }
+  ],
+  "confirmation_count": 1,
+  "created_at": "2026-08-08T18:38:54.045831Z",
+  "data_mode": "LATEST_VINTAGE_SIMULATION",
+  "domain_id": "usa",
+  "explanation": "Kompositscore 0.17; tremånadersmomentum faller. Bredden är 67%.",
+  "momentum": -0.3064610000000016,
+  "period": "2021-07",
+  "policy": {
+    "id": "illustrative_standard",
+    "targets": {
+      "DEFENSIVE": 25,
+      "NEUTRAL": 50,
+      "OVERHEATED": 60,
+      "RE_ENTRY": 80,
+      "RISK_OFF": 0,
+      "RISK_ON": 80
+    },
+    "unavailable_ttl": 2,
+    "version": "1.0.0"
+  },
+  "policy_target": 80,
+  "profile_id": "usa_bas",
+  "profile_version": "1.0.0",
+  "quality_status": "CURRENT",
+  "run_id": "sig_usa_2021-07_1375e57f",
+  "score": 0.1686257333333312,
+  "score_change": -0.25715306666666765,
+  "state": "RISK_ON",
+  "warnings": []
+}
