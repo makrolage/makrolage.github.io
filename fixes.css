@@ -723,3 +723,4 @@ footer a {
     grid-template-columns: minmax(0, 1fr);
   }
 }
+.method-notice{margin:-2rem 0 2rem;padding:1rem 1.2rem;border-left:4px solid var(--green);background:var(--green-soft);font-size:.82rem;line-height:1.55}.method-notice a{color:inherit;font-weight:700}.synthesis-lag{font-size:.72rem!important;border-top:1px solid rgba(255,255,255,.14);padding-top:.75rem;margin-top:.9rem!important}

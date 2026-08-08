@@ -1,0 +1,75 @@
+{
+  "as_of": "2026-07-31T19:35:11.110332Z",
+  "breadth": 0.0,
+  "candidate_state": "DEFENSIVE",
+  "code_version": "0.1.0",
+  "component_contributions": [],
+  "confirmation_count": 3,
+  "created_at": "2026-07-31T19:35:11.110332Z",
+  "data_mode": "LATEST_VINTAGE_SIMULATION",
+  "domain_id": "synthesis",
+  "engine_version": "2.0.0",
+  "explanation": "Viktad syntes av tre kontinuerliga domänscore",
+  "momentum": -0.5720077724129558,
+  "period": "2002-09",
+  "policy": {
+    "id": "illustrative_standard",
+    "targets": {
+      "DEFENSIVE": 25,
+      "NEUTRAL": 50,
+      "OVERHEATED": 60,
+      "RE_ENTRY": 80,
+      "RISK_OFF": 0,
+      "RISK_ON": 80
+    },
+    "unavailable_ttl": 2,
+    "version": "1.0.0"
+  },
+  "policy_target": 25,
+  "profile_id": "synthesis_sweden-heavy",
+  "profile_version": "2.0.0",
+  "quality_status": "CURRENT",
+  "run_id": "sig_synthesis_2002-09_3f76d7806df0",
+  "score": -0.7846270070782877,
+  "score_change": null,
+  "state": "DEFENSIVE",
+  "synthesis_contributions": [
+    {
+      "age_months": 0,
+      "contribution": -0.42077528746904613,
+      "domain": "sweden",
+      "dropped": false,
+      "input_quality": "CURRENT",
+      "period": "2002-09",
+      "score": -0.7012921457817436,
+      "stale": false,
+      "weight_effective": 0.6,
+      "weight_original": 0.6
+    },
+    {
+      "age_months": 0,
+      "contribution": -0.21173426156292768,
+      "domain": "usa",
+      "dropped": false,
+      "input_quality": "CURRENT",
+      "period": "2002-09",
+      "score": -1.0586713078146384,
+      "stale": false,
+      "weight_effective": 0.2,
+      "weight_original": 0.2
+    },
+    {
+      "age_months": 0,
+      "contribution": -0.15211745804631388,
+      "domain": "global",
+      "dropped": false,
+      "input_quality": "CURRENT",
+      "period": "2002-09",
+      "score": -0.7605872902315693,
+      "stale": false,
+      "weight_effective": 0.2,
+      "weight_original": 0.2
+    }
+  ],
+  "warnings": []
+}

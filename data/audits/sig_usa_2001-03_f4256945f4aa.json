@@ -1,0 +1,81 @@
+{
+  "as_of": "2026-07-31T19:32:56.221472Z",
+  "breadth": 0.0,
+  "candidate_state": "DEFENSIVE",
+  "code_version": "0.1.0",
+  "component_contributions": [
+    {
+      "contribution": -0.20419040029220648,
+      "effective_weight": 0.3,
+      "id": 9639,
+      "indicator_score": -0.6806346676406883,
+      "label": "Consumer confidence USA",
+      "original_weight": 0.3,
+      "raw_value": null,
+      "run_id": "sig_usa_2001-03_f4256945f4aa",
+      "series_id": "oecd_cci_usa",
+      "sigma_level": 1.9001112709594212,
+      "sigma_momentum": 0.3590929776808761,
+      "vintage_id": "sha256:8e98c7ef4da1b372cf572e7b0645999375bbd61dc58a228b970f6ec4c8e320fd"
+    },
+    {
+      "contribution": -0.5052355990534048,
+      "effective_weight": 0.3,
+      "id": 9638,
+      "indicator_score": -1.6841186635113494,
+      "label": "Business confidence USA",
+      "original_weight": 0.3,
+      "raw_value": null,
+      "run_id": "sig_usa_2001-03_f4256945f4aa",
+      "series_id": "oecd_bci_usa",
+      "sigma_level": 0.8906388764191628,
+      "sigma_momentum": 0.5748378766066916,
+      "vintage_id": "sha256:d4d2ac4c771a457219e6787934131182ac27b02e41bc037666f3f3c395accf68"
+    },
+    {
+      "contribution": -0.643869984913382,
+      "effective_weight": 0.4,
+      "id": 9637,
+      "indicator_score": -1.6096749622834547,
+      "label": "CLI USA",
+      "original_weight": 0.4,
+      "raw_value": null,
+      "run_id": "sig_usa_2001-03_f4256945f4aa",
+      "series_id": "oecd_cli_usa",
+      "sigma_level": 0.8699232966816439,
+      "sigma_momentum": 0.45506530119700545,
+      "vintage_id": "sha256:6a6f63b5209c3ac2999f7c78c512eb299677723692446fa1b1fb562d3ee77c83"
+    }
+  ],
+  "confirmation_count": 1,
+  "created_at": "2026-07-31T19:32:56.221472Z",
+  "data_mode": "LATEST_VINTAGE_SIMULATION",
+  "domain_id": "usa",
+  "engine_version": "2.0.0",
+  "explanation": "Kompositscore -1.35; tremånadersmomentum faller. Bredden är 0%.",
+  "momentum": -0.7704510000000013,
+  "period": "2001-03",
+  "policy": {
+    "id": "illustrative_standard",
+    "targets": {
+      "DEFENSIVE": 25,
+      "NEUTRAL": 50,
+      "OVERHEATED": 60,
+      "RE_ENTRY": 80,
+      "RISK_OFF": 0,
+      "RISK_ON": 80
+    },
+    "unavailable_ttl": 2,
+    "version": "1.0.0"
+  },
+  "policy_target": 0,
+  "profile_id": "usa_bas",
+  "profile_version": "2.0.0",
+  "quality_status": "CURRENT",
+  "run_id": "sig_usa_2001-03_f4256945f4aa",
+  "score": -1.3532959842589931,
+  "score_change": 0.1862588133878471,
+  "state": "RISK_OFF",
+  "synthesis_contributions": [],
+  "warnings": []
+}

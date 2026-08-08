@@ -1,0 +1,75 @@
+{
+  "as_of": "2026-07-31T19:35:11.110332Z",
+  "breadth": 0.3333333333333333,
+  "candidate_state": "NEUTRAL",
+  "code_version": "0.1.0",
+  "component_contributions": [],
+  "confirmation_count": 4,
+  "created_at": "2026-07-31T19:35:11.110332Z",
+  "data_mode": "LATEST_VINTAGE_SIMULATION",
+  "domain_id": "synthesis",
+  "engine_version": "2.0.0",
+  "explanation": "Viktad syntes av tre kontinuerliga domänscore",
+  "momentum": 0.32910360661733623,
+  "period": "2024-03",
+  "policy": {
+    "id": "illustrative_standard",
+    "targets": {
+      "DEFENSIVE": 25,
+      "NEUTRAL": 50,
+      "OVERHEATED": 60,
+      "RE_ENTRY": 80,
+      "RISK_OFF": 0,
+      "RISK_ON": 80
+    },
+    "unavailable_ttl": 2,
+    "version": "1.0.0"
+  },
+  "policy_target": 50,
+  "profile_id": "synthesis_global-fund-heavy",
+  "profile_version": "2.0.0",
+  "quality_status": "CURRENT",
+  "run_id": "sig_synthesis_2024-03_aabd37329d33",
+  "score": -0.049570459675658325,
+  "score_change": null,
+  "state": "NEUTRAL",
+  "synthesis_contributions": [
+    {
+      "age_months": 0,
+      "contribution": 0.0033158716123818143,
+      "domain": "sweden",
+      "dropped": false,
+      "input_quality": "CURRENT",
+      "period": "2024-03",
+      "score": 0.03315871612381814,
+      "stale": false,
+      "weight_effective": 0.1,
+      "weight_original": 0.1
+    },
+    {
+      "age_months": 0,
+      "contribution": -0.033808871694758574,
+      "domain": "usa",
+      "dropped": false,
+      "input_quality": "CURRENT",
+      "period": "2024-03",
+      "score": -0.056348119491264295,
+      "stale": false,
+      "weight_effective": 0.6,
+      "weight_original": 0.6
+    },
+    {
+      "age_months": 0,
+      "contribution": -0.019077459593281568,
+      "domain": "global",
+      "dropped": false,
+      "input_quality": "CURRENT",
+      "period": "2024-03",
+      "score": -0.06359153197760523,
+      "stale": false,
+      "weight_effective": 0.3,
+      "weight_original": 0.3
+    }
+  ],
+  "warnings": []
+}

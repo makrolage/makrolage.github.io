@@ -1,0 +1,81 @@
+{
+  "as_of": "2026-07-31T19:32:56.221472Z",
+  "breadth": 0.3333333333333333,
+  "candidate_state": "NEUTRAL",
+  "code_version": "0.1.0",
+  "component_contributions": [
+    {
+      "contribution": 0.2743096915141648,
+      "effective_weight": 0.3,
+      "id": 15015,
+      "indicator_score": 0.9143656383805494,
+      "label": "Consumer confidence USA",
+      "original_weight": 0.3,
+      "raw_value": null,
+      "run_id": "sig_usa_2019-11_f52b79c4d5b2",
+      "series_id": "oecd_cci_usa",
+      "sigma_level": 1.421981675515669,
+      "sigma_momentum": 0.47540102369776327,
+      "vintage_id": "sha256:8e98c7ef4da1b372cf572e7b0645999375bbd61dc58a228b970f6ec4c8e320fd"
+    },
+    {
+      "contribution": -0.1249009217537712,
+      "effective_weight": 0.4,
+      "id": 15013,
+      "indicator_score": -0.31225230438442797,
+      "label": "CLI USA",
+      "original_weight": 0.4,
+      "raw_value": null,
+      "run_id": "sig_usa_2019-11_f52b79c4d5b2",
+      "series_id": "oecd_cli_usa",
+      "sigma_level": 1.2790552012364702,
+      "sigma_momentum": 0.5885192999153734,
+      "vintage_id": "sha256:6a6f63b5209c3ac2999f7c78c512eb299677723692446fa1b1fb562d3ee77c83"
+    },
+    {
+      "contribution": -0.22382455305144203,
+      "effective_weight": 0.3,
+      "id": 15014,
+      "indicator_score": -0.7460818435048068,
+      "label": "Business confidence USA",
+      "original_weight": 0.3,
+      "raw_value": null,
+      "run_id": "sig_usa_2019-11_f52b79c4d5b2",
+      "series_id": "oecd_bci_usa",
+      "sigma_level": 1.0676858673358585,
+      "sigma_momentum": 0.642131824321487,
+      "vintage_id": "sha256:d4d2ac4c771a457219e6787934131182ac27b02e41bc037666f3f3c395accf68"
+    }
+  ],
+  "confirmation_count": 2,
+  "created_at": "2026-07-31T19:32:56.221472Z",
+  "data_mode": "LATEST_VINTAGE_SIMULATION",
+  "domain_id": "usa",
+  "engine_version": "2.0.0",
+  "explanation": "Kompositscore -0.07; tremånadersmomentum stiger. Bredden är 33%.",
+  "momentum": 0.1101119999999952,
+  "period": "2019-11",
+  "policy": {
+    "id": "illustrative_standard",
+    "targets": {
+      "DEFENSIVE": 25,
+      "NEUTRAL": 50,
+      "OVERHEATED": 60,
+      "RE_ENTRY": 80,
+      "RISK_OFF": 0,
+      "RISK_ON": 80
+    },
+    "unavailable_ttl": 2,
+    "version": "1.0.0"
+  },
+  "policy_target": 50,
+  "profile_id": "usa_bas",
+  "profile_version": "2.0.0",
+  "quality_status": "CURRENT",
+  "run_id": "sig_usa_2019-11_f52b79c4d5b2",
+  "score": -0.07441578329104842,
+  "score_change": 0.26359116960591417,
+  "state": "NEUTRAL",
+  "synthesis_contributions": [],
+  "warnings": []
+}

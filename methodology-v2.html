@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Signalmetodik v2 — Makroläge</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./fixes.css">
+</head>
+<body class="about-page">
+  <header class="topbar">
+    <a class="brand" href="./#overview"><span class="brand-mark">M</span><span><strong>Makroläge</strong><small>Macro regime desk</small></span></a>
+    <nav><a class="nav-link nav-anchor" href="./#overview">Dashboard</a><a class="nav-link nav-anchor" href="./about.html">Om / About</a></nav>
+  </header>
+  <main class="about-main">
+    <section class="about-hero">
+      <p class="eyebrow">Låst metodspecifikation · 2026-08-08</p>
+      <h1>Signalmetodik <em>v2.0.0</em></h1>
+      <p class="lede">Detta är den publika, läsbara dokumentationen av den produktägargodkända ändringen F1 + F3. Den fullständiga maskinverifieringen finns i signalernas auditspår och v1-historiken ligger kvar under <code>data/signals/v1/</code>.</p>
+    </section>
+    <section class="about-section">
+      <div><p class="eyebrow">F1 · jämförbara serier</p><h2>Punkt-i-tid-skattad skala</h2></div>
+      <div class="about-copy"><p>Varje KI- och OECD-serie behåller 100 som publicerat normalläge. Nivåns och tremånadersförändringens skala skattas separat för varje serie och enbart från observationer strikt före den månad som beräknas. Minst 36 äldre nivåer och 36 äldre tremånadersförändringar krävs.</p><p>Extrema värden komprimeras mjukt med <code>3 · tanh(z/3)</code>. En serie som saknar historik blir <b>Ej tillgänglig</b>, aldrig neutral.</p></div>
+    </section>
+    <section class="about-section">
+      <div><p class="eyebrow">F3 · ärligare syntes</p><h2>Kontinuerliga score vägs</h2></div>
+      <div class="about-copy"><p>Syntesen väger domänernas numeriska score med den valda exponeringsprofilens oförändrade vikter. Status sätts först därefter. Det undviker att små tröskelpassager förstoras av att en hel status ersätts med ett schablontal.</p><p>Varje profil har egen förberäknad historik och går genom samma tvåmånadersbekräftelse, risk-off-undantag, återinträde och överhettningsregel som domänerna.</p></div>
+    </section>
+    <section class="about-section">
+      <div><p class="eyebrow">Publiceringslagg</p><h2>Föråldring syns och har en gräns</h2></div>
+      <div class="about-copy"><p>Sverige får vara högst 0 månader gammalt; USA och Globalt högst 2 månader. Under ytterligare två månader märks en signal som föråldrad men bidrar fortfarande och syntesen degraderas. Därefter faller den bort och vikterna normaliseras om. Om en bortfallen domän ursprungligen väger minst 25 procent blir syntesen Ej tillgänglig.</p></div>
+    </section>
+    <section class="about-section">
+      <div><p class="eyebrow">Låsta gränser</p><h2>Regimzoner v2</h2></div>
+      <div class="about-copy"><table><thead><tr><th>Status</th><th>Score</th></tr></thead><tbody><tr><td>Risk off</td><td>&lt; −1,5</td></tr><tr><td>Defensiv</td><td>−1,5 till &lt; −0,5</td></tr><tr><td>Neutral</td><td>−0,5 till &lt; +0,5</td></tr><tr><td>Risk on</td><td>≥ +0,5</td></tr></tbody></table><p>Återinträde kräver score ≥ +0,5. Risk off inträder direkt under −1,5. Överhettad använder &gt; +1,0 och är den enda tröskel som får omprövas en gång; varje ändring kräver ny version.</p></div>
+    </section>
+    <section class="about-section about-warning">
+      <div><p class="eyebrow">Avgränsning</p><h2>Inte TDA och inte en prognosgaranti</h2></div>
+      <div class="about-copy"><p>Ändringen kalibrerar den ordinarie makroregimmotorn. Den ändrar inte källor, vikter, policy-mål eller TDA:s forskningsstatus. Teknisk reproducerbarhet och historiskt rimliga avläsningar är inte bevis på framtida investeringsnytta.</p><p><a href="./#overview">Till dashboarden →</a></p></div>
+    </section>
+  </main>
+</body>
+</html>

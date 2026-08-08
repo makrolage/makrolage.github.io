@@ -1,0 +1,81 @@
+{
+  "as_of": "2026-07-31T19:32:56.221472Z",
+  "breadth": 0.0,
+  "candidate_state": "NEUTRAL",
+  "code_version": "0.1.0",
+  "component_contributions": [
+    {
+      "contribution": -0.03944630883838057,
+      "effective_weight": 0.4,
+      "id": 16405,
+      "indicator_score": -0.09861577209595142,
+      "label": "CLI USA",
+      "original_weight": 0.4,
+      "raw_value": null,
+      "run_id": "sig_usa_2024-09_9ef6d4da15bc",
+      "series_id": "oecd_cli_usa",
+      "sigma_level": 1.3468807841068744,
+      "sigma_momentum": 0.8112561160762399,
+      "vintage_id": "sha256:6a6f63b5209c3ac2999f7c78c512eb299677723692446fa1b1fb562d3ee77c83"
+    },
+    {
+      "contribution": -0.17110720210352107,
+      "effective_weight": 0.3,
+      "id": 16407,
+      "indicator_score": -0.5703573403450702,
+      "label": "Consumer confidence USA",
+      "original_weight": 0.3,
+      "raw_value": null,
+      "run_id": "sig_usa_2024-09_9ef6d4da15bc",
+      "series_id": "oecd_cci_usa",
+      "sigma_level": 1.5021028178375868,
+      "sigma_momentum": 0.5357112424525781,
+      "vintage_id": "sha256:8e98c7ef4da1b372cf572e7b0645999375bbd61dc58a228b970f6ec4c8e320fd"
+    },
+    {
+      "contribution": -0.23165243378237113,
+      "effective_weight": 0.3,
+      "id": 16406,
+      "indicator_score": -0.7721747792745705,
+      "label": "Business confidence USA",
+      "original_weight": 0.3,
+      "raw_value": null,
+      "run_id": "sig_usa_2024-09_9ef6d4da15bc",
+      "series_id": "oecd_bci_usa",
+      "sigma_level": 1.095883605871269,
+      "sigma_momentum": 0.6342240240075497,
+      "vintage_id": "sha256:d4d2ac4c771a457219e6787934131182ac27b02e41bc037666f3f3c395accf68"
+    }
+  ],
+  "confirmation_count": 1,
+  "created_at": "2026-07-31T19:32:56.221472Z",
+  "data_mode": "LATEST_VINTAGE_SIMULATION",
+  "domain_id": "usa",
+  "engine_version": "2.0.0",
+  "explanation": "Kompositscore -0.44; tremånadersmomentum stiger. Bredden är 0%.",
+  "momentum": 0.05976200000000063,
+  "period": "2024-09",
+  "policy": {
+    "id": "illustrative_standard",
+    "targets": {
+      "DEFENSIVE": 25,
+      "NEUTRAL": 50,
+      "OVERHEATED": 60,
+      "RE_ENTRY": 80,
+      "RISK_OFF": 0,
+      "RISK_ON": 80
+    },
+    "unavailable_ttl": 2,
+    "version": "1.0.0"
+  },
+  "policy_target": 25,
+  "profile_id": "usa_bas",
+  "profile_version": "2.0.0",
+  "quality_status": "CURRENT",
+  "run_id": "sig_usa_2024-09_9ef6d4da15bc",
+  "score": -0.44220594472427277,
+  "score_change": 0.18581604430067356,
+  "state": "DEFENSIVE",
+  "synthesis_contributions": [],
+  "warnings": []
+}
