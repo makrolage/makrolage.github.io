@@ -48,24 +48,24 @@
     },
     {
       "age_months": 0,
-      "contribution": -0.036486828987,
+      "contribution": -0.036487,
       "domain": "usa",
       "dropped": false,
       "input_quality": "CURRENT",
       "period": "1998-05",
-      "score": -0.071900515944,
+      "score": -0.071901,
       "stale": false,
       "weight_effective": 0.507462686567,
       "weight_original": 0.34
     },
     {
       "age_months": 0,
-      "contribution": -0.669714986853,
+      "contribution": -0.669715,
       "domain": "global",
       "dropped": false,
       "input_quality": "CURRENT",
       "period": "1998-05",
-      "score": -1.359724367248,
+      "score": -1.359724,
       "stale": false,
       "weight_effective": 0.492537313433,
       "weight_original": 0.33

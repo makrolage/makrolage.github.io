@@ -30,7 +30,7 @@
   "profile_version": "2.0.0",
   "quality_status": "DEGRADED",
   "run_id": "sig_synthesis_1998-04_00e26c120058",
-  "score": -0.274249628332,
+  "score": -0.27425,
   "score_change": null,
   "state": "NEUTRAL",
   "synthesis_contributions": [
@@ -48,24 +48,24 @@
     },
     {
       "age_months": 0,
-      "contribution": 0.137981738775,
+      "contribution": 0.137982,
       "domain": "usa",
       "dropped": false,
       "input_quality": "CURRENT",
       "period": "1998-04",
-      "score": 0.206972608163,
+      "score": 0.206973,
       "stale": false,
       "weight_effective": 0.666666666667,
       "weight_original": 0.6
     },
     {
       "age_months": 0,
-      "contribution": -0.412231367107,
+      "contribution": -0.412231,
       "domain": "global",
       "dropped": false,
       "input_quality": "CURRENT",
       "period": "1998-04",
-      "score": -1.236694101322,
+      "score": -1.236694,
       "stale": false,
       "weight_effective": 0.333333333333,
       "weight_original": 0.3

@@ -10,7 +10,7 @@
   "domain_id": "synthesis",
   "engine_version": "2.0.0",
   "explanation": "Omnormaliserad syntes; föråldrad eller bortfallen domän",
-  "momentum": 1.04844138886,
+  "momentum": 1.048441,
   "period": "1999-02",
   "policy": {
     "id": "illustrative_standard",
@@ -30,7 +30,7 @@
   "profile_version": "2.0.0",
   "quality_status": "DEGRADED",
   "run_id": "sig_synthesis_1999-02_877dc9da81de",
-  "score": 0.619315447496,
+  "score": 0.619315,
   "score_change": null,
   "state": "NEUTRAL",
   "synthesis_contributions": [
@@ -48,24 +48,24 @@
     },
     {
       "age_months": 0,
-      "contribution": 0.571227064861,
+      "contribution": 0.571227,
       "domain": "usa",
       "dropped": false,
       "input_quality": "CURRENT",
       "period": "1999-02",
-      "score": 0.856840597291,
+      "score": 0.856841,
       "stale": false,
       "weight_effective": 0.666666666667,
       "weight_original": 0.6
     },
     {
       "age_months": 0,
-      "contribution": 0.048088382635,
+      "contribution": 0.048088,
       "domain": "global",
       "dropped": false,
       "input_quality": "CURRENT",
       "period": "1999-02",
-      "score": 0.144265147905,
+      "score": 0.144265,
       "stale": false,
       "weight_effective": 0.333333333333,
       "weight_original": 0.3
