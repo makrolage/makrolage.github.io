@@ -1,0 +1,75 @@
+{
+  "as_of": "2026-07-31T19:35:11.110332Z",
+  "breadth": 0.0,
+  "candidate_state": "DEFENSIVE",
+  "code_version": "0.1.0",
+  "component_contributions": [],
+  "confirmation_count": 6,
+  "created_at": "2026-07-31T19:35:11.110332Z",
+  "data_mode": "LATEST_VINTAGE_SIMULATION",
+  "domain_id": "synthesis",
+  "engine_version": "2.0.0",
+  "explanation": "Viktad syntes av tre kontinuerliga domänscore",
+  "momentum": 0.197370568409,
+  "period": "2002-12",
+  "policy": {
+    "id": "illustrative_standard",
+    "targets": {
+      "DEFENSIVE": 25,
+      "NEUTRAL": 50,
+      "OVERHEATED": 60,
+      "RE_ENTRY": 80,
+      "RISK_OFF": 0,
+      "RISK_ON": 80
+    },
+    "unavailable_ttl": 2,
+    "version": "1.0.0"
+  },
+  "policy_target": 25,
+  "profile_id": "synthesis_global-fund-heavy",
+  "profile_version": "2.0.0",
+  "quality_status": "CURRENT",
+  "run_id": "sig_synthesis_2002-12_758cd43cf419",
+  "score": -0.736137617928,
+  "score_change": null,
+  "state": "DEFENSIVE",
+  "synthesis_contributions": [
+    {
+      "age_months": 0,
+      "contribution": -0.06261274359,
+      "domain": "sweden",
+      "dropped": false,
+      "input_quality": "CURRENT",
+      "period": "2002-12",
+      "score": -0.626127435898,
+      "stale": false,
+      "weight_effective": 0.1,
+      "weight_original": 0.1
+    },
+    {
+      "age_months": 0,
+      "contribution": -0.39090811271,
+      "domain": "usa",
+      "dropped": false,
+      "input_quality": "CURRENT",
+      "period": "2002-12",
+      "score": -0.651513521184,
+      "stale": false,
+      "weight_effective": 0.6,
+      "weight_original": 0.6
+    },
+    {
+      "age_months": 0,
+      "contribution": -0.282616761628,
+      "domain": "global",
+      "dropped": false,
+      "input_quality": "CURRENT",
+      "period": "2002-12",
+      "score": -0.942055872092,
+      "stale": false,
+      "weight_effective": 0.3,
+      "weight_original": 0.3
+    }
+  ],
+  "warnings": []
+}
