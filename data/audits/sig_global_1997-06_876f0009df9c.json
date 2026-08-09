@@ -1,0 +1,40 @@
+{
+  "as_of": "2026-07-31T19:33:31.668816Z",
+  "breadth": null,
+  "candidate_state": "UNAVAILABLE",
+  "code_version": "0.1.0",
+  "component_contributions": [],
+  "confirmation_count": 0,
+  "created_at": "2026-07-31T19:33:31.668816Z",
+  "data_mode": "LATEST_VINTAGE_SIMULATION",
+  "domain_id": "global",
+  "engine_version": "2.0.0",
+  "explanation": "Global kan inte publiceras eftersom kritisk data saknas.",
+  "momentum": 0.0,
+  "period": "1997-06",
+  "policy": {
+    "id": "illustrative_standard",
+    "targets": {
+      "DEFENSIVE": 25,
+      "NEUTRAL": 50,
+      "OVERHEATED": 60,
+      "RE_ENTRY": 80,
+      "RISK_OFF": 0,
+      "RISK_ON": 80
+    },
+    "unavailable_ttl": 2,
+    "version": "1.0.0"
+  },
+  "policy_target": null,
+  "profile_id": "global_bas",
+  "profile_version": "2.0.0",
+  "quality_status": "UNAVAILABLE",
+  "run_id": "sig_global_1997-06_876f0009df9c",
+  "score": null,
+  "score_change": null,
+  "state": "UNAVAILABLE",
+  "synthesis_contributions": [],
+  "warnings": [
+    "otillräcklig historik för skalskattning"
+  ]
+}

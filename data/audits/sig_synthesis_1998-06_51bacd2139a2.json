@@ -1,0 +1,75 @@
+{
+  "as_of": "2026-07-31T19:33:31.668816Z",
+  "breadth": 0.0,
+  "candidate_state": "DEFENSIVE",
+  "code_version": "0.1.0",
+  "component_contributions": [],
+  "confirmation_count": 2,
+  "created_at": "2026-07-31T19:33:31.668816Z",
+  "data_mode": "LATEST_VINTAGE_SIMULATION",
+  "domain_id": "synthesis",
+  "engine_version": "2.0.0",
+  "explanation": "Omnormaliserad syntes; föråldrad eller bortfallen domän",
+  "momentum": 0.0,
+  "period": "1998-06",
+  "policy": {
+    "id": "illustrative_standard",
+    "targets": {
+      "DEFENSIVE": 25,
+      "NEUTRAL": 50,
+      "OVERHEATED": 60,
+      "RE_ENTRY": 80,
+      "RISK_OFF": 0,
+      "RISK_ON": 80
+    },
+    "unavailable_ttl": 2,
+    "version": "1.0.0"
+  },
+  "policy_target": 25,
+  "profile_id": "synthesis_global-fund-heavy",
+  "profile_version": "2.0.0",
+  "quality_status": "DEGRADED",
+  "run_id": "sig_synthesis_1998-06_51bacd2139a2",
+  "score": -0.680157120449,
+  "score_change": null,
+  "state": "DEFENSIVE",
+  "synthesis_contributions": [
+    {
+      "age_months": null,
+      "contribution": 0.0,
+      "domain": "sweden",
+      "dropped": true,
+      "input_quality": "UNAVAILABLE",
+      "period": null,
+      "score": null,
+      "stale": false,
+      "weight_effective": 0.0,
+      "weight_original": 0.1
+    },
+    {
+      "age_months": 0,
+      "contribution": -0.195285355429,
+      "domain": "usa",
+      "dropped": false,
+      "input_quality": "CURRENT",
+      "period": "1998-06",
+      "score": -0.292928033143,
+      "stale": false,
+      "weight_effective": 0.666666666667,
+      "weight_original": 0.6
+    },
+    {
+      "age_months": 0,
+      "contribution": -0.484871765021,
+      "domain": "global",
+      "dropped": false,
+      "input_quality": "CURRENT",
+      "period": "1998-06",
+      "score": -1.454615295062,
+      "stale": false,
+      "weight_effective": 0.333333333333,
+      "weight_original": 0.3
+    }
+  ],
+  "warnings": []
+}
