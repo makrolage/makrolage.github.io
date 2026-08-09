@@ -82,8 +82,9 @@
           <div class="panel-heading">
             <div>
               <p class="eyebrow">Signalhistorik · månadsvis</p>
-              <h2>Senaste 24 månaderna</h2>
+              <h2>Hela v2-historiken</h2>
               <p class="panel-subtitle">Varje stapel visar den samlade regimbedömningen för en kalendermånad.</p>
+              <p id="history-data-mode" class="history-data-mode"></p>
             </div>
             <div class="legend" aria-label="Färgförklaring för huvudstatusar">
               <span><i class="dot risk-on" aria-hidden="true"></i>Risk on</span>
@@ -92,7 +93,15 @@
               <span><i class="dot risk-off" aria-hidden="true"></i>Risk off</span>
             </div>
           </div>
-          <div id="history-chart" class="history-chart" role="img" aria-label="Månadsvis historik över syntesscore för de senaste 24 månaderna"></div>
+          <div class="history-controls" aria-label="Välj tidsperspektiv för signalhistoriken">
+            <span>Visa stapeln vid</span>
+            <label><input type="radio" name="history-axis" value="reference" checked> referensmånad</label>
+            <label><input type="radio" name="history-axis" value="knowable"> när signalen tidigast kunde vara känd</label>
+          </div>
+          <p id="history-axis-description" class="history-axis-description"></p>
+          <div class="history-chart-shell">
+            <div id="history-chart" class="history-chart" role="img" aria-label="Månadsvis historik över hela v2-seriens syntesscore"></div>
+          </div>
           <div id="history-table" class="sr-only" aria-live="polite"></div>
           <section class="status-explainer" aria-labelledby="status-explainer-title">
             <div class="status-explainer-heading">

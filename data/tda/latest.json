@@ -26,6 +26,12 @@
   },
   "as_of": "2026-05-29T23:59:59Z",
   "change_probability": null,
+  "data_age": {
+    "age_days": 72,
+    "latest_market_date": "2026-05-29",
+    "measured_at": "2026-08-09T09:57:14.059667Z",
+    "reason": "Det låsta FF12-underlaget är verifierat till detta datum; senare marknadsdagar ingår inte."
+  },
   "direction": "UNKNOWN",
   "experimental": 1,
   "feature_version": "ph-v0.2.0-branches-a-b",
