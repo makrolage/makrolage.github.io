@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "domain_id": "usa",
+    "issue_id": "quality_critical_stale_ce1248e00caf5bfa",
+    "message": "Kritiska serien oecd_cli_usa har ingen ny period efter 2026-06.",
+    "opened_at": "2026-08-14T00:00:00Z",
+    "resolved_at": null,
+    "severity": "CRITICAL",
+    "source_id": "oecd_cli_usa",
+    "status": "OPEN"
+  },
+  {
+    "domain_id": "global",
+    "issue_id": "quality_critical_stale_8de60c53ab9e81f9",
+    "message": "Kritiska serien oecd_cli_g20 har ingen ny period efter 2026-06.",
+    "opened_at": "2026-08-14T00:00:00Z",
+    "resolved_at": null,
+    "severity": "CRITICAL",
+    "source_id": "oecd_cli_g20",
+    "status": "OPEN"
+  }
+]
