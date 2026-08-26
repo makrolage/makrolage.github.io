@@ -3,15 +3,15 @@
     "failed_fetches": 0,
     "observation_vintages": 8992,
     "raw_artifacts": 19,
-    "successful_fetches": 513,
-    "unchanged_fetches": 513
+    "successful_fetches": 532,
+    "unchanged_fetches": 532
   },
-  "generated_at": "2026-08-25T16:05:35.518430Z",
+  "generated_at": "2026-08-26T12:01:00.114578Z",
   "mode": "STATIC_SNAPSHOT",
   "notice": "Analysstöd; inte individuell finansiell rådgivning.",
   "public_data": "derived_only",
   "schema_version": "2.1.0",
   "signal_engine_version": "2.0.0",
-  "snapshot_sha256": "4cc3127076e996f355bfc4bdcc65097f9e4f121d8fc29a3ab36be1d10a37e587",
+  "snapshot_sha256": "981f7280643600d1662480397d739be830d6a169f215df82941d7403ab591700",
   "tda_quality_status": "RESEARCH"
 }
