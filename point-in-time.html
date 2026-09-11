@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Makroläges punkt-i-tid-diagnos visar hur OECD-revideringar ändrar historiska CLI-proxysignaler.">
+  <title>Punkt-i-tid-historiken — Makroläge</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./fixes.css">
+</head>
+<body>
+  <a class="skip-link" href="#content">Hoppa till innehåll / Skip to content</a>
+  <header class="topbar about-topbar">
+    <a class="brand" href="./#overview" aria-label="Makroläge startsida"><span class="brand-mark" aria-hidden="true">M</span><span><strong>Makroläge</strong><small>Macro regime desk</small></span></a>
+    <nav aria-label="Sidnavigation"><a class="nav-link nav-anchor" href="./#overview">Dashboard</a><a class="nav-link nav-anchor" href="./tda-resultat.html">TDA-resultat</a><a class="nav-link nav-anchor" href="./about.html">Om / About</a></nav>
+    <div class="language-links"><a href="#content">Svenska</a><a href="#english">English</a></div>
+  </header>
+  <main id="content" class="about-page research-result-page pit-result-page">
+    <section class="about-hero">
+      <div><p class="eyebrow">Punkt-i-tid-diagnos · 9 augusti 2026</p><h1>En tredjedel av proxyhistoriken <em>såg annorlunda ut då.</em></h1><p class="lede">156 av 485 jämförbara profilmånader, 32,2 procent, fick en annan status när signalen byggdes med den OECD-vintage som faktiskt fanns vid tillfället i stället för dagens reviderade data.</p></div>
+      <aside class="truth-card negative-result"><strong>Trogen produktionsrekonstruktion</strong><p class="result-no">NEJ</p><p>Två CLI-proxyserier kunde byggas. Ingen publicerad domän kunde återskapas fullständigt.</p></aside>
+    </section>
+
+    <section class="about-block result-metrics pit-metrics" aria-label="Punkt-i-tid-resultat">
+      <article><span>Olika status</span><strong>32,2 %</strong><small>156 / 485 proxymånader</small></article>
+      <article><span>Timingriktning</span><strong>Obestämd</strong><small>median +0,5 · medel −0,33 · n=6</small></article>
+      <article><span>Publiceringssteg i de sex träffarna</span><strong>1–2 mån</strong><small>median 1,5 · separat komponent</small></article>
+    </section>
+
+    <aside class="timing-warning"><strong>Riktningen är obestämd — och 2008 går åt andra hållet.</strong><p>De sex timingskiften är −5, 0, 0, +1, +1 och +1 månad: median +0,5, medel −0,33 och spann −5 till +1. I USA 2008 kom punkt-i-tid-träffen i 2008-04, fem månader före senaste-vintage-facitets 2008-09. Det är materialets enda stora avvikelse och dess viktigaste episod.</p><p>Publiceringslaggen är separat. I de sex träffarna var den 1–2 månadssteg, median 1,5. Om medianerna ändå summeras pedagogiskt blir det 1,5 + 0,5 ≈ <b>2,0 månader</b>, men motsatta tecken i median och medelvärde gör att inte heller detta är en validerad skattning av total prognosfördröjning.</p></aside>
+
+    <section class="about-block split-block"><div><p class="eyebrow">Laggkontroll</p><h2>1 steg är verklig variation, inte off-by-one</h2></div><div class="about-copy"><p>Edition `202001` innehåller data till och med `2019-11` och ger korrekt två månadssteg. Men laggen varierar i källarkivet: USA har 48 editioner med 1 steg och 226 med 2; global breadth har 47 med 1, 153 med 2 och 11 med 3. Medianen över hela respektive proxyhistorik är 2.</p><p>Edition `202005` innehåller till och med `2020-04` och ger därför genuint 1 steg. Steget räknas som editionens månad minus senaste användbara referensmånad; ingen inklusiv extramånad läggs till.</p></div></section>
+
+    <section class="about-block split-block"><div><p class="eyebrow">Huvudfyndet</p><h2>Produktionshistoriken kan inte återskapas troget</h2></div><div class="about-copy"><p><b>USA:</b> produktionen väger CLI/BCI/CCI 0,4/0,3/0,3. BCI och CCI saknar arkivvintages, så `usa_cli_only` är en proxy.</p><p><b>Globalt:</b> produktionen väger G20/bredd 0,6/0,4. G20 har bara 13 arkiveditioner, så `global_cli_breadth_only` är en proxy.</p><p><b>Sverige:</b> publika historiska värdevintages saknas. Därmed saknar även syntesen en trogen punkt-i-tid-motsvarighet.</p></div></section>
+
+    <section class="about-block pit-figure-block"><p class="eyebrow">Proxyserier sida vid sida</p><h2>Senaste reviderade data mot den vintage som fanns då</h2><p>Grått betyder att profilen inte kunde beräknas. Diagrammet visar inte en punkt-i-tid-version av produktionssyntesen.</p><figure><img src="./research/figures/ao4/point_in_time_vs_latest.svg" alt="Fyra månatliga statusserier: USA CLI och global CLI-bredd, vardera med senaste vintage och punkt-i-tid-vintage."><figcaption>USA-proxyn har 274 tillgängliga editionmånader från 2001-01. Global breadth har 211 från 2006-04. Andelarna 41,2 respektive 20,4 procent är därför inte direkt jämförbara: profilerna täcker olika epoker och vändpunkter.</figcaption></figure></section>
+
+    <section class="about-block"><p class="eyebrow">De sex timingparen</p><h2>Hela det lilla urvalet</h2><ul class="evidence-list"><li><b>USA, 2000–02:</b> latest 2001-02, punkt-i-tid 2001-02, skift 0; referensmånad 2000-12, publiceringssteg 2.</li><li><b>USA, 2008:</b> latest 2008-09, punkt-i-tid 2008-04, skift −5; referensmånad 2008-02, publiceringssteg 2.</li><li><b>USA, 2020:</b> latest 2020-04, punkt-i-tid 2020-05, skift +1; referensmånad 2020-04, publiceringssteg 1.</li><li><b>USA, 2022:</b> latest 2022-08, punkt-i-tid 2022-09, skift +1; referensmånad 2022-08, publiceringssteg 1.</li><li><b>Global breadth, 2008:</b> latest 2008-09, punkt-i-tid 2008-09, skift 0; referensmånad 2008-07, publiceringssteg 2.</li><li><b>Global breadth, 2020:</b> latest 2020-04, punkt-i-tid 2020-05, skift +1; referensmånad 2020-04, publiceringssteg 1.</li></ul><p>Median +0,5 och medel −0,33 har motsatt tecken. Den ärliga slutsatsen är därför riktning obestämd, inte att realtidssignalen generellt var senare.</p></section>
+
+    <section class="about-block split-block"><div><p class="eyebrow">Konsekvens för nästa experiment</p><h2>S3 måste mäta facitinflationen</h2></div><div class="about-copy"><p>En möjlig förregistrering är att låsa proxy-punkt-i-tid som primär gren, latest vintage som deklarerad sekundär och skillnaden i prognosprestanda som ett eget mått på hur mycket efterhandsrevideringar blåser upp facit.</p><p>Det är ännu inte en låst design. S3 har inte körts.</p></div></section>
+
+    <section class="about-block evidence-links"><p class="eyebrow">Revisionsspår</p><h2>Rapport och maskinläsbart resultat</h2><p><a href="./research/AO4_POINT_IN_TIME_CLI_RESULTAT.md">Fullständig AO4-rapport (Markdown)</a></p><p><a href="./research/data/ao4_cli_point_in_time_v1.json">Maskinläsbart resultat (JSON)</a></p></section>
+
+    <hr class="language-divider">
+    <section id="english" lang="en" class="about-language"><p class="eyebrow">Point-in-time diagnostic</p><h2>One third of the proxy history looked different in real time</h2><p>32.2% of comparable proxy profile-months changed status when calculated from the OECD vintage available at the time. Timing direction is indeterminate: the six shifts have median +0.5 months, mean −0.33 and range −5 to +1. In the key US 2008 episode, point-in-time warned five months earlier than the latest-vintage version.</p><p>Publication lag is separate and genuinely variable in the archive. Edition 202001 ends at 2019-11, while edition 202005 includes 2020-04; this is not an off-by-one error.</p><p>None of the three published production domains can be reconstructed faithfully: US BCI/CCI lack vintages, the G20 aggregate has only 13 archived editions, and Sweden lacks public historical value vintages. The chart therefore shows two CLI proxies, not the production synthesis.</p><p><b>S3 has not been run.</b> Any preregistration must declare the proxy limitation and separately measure the performance gap between point-in-time and latest-vintage data.</p></section>
+  </main>
+  <footer><span>Makroläge v0.1</span><span>Punkt-i-tid-diagnostik · inte prognosbevis</span><span><a href="./#overview">Till dashboarden</a></span></footer>
+</body>
+</html>

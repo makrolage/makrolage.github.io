@@ -20,7 +20,6 @@
       <button class="nav-link active" data-view="overview">Översikt</button>
       <button class="nav-link" data-view="compare">Jämförelse</button>
       <button class="nav-link" data-view="quality">Audit & kvalitet</button>
-      <button class="nav-link experiment" data-view="tda">TDA Lab <span id="tda-nav-status">Demo</span></button>
       <a class="nav-link nav-anchor" href="./about.html">Om / About</a>
     </nav>
     <div class="top-actions">
@@ -56,6 +55,11 @@
 
       <div id="dashboard-content">
         <aside class="method-notice"><strong>Ny signalmetodik 8 augusti 2026:</strong> v2 använder punkt-i-tid-skattad skala per serie och väger kontinuerliga domänscore. Historiken har räknats om; v1 finns kvar som revisionsspår. <a href="./methodology-v2.html">Läs den låsta specifikationen.</a></aside>
+        <aside class="research-result-callout">
+          <div><span>Förregistrerat forskningsresultat</span><strong>Vi frågade om TDA gav ett robust mervärde. Svaret blev nej.</strong></div>
+          <p>Hypotesen prövades mot enklare modeller och geografisk replikering. Fyra av fem promotionsvillkor föll; TDA promoveras inte inom experimentgeneration v1.</p>
+          <a href="./tda-resultat.html">Läs frågan, metoden och nollresultatet →</a>
+        </aside>
         <section class="synthesis-panel" aria-labelledby="synthesis-title">
           <div class="synthesis-copy">
             <div class="label-row"><span class="eyebrow">Samlad syntes</span><span id="synthesis-quality" class="status-pill">—</span></div>
@@ -103,6 +107,11 @@
             <div id="history-chart" class="history-chart" role="img" aria-label="Månadsvis historik över hela v2-seriens syntesscore"></div>
           </div>
           <div id="history-table" class="sr-only" aria-live="polite"></div>
+          <aside class="pit-history-callout">
+            <div><span>Punkt-i-tid-kontroll</span><strong>32,2 % av jämförbara proxymånader fick en annan status med den vintage som faktiskt fanns då.</strong></div>
+            <p>Historiken ovan använder senaste reviderade data. Ingen av de tre publicerade domänerna kan återskapas troget punkt-i-tid med OECD-arkivet; därför visar vi de två möjliga CLI-proxyserierna separat.</p>
+            <a href="./point-in-time.html">Se serierna sida vid sida →</a>
+          </aside>
           <section class="status-explainer" aria-labelledby="status-explainer-title">
             <div class="status-explainer-heading">
               <div>
@@ -136,33 +145,9 @@
       <div class="quality-grid"><section class="audit-panel"><h2>Vald signal</h2><div id="audit-content" class="audit-content"><p>Välj ”Visa audit” på ett domänkort.</p></div></section><section class="alerts-panel"><h2>Senaste larm</h2><div id="alerts-list"></div></section></div>
     </section>
 
-    <section id="view-tda" class="view" aria-labelledby="tda-title">
-      <div class="lab-banner"><span>Forskningsläge</span>Riktiga topologiska features kan visas här, men stressnivå, riktning och prognosvärde är inte kalibrerade eller validerade. Ingenting här påverkar produktionssignalen.</div>
-      <p class="eyebrow">Topological data analysis</p><h1 id="tda-title">TDA Lab</h1>
-      <p class="lede">Marknadsstrukturens avvikelse från sin historiska normalbild. Högt värde betyder förändring — inte automatiskt börsfall.</p>
-      <section class="tda-explainer" aria-labelledby="tda-explainer-title">
-        <div>
-          <p class="eyebrow">Vad TDA ska undersöka</p>
-          <h2 id="tda-explainer-title">Förändras formen på marknadens samvariation?</h2>
-          <p>Varje handelsdag ska de senaste 60 dagarnas avkastningar bilda ett punktmoln. Persistent homology sammanfattar hur sammanhängande strukturer och slingor uppstår och består när avståndsskalan ändras.</p>
-        </div>
-        <dl>
-          <div><dt>H₀</dt><dd>Sammanhängande grupper. Kan visa hur segment av marknaden binds ihop eller separeras.</dd></div>
-          <div><dt>H₁</dt><dd>Slingor i punktmolnet. Kan fånga mer komplex beroendestruktur än enskilda korrelationer.</dd></div>
-          <div><dt>Persistens</dt><dd>Hur länge en struktur överlever över flera avståndsskalor. Kortlivade strukturer behandlas oftare som brus.</dd></div>
-          <div><dt>Diagramavstånd</dt><dd>Hur mycket den topologiska strukturen förändrats sedan föregående handelsdag eller historisk referens.</dd></div>
-        </dl>
-        <aside>
-          <strong>Så ska sidan läsas just nu</strong>
-          <p><b>DEMO</b> betyder syntetiskt gränssnittsexempel. <b>RESEARCH</b> betyder att diagram och features är verkligt beräknade, men ännu saknar validerad prognostolkning. Då visas även dataintervall, biblioteksversion och inputhash.</p>
-          <p>TDA måste slå enklare mått som volatilitet, drawdown, korrelation och PCA utanför träningsperioden innan det får beskrivas som ett mervärde.</p>
-        </aside>
-      </section>
-      <div id="tda-content" class="tda-layout"></div>
-    </section>
   </main>
 
-  <footer><span>Makroläge v0.1</span><span>Analysstöd · inte individuell finansiell rådgivning</span><span>Europe/Stockholm · UTC i audit</span></footer>
+  <footer><span>Makroläge v0.1</span><span>Analysstöd · inte individuell finansiell rådgivning</span><span><a href="./point-in-time.html">Punkt-i-tid: 32,2 % olika</a> · <a href="./tda-resultat.html">TDA: förregistrerat nej</a></span></footer>
   <script src="./app.js" defer></script>
 </body>
 </html>

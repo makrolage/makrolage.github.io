@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Makroläges förregistrerade TDA-experiment gav nej. Här redovisas frågan, kriterierna och nollresultatet.">
+  <title>TDA-resultatet — Makroläge</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./fixes.css">
+</head>
+<body>
+  <a class="skip-link" href="#content">Hoppa till innehåll / Skip to content</a>
+  <header class="topbar about-topbar">
+    <a class="brand" href="./#overview" aria-label="Makroläge startsida"><span class="brand-mark" aria-hidden="true">M</span><span><strong>Makroläge</strong><small>Macro regime desk</small></span></a>
+    <nav aria-label="Sidnavigation"><a class="nav-link nav-anchor" href="./#overview">Dashboard</a><a class="nav-link nav-anchor" href="./about.html">Om / About</a></nav>
+    <div class="language-links"><a href="#content">Svenska</a><a href="#english">English</a></div>
+  </header>
+  <main id="content" class="about-page research-result-page">
+    <section class="about-hero">
+      <div><p class="eyebrow">Förregistrerat resultat · 9 augusti 2026</p><h1>Vi ställde en favoritfråga ordentligt. <em>Svaret blev nej.</em></h1><p class="lede">Topologisk dataanalys gav inte ett tillräckligt robust mervärde utöver enklare marknadsmått. TDA förblir forskning. TDA promoveras inte inom experimentgeneration v1.</p></div>
+      <aside class="truth-card negative-result"><strong>Historisk promotion</strong><p class="result-no">NEJ</p><p>1 av 5 låsta villkor passerade.</p></aside>
+    </section>
+    <section class="about-block"><p class="eyebrow">Frågan</p><h2>Kunde formen hos amerikanska sektoravkastningar varna bättre om stress utanför USA?</h2><p>Fyra TDA-features lades till samma regulariserade modell som fem enklare mått: volatilitet, medelkorrelation, korrelationsspridning, PCA-koncentration och drawdown. Europa var utvecklingsmarknad; Japan och Asia Pacific ex Japan hölls undan till en enda geografisk replikering.</p></section>
+    <section class="about-block result-metrics" aria-label="Primära resultat"><article><span>Primär ΔPR-AUC</span><strong>+0,01945</strong><small>krav +0,02000 · FAIL</small></article><article><span>Brier-försämring</span><strong>+0,00320</strong><small>max +0,00200 · FAIL</small></article><article><span>Kalibreringslutning</span><strong>0,220</strong><small>krav 0,80–1,25 · FAIL</small></article><article><span>Positiva folds</span><strong>4 / 5</strong><small>PASS</small></article><article><span>Japan</span><strong>+0,01566</strong><small>positivt</small></article><article><span>APAC ex Japan</span><strong>−0,01342</strong><small>FAIL</small></article></section>
+    <section class="about-block split-block"><div><p class="eyebrow">Vad nej betyder</p><h2>Hypotesen får inte flytta målstolparna</h2></div><div class="about-copy"><p>Det nära primärutfallet ändrar inte beslutet. Dålig kalibrering, Brier-försämring, negativ APAC-replikering och känslighet för 70-dagarsfönstret är oberoende skäl till nej.</p><p>Riktiga topologiska features finns kvar som deskriptiv forskning. De visas inte som stresspoäng, riktning eller investeringssignal och påverkar inte produktionssyntesen.</p></div></section>
+    <section class="about-block evidence-links"><p class="eyebrow">Revisionsspår</p><h2>Läs vad som låstes och vad som faktiskt hände</h2><p><a href="./research/AO5_FORREGISTRERING_TDA_LOCKED.md">Låst förregistrering (Markdown)</a></p><p><a href="./research/TDA_STRESS_ONSET_V1_RESULTAT.md">Fullständig resultatrapport (Markdown)</a></p></section>
+    <hr class="language-divider">
+    <section id="english" lang="en" class="about-language"><p class="eyebrow">Preregistered result</p><h2>A properly asked question, answered no</h2><p>The locked experiment tested whether topological features added robust warning value beyond volatility, correlation, PCA and drawdown. The primary PR-AUC improvement was +0.01945 against a locked +0.02000 threshold. Calibration, Brier score, APAC replication and one negative control also failed.</p><p><b>Decision:</b> no historical promotion. TDA remains descriptive research, does not affect production synthesis, and will not be promoted within experiment generation v1.</p></section>
+  </main>
+  <footer><span>Makroläge v0.1</span><span>Publicerat nollresultat · Published null result</span><span><a href="./#overview">Till dashboarden</a></span></footer>
+</body>
+</html>
