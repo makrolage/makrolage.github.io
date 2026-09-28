@@ -243032,16 +243032,16 @@
       "failed_fetches": 1,
       "observation_vintages": 18026,
       "raw_artifacts": 38,
-      "successful_fetches": 1006,
-      "unchanged_fetches": 987
+      "successful_fetches": 1025,
+      "unchanged_fetches": 1006
     },
-    "generated_at": "2026-09-28T18:43:59.250531Z",
+    "generated_at": "2026-09-28T21:16:08.453404Z",
     "mode": "STATIC_SNAPSHOT",
     "notice": "Analysstöd; inte individuell finansiell rådgivning.",
     "public_data": "derived_only",
     "schema_version": "2.1.0",
     "signal_engine_version": "2.0.0",
-    "snapshot_sha256": "3d7dd00233f907fb5eaae5cf734fc6ca7542441e8d911c03a7a0f78eca486f99",
+    "snapshot_sha256": "402242ac263d3d5b2d49187d13407b082e5094fc26be20a1e0590387ea25c6c5",
     "tda_quality_status": "RESEARCH"
   },
   "policy": {
@@ -508673,7 +508673,7 @@
       "data_age": {
         "age_days": 122,
         "latest_market_date": "2026-05-29",
-        "measured_at": "2026-09-28T18:43:59.250531Z",
+        "measured_at": "2026-09-28T21:16:08.453404Z",
         "reason": "Det låsta FF12-underlaget är verifierat till detta datum; senare marknadsdagar ingår inte."
       },
       "direction": "UNKNOWN",
