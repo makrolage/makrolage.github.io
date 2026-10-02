@@ -29,12 +29,13 @@
   </header>
 
   <main id="content">
+    <aside id="snapshot-freshness" class="method-notice" role="status">Kontrollerar publiceringens aktualitet…</aside>
     <section id="view-overview" class="view active" aria-labelledby="overview-title">
       <div class="hero-row">
         <div>
           <p class="eyebrow">Månatlig regimbedömning</p>
-          <h1 id="overview-title">Marknadens temperatur,<br><em>utan svarta lådor.</em></h1>
-          <p class="lede">Tre oberoende makroperspektiv, sammanvägda efter din valda exponering. Varje signal går att följa hela vägen tillbaka till källdatan.</p>
+          <h1 id="overview-title">Konjunkturens läge,<br><em>utan svarta lådor.</em></h1>
+          <p class="lede">Tre överlappande makroperspektiv, sammanvägda efter din valda exponering. Varje signal går att följa hela vägen tillbaka till källdatan.</p>
         </div>
         <div class="profile-control">
           <label for="profile-select">Exponeringsprofil</label>
@@ -59,6 +60,7 @@
           <div><span>Förregistrerat forskningsresultat</span><strong>Vi frågade om TDA gav ett robust mervärde. Svaret blev nej.</strong></div>
           <p>Hypotesen prövades mot enklare modeller och geografisk replikering. Fyra av fem promotionsvillkor föll; TDA promoveras inte inom experimentgeneration v1.</p>
           <a href="./tda-resultat.html">Läs frågan, metoden och nollresultatet →</a>
+          <a href="./structure.html">Ny beskrivande forskningsbild: branschernas samband →</a>
         </aside>
         <section class="synthesis-panel" aria-labelledby="synthesis-title">
           <div class="synthesis-copy">
@@ -69,10 +71,10 @@
             <button id="synthesis-audit" class="text-button">Öppna full audit <span aria-hidden="true">→</span></button>
           </div>
           <div class="allocation">
-            <span>Illustrativt riskmål</span>
+            <span>Policyexempel</span>
             <strong id="risk-target">—</strong>
-            <div class="meter" aria-label="Illustrativt riskmål"><i id="risk-meter"></i></div>
-            <small>Riskbärande tillgångar · ingen automatisk handel</small>
+            <div class="meter" aria-label="Policyexempel"><i id="risk-meter"></i></div>
+            <small>Ej validerad portföljandel · ingen automatisk handel</small>
           </div>
           <div class="synthesis-score">
             <span>Viktad score</span><strong id="synthesis-score">—</strong><small>Kompositskala</small>
@@ -81,6 +83,12 @@
 
         <div class="section-heading"><div><p class="eyebrow">Domäner</p><h2>Tre perspektiv. En tydlig divergens.</h2></div><p>Signalerna beräknas var för sig. Syntesen får aldrig dölja när domänerna säger olika saker.</p></div>
         <div id="domain-cards" class="domain-grid"></div>
+
+        <section class="context-panel" aria-labelledby="context-title">
+          <div class="section-heading"><div><p class="eyebrow">Kompletterande lägesbild</p><h2 id="context-title">Aktivitet, inflation och finansiering</h2></div><p>Separata mått med olika publiceringstakt. De kompletterar konjunkturen och påverkar inte den sammanvägda regimsignalen.</p></div>
+          <p><a href="research/KONTEXTKALLOR_V1.md">Källor, transformationer och begränsningar</a></p>
+          <div id="context-cards" class="context-grid" aria-live="polite">Hämtar lägesbild…</div>
+        </section>
 
         <section class="history-panel">
           <div class="panel-heading">
@@ -100,7 +108,7 @@
           <div class="history-controls" aria-label="Välj tidsperspektiv för signalhistoriken">
             <span>Visa stapeln vid</span>
             <label><input type="radio" name="history-axis" value="reference" checked> referensmånad</label>
-            <label><input type="radio" name="history-axis" value="knowable"> när signalen tidigast kunde vara känd</label>
+            <label><input type="radio" name="history-axis" value="knowable"> uppskattad publicering (inte faktisk tillgänglighet)</label>
           </div>
           <p id="history-axis-description" class="history-axis-description"></p>
           <div class="history-chart-shell">
@@ -118,15 +126,15 @@
                 <p class="eyebrow">Så läser du signalen</p>
                 <h3 id="status-explainer-title">Status är en regimbedömning, inte en prognosgaranti</h3>
               </div>
-              <p>Procentsatserna är den nuvarande standardpolicyns illustrativa riskmål. De är analysstöd, inte individuell rådgivning.</p>
+              <p>Procentsatserna är den nuvarande standardpolicyns illustrativa riskmål. Deras lämplighet som portföljandelar är inte validerad.</p>
             </div>
             <div class="status-guide">
-              <article class="status-guide-item risk-on"><h4><i aria-hidden="true"></i>Risk on <small>80 %</small></h4><p>Bred positiv regim. Hög riskexponering är tillåten, men normal riskspridning och löpande uppföljning gäller.</p></article>
-              <article class="status-guide-item neutral"><h4><i aria-hidden="true"></i>Neutral <small>50 %</small></h4><p>Signalerna är blandade eller nära normalläge. Behåll balanserad exponering och invänta tydligare riktning.</p></article>
-              <article class="status-guide-item defensive"><h4><i aria-hidden="true"></i>Defensiv <small>25 %</small></h4><p>Försvagad regim utan fullt risk-off-läge. Minska cyklisk risk och prioritera motståndskraft och likviditet.</p></article>
+              <article class="status-guide-item risk-on"><h4><i aria-hidden="true"></i>Risk on <small>80 %</small></h4><p>Bred positiv regim. Indikatorerna visar ett positivt makroläge.</p></article>
+              <article class="status-guide-item neutral"><h4><i aria-hidden="true"></i>Neutral <small>50 %</small></h4><p>Signalerna är blandade eller nära normalläge. Underlaget ger ingen tydlig gemensam riktning.</p></article>
+              <article class="status-guide-item defensive"><h4><i aria-hidden="true"></i>Defensiv <small>25 %</small></h4><p>Försvagad regim utan fullt risk-off-läge. Indikatorerna pekar mot en svagare konjunktur.</p></article>
               <article class="status-guide-item risk-off"><h4><i aria-hidden="true"></i>Risk off <small>0 %</small></h4><p>Tydlig och kraftig försämring. Standardpolicyn drar ned risk direkt; statusen kräver inte två månaders bekräftelse.</p></article>
-              <article class="status-guide-item re-entry"><h4><i aria-hidden="true"></i>Återinträde <small>80 %</small></h4><p>Bekräftad förbättring efter en stabil defensiv eller risk-off-period. Risk byggs upp igen enligt policyn.</p></article>
-              <article class="status-guide-item overheated"><h4><i aria-hidden="true"></i>Överhettad <small>60 %</small></h4><p>Stark nivå men avtagande momentum eller bredd. Fortsatt exponering, men lägre än risk on och med extra vaksamhet.</p></article>
+              <article class="status-guide-item re-entry"><h4><i aria-hidden="true"></i>Återinträde <small>80 %</small></h4><p>Bekräftad förbättring efter en stabil defensiv eller risk-off-period. Detta beskriver regimmodellens tillståndsbyte.</p></article>
+              <article class="status-guide-item overheated"><h4><i aria-hidden="true"></i>Överhettad <small>60 %</small></h4><p>Stark nivå men avtagande momentum eller bredd. Nivå och förändringsriktning ger olika besked.</p></article>
               <article class="status-guide-item unavailable"><h4><i aria-hidden="true"></i>Ej tillgänglig <small>—</small></h4><p>Kritisk data saknas. Det är inte samma sak som neutral: någon ny regimbedömning eller riskallokering ska inte utläsas.</p></article>
             </div>
           </section>
@@ -148,6 +156,8 @@
   </main>
 
   <footer><span>Makroläge v0.1</span><span>Analysstöd · inte individuell finansiell rådgivning</span><span><a href="./point-in-time.html">Punkt-i-tid: 32,2 % olika</a> · <a href="./tda-resultat.html">TDA: förregistrerat nej</a></span></footer>
+  <script src="./freshness.js"></script>
   <script src="./app.js" defer></script>
+  <script src="./context.js" defer></script>
 </body>
 </html>
