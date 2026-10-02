@@ -243261,7 +243261,7 @@
         "source_url": "https://www.statistikdatabasen.scb.se/pxweb/sv/ssd/START__NR__NR9999__NR9999A/NR9999ENS2010BNPIndN/",
         "status": "CURRENT",
         "unit": "% mot föregående månad",
-        "verified_at": "2026-10-02T16:40:39.362109Z",
+        "verified_at": "2026-10-02T16:47:46.911915Z",
         "vintage_id": "4fbac484ae66c7a5d694c0604be59ee3cc2f42eb4d59b77993fc2b3a029b18a6"
       },
       {
@@ -243291,7 +243291,7 @@
         "source_url": "https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/ads",
         "status": "CURRENT",
         "unit": "index, genomsnitt 0",
-        "verified_at": "2026-10-02T16:40:41.060857Z",
+        "verified_at": "2026-10-02T16:47:49.173753Z",
         "vintage_id": "ce197d89fe471217c72243b8d86e92bb2341d51378b7b4b1a65101cf90f9125e"
       },
       {
@@ -243383,7 +243383,7 @@
         "source_url": "https://www.scb.se/PR0101",
         "status": "CURRENT",
         "unit": "% mot samma månad föregående år",
-        "verified_at": "2026-10-02T16:41:28.975873Z",
+        "verified_at": "2026-10-02T16:48:39.025190Z",
         "vintage_id": "de2d5ba86adf0cf046b8f205d0621202480880b91761c29a63179e6cff5eff54"
       },
       {
@@ -243413,7 +243413,7 @@
         "source_url": "https://www.riksbank.se/sv/statistik/rantor-och-valutakurser/",
         "status": "CURRENT",
         "unit": "%",
-        "verified_at": "2026-10-02T16:41:30.682231Z",
+        "verified_at": "2026-10-02T16:48:40.515883Z",
         "vintage_id": "55c3b792f56ef8a034296d975be6b2bcecda527265fdf8e28ae16c554482ed70"
       },
       {
@@ -243443,7 +243443,7 @@
         "source_url": "https://www.riksbank.se/sv/statistik/rantor-och-valutakurser/",
         "status": "CURRENT",
         "unit": "SEK per EUR",
-        "verified_at": "2026-10-02T16:41:32.095065Z",
+        "verified_at": "2026-10-02T16:48:41.796786Z",
         "vintage_id": "6377a5f50dec4243fb8379f94cd3d8ea03963bc4f9061754fa89c1d466254b72"
       },
       {
@@ -243472,7 +243472,7 @@
         "source_url": "https://data.ecb.europa.eu/data/datasets/CISS",
         "status": "CURRENT",
         "unit": "index 0–1",
-        "verified_at": "2026-10-02T16:41:35.649316Z",
+        "verified_at": "2026-10-02T16:48:44.047300Z",
         "vintage_id": "6920b2bbd858822c7f06b4107678f3a1b2241b94d127e3208b53c3bcf935da98"
       },
       {
@@ -243502,11 +243502,11 @@
         "source_url": "https://www.newyorkfed.org/research/policy/gscpi",
         "status": "CURRENT",
         "unit": "standardavvikelser från genomsnittet",
-        "verified_at": "2026-10-02T16:41:36.051181Z",
+        "verified_at": "2026-10-02T16:48:44.393227Z",
         "vintage_id": "723e8dc81728176dea10e7d685478bfe888516ec68d1d2cc1b77d6fea8177c55"
       }
     ],
-    "generated_at": "2026-10-02T16:42:35.498475Z",
+    "generated_at": "2026-10-02T16:49:49.752113Z",
     "mode": "DESCRIPTIVE_LATEST_VINTAGE",
     "version": "context@1.0.0"
   },
@@ -243660,20 +243660,20 @@
       "failed_fetches": 1,
       "observation_vintages": 20226,
       "raw_artifacts": 39,
-      "successful_fetches": 1177,
-      "unchanged_fetches": 1156
+      "successful_fetches": 1196,
+      "unchanged_fetches": 1175
     },
-    "data_verified_at": "2026-10-02T16:40:11.483950Z",
+    "data_verified_at": "2026-10-02T16:47:30.443663Z",
     "freshness_policy": "Snapshot expires after 96 hours, including weekends; source periods are separate.",
-    "generated_at": "2026-10-02T16:42:35.498475Z",
+    "generated_at": "2026-10-02T16:49:49.752113Z",
     "mode": "STATIC_SNAPSHOT",
     "notice": "Analysstöd; inte individuell finansiell rådgivning.",
     "public_data": "derived_only",
     "schema_version": "2.2.0",
     "signal_engine_version": "2.0.0",
-    "snapshot_sha256": "626b202dcc7e0fdb27278af294b8a59d746de244cabfdd3bedf126af6f89a4e6",
+    "snapshot_sha256": "6cb61033f691241aae6d749e0a5b7692e5eed6ba8b9bb3ffa8c35d22d8d889e0",
     "tda_quality_status": null,
-    "valid_until": "2026-10-06T16:42:35.498475Z"
+    "valid_until": "2026-10-06T16:49:49.752113Z"
   },
   "policy": {
     "id": "illustrative_standard",
@@ -428037,7 +428037,7 @@
   "structure_research": {
     "affects_synthesis": false,
     "data_age_days": 32,
-    "generated_at": "2026-10-02T16:42:35.498475Z",
+    "generated_at": "2026-10-02T16:49:49.752113Z",
     "last_attempt_status": "OK",
     "latest": {
       "affects_synthesis": false,
