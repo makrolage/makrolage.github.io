@@ -1,6 +1,6 @@
 # Källkontrakt för den beskrivande kontextpanelen
 
-Version `context@1.0.0`, 2026-10-02. Maskinläsbara adresser, exakta
+Version `context@1.0.1`, 2026-10-03. Maskinläsbara adresser, exakta
 serieidentiteter, enheter och åldersgränser finns i `makrolage/context.py`.
 Panelen har ingen vikt i produktionssyntesen och utgör ingen validerad
 prognosmodell. API-svar verifierades mot riktiga leveranser.
@@ -9,7 +9,7 @@ prognosmodell. API-svar verifierades mot riktiga leveranser.
 |---|---|---|
 | BNP-indikator | [SCB](https://www.statistikdatabasen.scb.se/pxweb/sv/ssd/START__NR__NR9999__NR9999A/NR9999ENS2010BNPIndN/) | TAB443, BNPMarknadspris BNPM, ContentsCode 000000X2. Säsongrensad månatlig volymförändring; skillnad mot föregående månad i procentenheter. |
 | ADS | [Philadelphia Fed](https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/ads) | Daglig modellskattning; skillnad över 28 kalenderdagar. |
-| NFCI / ANFCI | [Chicago Fed](https://www.chicagofed.org/research/data/nfci/current-data) via [FRED](https://fred.stlouisfed.org/series/NFCI) | Veckodata; förändring över fyra veckor. ANFCI är justerat för ekonomins läge och är inte en oberoende röst. |
+| NFCI / ANFCI | [Chicago Fed](https://www.chicagofed.org/research/data/nfci/current-data) genom direkt CSV-leverans | Veckodata; förändring över fyra veckor. ANFCI är justerat för ekonomins läge och är inte en oberoende röst. |
 | KPIF | [SCB](https://www.scb.se/PR0101) | TAB6601, totalgrupp 00, ContentsCode 0000080U. Årlig inflationstakt; skillnad mot föregående månad i procentenheter. |
 | Svensk tioårsränta | [Riksbanken](https://www.riksbank.se/sv/statistik/rantor-och-valutakurser/) | SEGVB10YC, underliggande data Refinitiv. Räntenivå och egen beräkning av förändring över 28 kalenderdagar; inte totalavkastning. |
 | EUR/SEK | [Riksbanken](https://www.riksbank.se/sv/statistik/rantor-och-valutakurser/) | SEKEURPMI, SEK per euro; förändring över 28 kalenderdagar. Indikativ kurs. |
@@ -38,3 +38,11 @@ med högst sju dagars glapp. Saknad jämförelse visas som saknad.
 Källorna kompletterar varandra genom att skilja aktivitet, finansiering,
 inflation, valuta och utbud. De får inte adderas till en informell
 röstning om risk: flera mått delar underliggande information.
+
+
+Drifttillägg 2026-10-03: FRED-leveransen gav upprepade timeout från
+GitHub Actions. Hämtningen går därför direkt till Chicago Feds officiella
+CSV. Äldre FRED-råfiler kan fortfarande återspelas. Kolumner och datumformat
+valideras separat, och samma mått/enhet används. Transportfel får ett
+extra försök efter två sekunder; mottagna HTTP-felsvar arkiveras och
+parsarfel maskeras inte genom omförsök.
