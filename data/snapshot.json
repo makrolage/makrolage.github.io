@@ -243235,7 +243235,7 @@
     "cards": [
       {
         "above": "BNP ökade under månaden",
-        "age_days": 64,
+        "age_days": 66,
         "below": "BNP minskade under månaden",
         "change": -0.6000000000000001,
         "change_unit": "procentenheter",
@@ -243261,12 +243261,12 @@
         "source_url": "https://www.statistikdatabasen.scb.se/pxweb/sv/ssd/START__NR__NR9999__NR9999A/NR9999ENS2010BNPIndN/",
         "status": "CURRENT",
         "unit": "% mot föregående månad",
-        "verified_at": "2026-10-03T10:33:59.949316Z",
+        "verified_at": "2026-10-05T22:01:49.396295Z",
         "vintage_id": "4fbac484ae66c7a5d694c0604be59ee3cc2f42eb4d59b77993fc2b3a029b18a6"
       },
       {
         "above": "Aktivitet över historiskt genomsnitt",
-        "age_days": 3,
+        "age_days": 5,
         "below": "Aktivitet under historiskt genomsnitt",
         "change": 0.010518462656735394,
         "compare_period": "2026-09-02",
@@ -243291,12 +243291,12 @@
         "source_url": "https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/ads",
         "status": "CURRENT",
         "unit": "index, genomsnitt 0",
-        "verified_at": "2026-10-03T10:34:00.967378Z",
+        "verified_at": "2026-10-05T22:01:50.928291Z",
         "vintage_id": "ce197d89fe471217c72243b8d86e92bb2341d51378b7b4b1a65101cf90f9125e"
       },
       {
         "above": "Stramare än genomsnittet",
-        "age_days": 8,
+        "age_days": 10,
         "below": "Lättare än genomsnittet",
         "change": 0.01100000000000001,
         "compare_period": "2026-08-28",
@@ -243307,7 +243307,7 @@
         "id": "usa_conditions",
         "label": "USA · NFCI",
         "lag": 4,
-        "last_attempt_status": "OK",
+        "last_attempt_status": "UNCHANGED",
         "latest": {
           "period": "2026-09-25",
           "value": -0.548
@@ -243321,12 +243321,12 @@
         "source_url": "https://www.chicagofed.org/research/data/nfci/current-data",
         "status": "CURRENT",
         "unit": "index, genomsnitt 0",
-        "verified_at": "2026-10-03T10:34:01.353691Z",
+        "verified_at": "2026-10-05T22:01:51.253683Z",
         "vintage_id": "080a145704441ba3e7ec66150e0707232e814d3576e3aca780cfeec7cd09a8d6"
       },
       {
         "above": "Stramare än väntat givet ekonomin",
-        "age_days": 8,
+        "age_days": 10,
         "below": "Lättare än väntat givet ekonomin",
         "change": 0.014000000000000012,
         "compare_period": "2026-08-28",
@@ -243337,7 +243337,7 @@
         "id": "usa_adjusted_conditions",
         "label": "USA · ANFCI",
         "lag": 4,
-        "last_attempt_status": "OK",
+        "last_attempt_status": "UNCHANGED",
         "latest": {
           "period": "2026-09-25",
           "value": -0.574
@@ -243351,12 +243351,12 @@
         "source_url": "https://www.chicagofed.org/research/data/nfci/current-data",
         "status": "CURRENT",
         "unit": "justerat index",
-        "verified_at": "2026-10-03T10:34:01.353691Z",
+        "verified_at": "2026-10-05T22:01:51.253683Z",
         "vintage_id": "080a145704441ba3e7ec66150e0707232e814d3576e3aca780cfeec7cd09a8d6"
       },
       {
         "above": "Inflation över 2 procent",
-        "age_days": 33,
+        "age_days": 35,
         "below": "Inflation under 2 procent",
         "change": 0.0,
         "change_unit": "procentenheter",
@@ -243383,11 +243383,11 @@
         "source_url": "https://www.scb.se/PR0101",
         "status": "CURRENT",
         "unit": "% mot samma månad föregående år",
-        "verified_at": "2026-10-03T10:34:03.987110Z",
+        "verified_at": "2026-10-05T22:01:54.292281Z",
         "vintage_id": "de2d5ba86adf0cf046b8f205d0621202480880b91761c29a63179e6cff5eff54"
       },
       {
-        "age_days": 1,
+        "age_days": 3,
         "change": 0.03799999999999981,
         "change_unit": "procentenheter",
         "compare_period": "2026-09-04",
@@ -243398,7 +243398,7 @@
         "id": "sweden_yield",
         "label": "Sverige · tioårsränta",
         "lag": 28,
-        "last_attempt_status": "OK",
+        "last_attempt_status": "UNCHANGED",
         "latest": {
           "period": "2026-10-02",
           "value": 3.138
@@ -243406,21 +243406,21 @@
         "level": "Statsobligationsränta med tio års löptid",
         "level_text": "Statsobligationsränta med tio års löptid",
         "max_age_days": 7,
-        "new_observations": 1,
+        "new_observations": 0,
         "note": "Visar räntenivå och egen beräkning av förändringen, inte obligationsavkastning. En högre ränta har flera möjliga orsaker.",
         "provider": "Sveriges riksbank (underliggande räntedata: Refinitiv)",
         "revised_observations": 0,
         "source_url": "https://www.riksbank.se/sv/statistik/rantor-och-valutakurser/",
         "status": "CURRENT",
         "unit": "%",
-        "verified_at": "2026-10-03T10:34:05.687809Z",
+        "verified_at": "2026-10-05T22:01:55.528857Z",
         "vintage_id": "365d4658aa78b79ec55281c7c872fdfbe10b5e7eeb741d4571a6291f751c9bc3"
       },
       {
-        "age_days": 1,
-        "change": 0.1894999999999989,
+        "age_days": 0,
+        "change": 0.09049999999999869,
         "change_unit": "SEK",
-        "compare_period": "2026-09-04",
+        "compare_period": "2026-09-07",
         "dimension": "Ränta och valuta",
         "error": null,
         "first_collection": false,
@@ -243428,28 +243428,28 @@
         "id": "sweden_fx",
         "label": "Sverige · EUR/SEK",
         "lag": 28,
-        "last_attempt_status": "UNCHANGED",
+        "last_attempt_status": "OK",
         "latest": {
-          "period": "2026-10-02",
-          "value": 11.29
+          "period": "2026-10-05",
+          "value": 11.2525
         },
         "level": "Högre kurs betyder svagare krona mot euron",
         "level_text": "Högre kurs betyder svagare krona mot euron",
         "max_age_days": 7,
-        "new_observations": 0,
+        "new_observations": 1,
         "note": "Indikativ valutakurs, inte transaktionskurs. Förändringen är Makroläges egen beräkning. Kronans rörelse har olika betydelse för olika sektorer.",
         "provider": "Sveriges riksbank",
         "revised_observations": 0,
         "source_url": "https://www.riksbank.se/sv/statistik/rantor-och-valutakurser/",
         "status": "CURRENT",
         "unit": "SEK per EUR",
-        "verified_at": "2026-10-03T10:34:06.630547Z",
-        "vintage_id": "6377a5f50dec4243fb8379f94cd3d8ea03963bc4f9061754fa89c1d466254b72"
+        "verified_at": "2026-10-05T22:01:56.628570Z",
+        "vintage_id": "bbdf980c5557e03e9a8af70c9dc54a25bfca21a29ab1d7d00d98ae713ca0fa9e"
       },
       {
         "age_days": 3,
-        "change": -0.013372484589590264,
-        "compare_period": "2026-09-02",
+        "change": -0.001801008890765305,
+        "compare_period": "2026-09-04",
         "dimension": "Finansiell stress",
         "error": null,
         "first_collection": false,
@@ -243457,27 +243457,27 @@
         "id": "euro_stress",
         "label": "Euroområdet · NEW CISS",
         "lag": 28,
-        "last_attempt_status": "FAILED",
+        "last_attempt_status": "OK",
         "latest": {
-          "period": "2026-09-30",
-          "value": 0.013405993758011133
+          "period": "2026-10-02",
+          "value": 0.024042427481101185
         },
         "level": "Högre index betyder mer finansiell stress",
         "level_text": "Högre index betyder mer finansiell stress",
         "max_age_days": 7,
-        "new_observations": 0,
+        "new_observations": 2,
         "note": "ECB:s nya CISS-metod. Nivån är inte en sannolikhet. Serien blandas inte med den äldre CISS-serien.",
         "provider": "Europeiska centralbanken",
-        "revised_observations": 0,
+        "revised_observations": 13,
         "source_url": "https://data.ecb.europa.eu/data/datasets/CISS",
-        "status": "STALE",
+        "status": "CURRENT",
         "unit": "index 0–1",
-        "verified_at": "2026-10-02T16:48:44.047300Z",
-        "vintage_id": "6920b2bbd858822c7f06b4107678f3a1b2241b94d127e3208b53c3bcf935da98"
+        "verified_at": "2026-10-05T22:01:59.438302Z",
+        "vintage_id": "cb89e91809abc2c3b1b8edad8e6ceeb5e44a42f8e65bfbb0ea52d4ec7c96143f"
       },
       {
         "above": "Tryck över historiskt genomsnitt",
-        "age_days": 33,
+        "age_days": 35,
         "below": "Tryck under historiskt genomsnitt",
         "change": 0.1200000000000001,
         "compare_period": "2026-07",
@@ -243502,11 +243502,11 @@
         "source_url": "https://www.newyorkfed.org/research/policy/gscpi",
         "status": "CURRENT",
         "unit": "standardavvikelser från genomsnittet",
-        "verified_at": "2026-10-03T10:34:37.915640Z",
+        "verified_at": "2026-10-05T22:01:59.757079Z",
         "vintage_id": "723e8dc81728176dea10e7d685478bfe888516ec68d1d2cc1b77d6fea8177c55"
       }
     ],
-    "generated_at": "2026-10-03T10:35:16.974676Z",
+    "generated_at": "2026-10-05T22:03:03.301893Z",
     "mode": "DESCRIPTIVE_LATEST_VINTAGE",
     "version": "context@1.0.1"
   },
@@ -243660,20 +243660,20 @@
       "failed_fetches": 1,
       "observation_vintages": 20226,
       "raw_artifacts": 39,
-      "successful_fetches": 1234,
-      "unchanged_fetches": 1213
+      "successful_fetches": 1253,
+      "unchanged_fetches": 1232
     },
-    "data_verified_at": "2026-10-03T10:33:40.921104Z",
+    "data_verified_at": "2026-10-05T22:01:23.782403Z",
     "freshness_policy": "Snapshot expires after 96 hours, including weekends; source periods are separate.",
-    "generated_at": "2026-10-03T10:35:16.974676Z",
+    "generated_at": "2026-10-05T22:03:03.301893Z",
     "mode": "STATIC_SNAPSHOT",
     "notice": "Analysstöd; inte individuell finansiell rådgivning.",
     "public_data": "derived_only",
     "schema_version": "2.2.0",
     "signal_engine_version": "2.0.0",
-    "snapshot_sha256": "df53e1937655c739d5cd7e1f4383cf060d3c5713cf425cb397c492283be922ee",
+    "snapshot_sha256": "908de6d2abfa128e9ac2f9a683ae37b851c4bc4d09676a768f3a750d42175cf0",
     "tda_quality_status": null,
-    "valid_until": "2026-10-07T10:35:16.974676Z"
+    "valid_until": "2026-10-09T22:03:03.301893Z"
   },
   "policy": {
     "id": "illustrative_standard",
@@ -428036,8 +428036,8 @@
   },
   "structure_research": {
     "affects_synthesis": false,
-    "data_age_days": 33,
-    "generated_at": "2026-10-03T10:35:16.974676Z",
+    "data_age_days": 35,
+    "generated_at": "2026-10-05T22:03:03.301893Z",
     "last_attempt_status": "OK",
     "latest": {
       "affects_synthesis": false,
