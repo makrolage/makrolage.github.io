@@ -1,20 +1,20 @@
 {
   "counts": {
     "failed_fetches": 1,
-    "observation_vintages": 20607,
-    "raw_artifacts": 40,
-    "successful_fetches": 1310,
-    "unchanged_fetches": 1288
+    "observation_vintages": 26322,
+    "raw_artifacts": 55,
+    "successful_fetches": 1329,
+    "unchanged_fetches": 1292
   },
-  "data_verified_at": "2026-10-07T17:56:26.672815Z",
+  "data_verified_at": "2026-10-07T20:38:15.869291Z",
   "freshness_policy": "Snapshot expires after 96 hours, including weekends; source periods are separate.",
-  "generated_at": "2026-10-07T17:57:51.525075Z",
+  "generated_at": "2026-10-07T20:40:04.179116Z",
   "mode": "STATIC_SNAPSHOT",
   "notice": "Analysstöd; inte individuell finansiell rådgivning.",
   "public_data": "derived_only",
   "schema_version": "2.2.0",
   "signal_engine_version": "2.0.0",
-  "snapshot_sha256": "7a83b10fd34c531fb8bf546fb18cbf68d59ca7d42f8fb10e3b15ac1804f50319",
+  "snapshot_sha256": "d217182c5990858a7fbad7dbfda9a5fd39792812f35d60cb167d74735a155b2e",
   "tda_quality_status": null,
-  "valid_until": "2026-10-11T17:57:51.525075Z"
+  "valid_until": "2026-10-11T20:40:04.179116Z"
 }

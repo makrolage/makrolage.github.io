@@ -29,7 +29,7 @@
       "source_url": "https://www.statistikdatabasen.scb.se/pxweb/sv/ssd/START__NR__NR9999__NR9999A/NR9999ENS2010BNPIndN/",
       "status": "CURRENT",
       "unit": "% mot föregående månad",
-      "verified_at": "2026-10-07T17:56:48.982126Z",
+      "verified_at": "2026-10-07T20:38:42.680441Z",
       "vintage_id": "4fbac484ae66c7a5d694c0604be59ee3cc2f42eb4d59b77993fc2b3a029b18a6"
     },
     {
@@ -59,7 +59,7 @@
       "source_url": "https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/ads",
       "status": "CURRENT",
       "unit": "index, genomsnitt 0",
-      "verified_at": "2026-10-07T17:56:50.470509Z",
+      "verified_at": "2026-10-07T20:38:44.397581Z",
       "vintage_id": "ce197d89fe471217c72243b8d86e92bb2341d51378b7b4b1a65101cf90f9125e"
     },
     {
@@ -75,21 +75,21 @@
       "id": "usa_conditions",
       "label": "USA · NFCI",
       "lag": 4,
-      "last_attempt_status": "OK",
+      "last_attempt_status": "UNCHANGED",
       "latest": {
         "period": "2026-10-02",
         "value": -0.494
       },
       "level": "Lättare än genomsnittet",
       "max_age_days": 14,
-      "new_observations": 2,
+      "new_observations": 0,
       "note": "Högre värde betyder stramare finansiering. Förändring jämförs med fyra veckor tidigare i samma vintage.",
       "provider": "Federal Reserve Bank of Chicago",
-      "revised_observations": 5505,
+      "revised_observations": 0,
       "source_url": "https://www.chicagofed.org/research/data/nfci/current-data",
       "status": "CURRENT",
       "unit": "index, genomsnitt 0",
-      "verified_at": "2026-10-07T17:56:51.335456Z",
+      "verified_at": "2026-10-07T20:38:46.995863Z",
       "vintage_id": "a4addfa7fd319812229a8a9ecf0ca7a961ef1b841bb5658debc1aa313f908fd2"
     },
     {
@@ -105,21 +105,21 @@
       "id": "usa_adjusted_conditions",
       "label": "USA · ANFCI",
       "lag": 4,
-      "last_attempt_status": "OK",
+      "last_attempt_status": "UNCHANGED",
       "latest": {
         "period": "2026-10-02",
         "value": -0.504
       },
       "level": "Lättare än väntat givet ekonomin",
       "max_age_days": 14,
-      "new_observations": 2,
+      "new_observations": 0,
       "note": "Justerat för ekonomiska förhållanden. Alternativ till NFCI, inte en oberoende röst i en sammanvägning.",
       "provider": "Federal Reserve Bank of Chicago",
-      "revised_observations": 5505,
+      "revised_observations": 0,
       "source_url": "https://www.chicagofed.org/research/data/nfci/current-data",
       "status": "CURRENT",
       "unit": "justerat index",
-      "verified_at": "2026-10-07T17:56:51.335456Z",
+      "verified_at": "2026-10-07T20:38:46.995863Z",
       "vintage_id": "a4addfa7fd319812229a8a9ecf0ca7a961ef1b841bb5658debc1aa313f908fd2"
     },
     {
@@ -151,7 +151,7 @@
       "source_url": "https://www.scb.se/PR0101",
       "status": "CURRENT",
       "unit": "% mot samma månad föregående år",
-      "verified_at": "2026-10-07T17:56:54.070342Z",
+      "verified_at": "2026-10-07T20:38:49.119371Z",
       "vintage_id": "de2d5ba86adf0cf046b8f205d0621202480880b91761c29a63179e6cff5eff54"
     },
     {
@@ -166,7 +166,7 @@
       "id": "sweden_yield",
       "label": "Sverige · tioårsränta",
       "lag": 28,
-      "last_attempt_status": "OK",
+      "last_attempt_status": "UNCHANGED",
       "latest": {
         "period": "2026-10-06",
         "value": 3.175
@@ -174,14 +174,14 @@
       "level": "Statsobligationsränta med tio års löptid",
       "level_text": "Statsobligationsränta med tio års löptid",
       "max_age_days": 7,
-      "new_observations": 1,
+      "new_observations": 0,
       "note": "Visar räntenivå och egen beräkning av förändringen, inte obligationsavkastning. En högre ränta har flera möjliga orsaker.",
       "provider": "Sveriges riksbank (underliggande räntedata: Refinitiv)",
       "revised_observations": 0,
       "source_url": "https://www.riksbank.se/sv/statistik/rantor-och-valutakurser/",
       "status": "CURRENT",
       "unit": "%",
-      "verified_at": "2026-10-07T17:56:55.690335Z",
+      "verified_at": "2026-10-07T20:38:50.052446Z",
       "vintage_id": "936c2041fe673b395931fc9baa60f2f8b9d917687438c4949154a4b0dd1deafe"
     },
     {
@@ -196,7 +196,7 @@
       "id": "sweden_fx",
       "label": "Sverige · EUR/SEK",
       "lag": 28,
-      "last_attempt_status": "OK",
+      "last_attempt_status": "UNCHANGED",
       "latest": {
         "period": "2026-10-07",
         "value": 11.224
@@ -204,14 +204,14 @@
       "level": "Högre kurs betyder svagare krona mot euron",
       "level_text": "Högre kurs betyder svagare krona mot euron",
       "max_age_days": 7,
-      "new_observations": 1,
+      "new_observations": 0,
       "note": "Indikativ valutakurs, inte transaktionskurs. Förändringen är Makroläges egen beräkning. Kronans rörelse har olika betydelse för olika sektorer.",
       "provider": "Sveriges riksbank",
       "revised_observations": 0,
       "source_url": "https://www.riksbank.se/sv/statistik/rantor-och-valutakurser/",
       "status": "CURRENT",
       "unit": "SEK per EUR",
-      "verified_at": "2026-10-07T17:56:57.144784Z",
+      "verified_at": "2026-10-07T20:38:50.918479Z",
       "vintage_id": "59ef3d5c7c1d5604a6fecf50e5821d56d15f3ee99d491676cce56b00e2eaf928"
     },
     {
@@ -225,7 +225,7 @@
       "id": "euro_stress",
       "label": "Euroområdet · NEW CISS",
       "lag": 28,
-      "last_attempt_status": "OK",
+      "last_attempt_status": "UNCHANGED",
       "latest": {
         "period": "2026-10-06",
         "value": 0.016139981504064156
@@ -233,14 +233,14 @@
       "level": "Högre index betyder mer finansiell stress",
       "level_text": "Högre index betyder mer finansiell stress",
       "max_age_days": 7,
-      "new_observations": 1,
+      "new_observations": 0,
       "note": "ECB:s nya CISS-metod. Nivån är inte en sannolikhet. Serien blandas inte med den äldre CISS-serien.",
       "provider": "Europeiska centralbanken",
-      "revised_observations": 14,
+      "revised_observations": 0,
       "source_url": "https://data.ecb.europa.eu/data/datasets/CISS",
       "status": "CURRENT",
       "unit": "index 0–1",
-      "verified_at": "2026-10-07T17:57:00.192221Z",
+      "verified_at": "2026-10-07T20:38:55.172004Z",
       "vintage_id": "c3c4c5cf1ab7c85a2963b692d18ddc7e943e50045722d8d913a7b084ae6969bd"
     },
     {
@@ -270,11 +270,11 @@
       "source_url": "https://www.newyorkfed.org/research/policy/gscpi",
       "status": "CURRENT",
       "unit": "standardavvikelser från genomsnittet",
-      "verified_at": "2026-10-07T17:57:00.887062Z",
+      "verified_at": "2026-10-07T20:38:55.765381Z",
       "vintage_id": "98aad77bbc4cedfe4c1c700531324b03f2c677d793e2d5e5fddeae92f61009ae"
     }
   ],
-  "generated_at": "2026-10-07T17:57:51.525075Z",
+  "generated_at": "2026-10-07T20:40:04.179116Z",
   "mode": "DESCRIPTIVE_LATEST_VINTAGE",
   "version": "context@1.0.1"
 }

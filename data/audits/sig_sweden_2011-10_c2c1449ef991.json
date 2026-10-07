@@ -7,7 +7,7 @@
     {
       "contribution": 0.003307,
       "effective_weight": 0.08,
-      "id": 12729,
+      "id": 12745,
       "indicator_score": 0.041332,
       "label": "Byggverksamhet",
       "original_weight": 0.08,
@@ -21,7 +21,7 @@
     {
       "contribution": -0.025475,
       "effective_weight": 0.08,
-      "id": 12728,
+      "id": 12744,
       "indicator_score": -0.318438,
       "label": "Tillverkningsindustri",
       "original_weight": 0.08,
@@ -35,7 +35,7 @@
     {
       "contribution": -0.050986,
       "effective_weight": 0.08,
-      "id": 12731,
+      "id": 12747,
       "indicator_score": -0.63733,
       "label": "Tjänstesektorn",
       "original_weight": 0.08,
@@ -49,7 +49,7 @@
     {
       "contribution": -0.085353,
       "effective_weight": 0.08,
-      "id": 12732,
+      "id": 12748,
       "indicator_score": -1.066918,
       "label": "Hushåll",
       "original_weight": 0.08,
@@ -63,7 +63,7 @@
     {
       "contribution": -0.113216,
       "effective_weight": 0.08,
-      "id": 12730,
+      "id": 12746,
       "indicator_score": -1.415203,
       "label": "Handel",
       "original_weight": 0.08,
@@ -77,7 +77,7 @@
     {
       "contribution": -0.426799,
       "effective_weight": 0.6,
-      "id": 12727,
+      "id": 12743,
       "indicator_score": -0.711331,
       "label": "Barometerindikatorn",
       "original_weight": 0.6,

@@ -1,202 +1,202 @@
 [
   {
-    "alert_id": "alert_fffbc5133bb4",
-    "created_at": "2026-10-07T17:56:31.371128Z",
-    "domain_id": "global",
-    "event_type": "SIGNAL_UNAVAILABLE",
-    "experimental": 0,
-    "level": "CRITICAL",
-    "message": "Global: UNAVAILABLE. Global kan inte publiceras eftersom kritisk data saknas.",
-    "run_id": "sig_global_1995-05_f011be6cf5f3"
-  },
-  {
-    "alert_id": "alert_ff815717693f",
-    "created_at": "2026-10-07T17:56:31.371128Z",
-    "domain_id": "global",
-    "event_type": "SIGNAL_UNAVAILABLE",
-    "experimental": 0,
-    "level": "CRITICAL",
-    "message": "Global: UNAVAILABLE. Global kan inte publiceras eftersom kritisk data saknas.",
-    "run_id": "sig_global_1995-09_02c6ad106234"
-  },
-  {
-    "alert_id": "alert_fbf85fafd868",
-    "created_at": "2026-10-07T17:56:31.371128Z",
-    "domain_id": "synthesis",
-    "event_type": "QUALITY_DEGRADED",
-    "experimental": 0,
-    "level": "WARNING",
-    "message": "Synthesis: NEUTRAL. Omnormaliserad syntes; föråldrad eller bortfallen domän",
-    "run_id": "sig_synthesis_1998-04_70b559a8ff17"
-  },
-  {
-    "alert_id": "alert_fbd3f982a890",
-    "created_at": "2026-10-07T17:56:31.371128Z",
-    "domain_id": "global",
-    "event_type": "SIGNAL_UNAVAILABLE",
-    "experimental": 0,
-    "level": "CRITICAL",
-    "message": "Global: UNAVAILABLE. Global kan inte publiceras eftersom kritisk data saknas.",
-    "run_id": "sig_global_1996-01_37204631f7a7"
-  },
-  {
-    "alert_id": "alert_f7d64968e7cd",
-    "created_at": "2026-10-07T17:56:31.371128Z",
-    "domain_id": "synthesis",
-    "event_type": "SIGNAL_UNAVAILABLE",
-    "experimental": 0,
-    "level": "CRITICAL",
-    "message": "Synthesis: UNAVAILABLE. Kritisk domän saknas: sweden",
-    "run_id": "sig_synthesis_1998-12_d2a10c1d8fa5"
-  },
-  {
-    "alert_id": "alert_f3cc28065dad",
-    "created_at": "2026-10-07T17:56:31.371128Z",
-    "domain_id": "synthesis",
-    "event_type": "STATE_CHANGED",
-    "experimental": 0,
-    "level": "INFO",
-    "message": "Synthesis: DEFENSIVE. Viktad syntes av tre kontinuerliga domänscore",
-    "run_id": "sig_synthesis_2022-08_2cf96dced812"
-  },
-  {
-    "alert_id": "alert_f38cd5005be2",
-    "created_at": "2026-10-07T17:56:31.371128Z",
-    "domain_id": "global",
-    "event_type": "STATE_CHANGED",
-    "experimental": 0,
-    "level": "INFO",
-    "message": "Global: RISK_ON. Kompositscore 0.71; tremånadersmomentum stiger. Bredden är 93%.",
-    "run_id": "sig_global_2009-10_7cee3ec7bfa1"
-  },
-  {
-    "alert_id": "alert_f206d2ab0a9d",
-    "created_at": "2026-10-07T17:56:31.371128Z",
-    "domain_id": "synthesis",
-    "event_type": "SIGNAL_UNAVAILABLE",
-    "experimental": 0,
-    "level": "CRITICAL",
-    "message": "Synthesis: UNAVAILABLE. Kritisk domän saknas: sweden",
-    "run_id": "sig_synthesis_1998-08_88e312f78355"
-  },
-  {
-    "alert_id": "alert_f14df086f7b4",
-    "created_at": "2026-10-07T17:56:31.371128Z",
-    "domain_id": "synthesis",
-    "event_type": "STATE_CHANGED",
-    "experimental": 0,
-    "level": "INFO",
-    "message": "Synthesis: DEFENSIVE. Viktad syntes av tre kontinuerliga domänscore",
-    "run_id": "sig_synthesis_2009-04_96ce9b880091"
-  },
-  {
-    "alert_id": "alert_f0f133944743",
-    "created_at": "2026-10-07T17:56:31.371128Z",
-    "domain_id": "synthesis",
-    "event_type": "STATE_CHANGED",
-    "experimental": 0,
-    "level": "INFO",
-    "message": "Synthesis: DEFENSIVE. Viktad syntes av tre kontinuerliga domänscore",
-    "run_id": "sig_synthesis_2008-06_352923f2d58c"
-  },
-  {
-    "alert_id": "alert_f08df7d029d4",
-    "created_at": "2026-10-07T17:56:31.371128Z",
-    "domain_id": "synthesis",
-    "event_type": "STATE_CHANGED",
-    "experimental": 0,
-    "level": "INFO",
-    "message": "Synthesis: RISK_ON. Viktad syntes av tre kontinuerliga domänscore",
-    "run_id": "sig_synthesis_2010-01_b043fd782af5"
-  },
-  {
-    "alert_id": "alert_f0681a8efc85",
-    "created_at": "2026-10-07T17:56:31.371128Z",
-    "domain_id": "synthesis",
-    "event_type": "SIGNAL_UNAVAILABLE",
-    "experimental": 0,
-    "level": "CRITICAL",
-    "message": "Synthesis: UNAVAILABLE. Kritisk domän saknas: sweden",
-    "run_id": "sig_synthesis_1998-09_94ec5bd14e14"
-  },
-  {
-    "alert_id": "alert_ef53c70e1afb",
-    "created_at": "2026-10-07T17:56:31.371128Z",
-    "domain_id": "synthesis",
-    "event_type": "QUALITY_DEGRADED",
-    "experimental": 0,
-    "level": "WARNING",
-    "message": "Synthesis: NEUTRAL. Omnormaliserad syntes; föråldrad eller bortfallen domän",
-    "run_id": "sig_synthesis_1998-05_d14e2b01ae21"
-  },
-  {
-    "alert_id": "alert_eecb120749fb",
-    "created_at": "2026-10-07T17:56:31.371128Z",
+    "alert_id": "alert_fff06b954ebb",
+    "created_at": "2026-10-07T20:38:38.700998Z",
     "domain_id": "synthesis",
     "event_type": "STATE_CHANGED",
     "experimental": 0,
     "level": "INFO",
     "message": "Synthesis: NEUTRAL. Viktad syntes av tre kontinuerliga domänscore",
-    "run_id": "sig_synthesis_2020-11_038fddcb6b39"
+    "run_id": "sig_synthesis_2017-04_08b1a48509d0"
   },
   {
-    "alert_id": "alert_ee79e164668e",
-    "created_at": "2026-10-07T17:56:31.371128Z",
+    "alert_id": "alert_fee879548651",
+    "created_at": "2026-10-07T20:38:38.700998Z",
     "domain_id": "synthesis",
     "event_type": "STATE_CHANGED",
     "experimental": 0,
     "level": "INFO",
     "message": "Synthesis: NEUTRAL. Viktad syntes av tre kontinuerliga domänscore",
-    "run_id": "sig_synthesis_2011-12_4f22983299df"
+    "run_id": "sig_synthesis_2003-07_ec850130b28e"
   },
   {
-    "alert_id": "alert_ed9a42076daf",
-    "created_at": "2026-10-07T17:56:31.371128Z",
-    "domain_id": "synthesis",
+    "alert_id": "alert_fe91d86c0967",
+    "created_at": "2026-10-07T20:38:38.700998Z",
+    "domain_id": "global",
     "event_type": "SIGNAL_UNAVAILABLE",
     "experimental": 0,
     "level": "CRITICAL",
-    "message": "Synthesis: UNAVAILABLE. Kritisk domän saknas: sweden",
-    "run_id": "sig_synthesis_1999-09_fe759c417abe"
+    "message": "Global: UNAVAILABLE. Global kan inte publiceras eftersom kritisk data saknas.",
+    "run_id": "sig_global_1997-11_edd31f250328"
   },
   {
-    "alert_id": "alert_ecd543328176",
-    "created_at": "2026-10-07T17:56:31.371128Z",
-    "domain_id": "synthesis",
-    "event_type": "STATE_CHANGED",
-    "experimental": 0,
-    "level": "INFO",
-    "message": "Synthesis: RISK_ON. Viktad syntes av tre kontinuerliga domänscore",
-    "run_id": "sig_synthesis_1999-11_878124380c8d"
-  },
-  {
-    "alert_id": "alert_ec57e628efbb",
-    "created_at": "2026-10-07T17:56:31.371128Z",
-    "domain_id": "synthesis",
-    "event_type": "SIGNAL_UNAVAILABLE",
-    "experimental": 0,
-    "level": "CRITICAL",
-    "message": "Synthesis: UNAVAILABLE. Kritisk domän saknas: sweden",
-    "run_id": "sig_synthesis_1998-04_73cf1e50975e"
-  },
-  {
-    "alert_id": "alert_ec090f0d7da2",
-    "created_at": "2026-10-07T17:56:31.371128Z",
+    "alert_id": "alert_fe3c71394d0d",
+    "created_at": "2026-10-07T20:38:38.700998Z",
     "domain_id": "global",
     "event_type": "STATE_CHANGED",
     "experimental": 0,
     "level": "INFO",
-    "message": "Global: NEUTRAL. Kompositscore 0.31; tremånadersmomentum faller. Bredden är 79%.",
-    "run_id": "sig_global_2004-05_d46371ec30b4"
+    "message": "Global: NEUTRAL. Kompositscore 0.40; tremånadersmomentum faller. Bredden är 86%.",
+    "run_id": "sig_global_2021-09_e8d0bbe089d6"
   },
   {
-    "alert_id": "alert_ebdfa72d9f54",
-    "created_at": "2026-10-07T17:56:31.371128Z",
+    "alert_id": "alert_fd11db9293de",
+    "created_at": "2026-10-07T20:38:38.700998Z",
+    "domain_id": "synthesis",
+    "event_type": "SIGNAL_UNAVAILABLE",
+    "experimental": 0,
+    "level": "CRITICAL",
+    "message": "Synthesis: UNAVAILABLE. Kritisk domän saknas: sweden",
+    "run_id": "sig_synthesis_1999-07_3ad525b1d89f"
+  },
+  {
+    "alert_id": "alert_fce2144dfc2a",
+    "created_at": "2026-10-07T20:38:38.700998Z",
+    "domain_id": "global",
+    "event_type": "SIGNAL_UNAVAILABLE",
+    "experimental": 0,
+    "level": "CRITICAL",
+    "message": "Global: UNAVAILABLE. Global kan inte publiceras eftersom kritisk data saknas.",
+    "run_id": "sig_global_1995-03_313cc50befec"
+  },
+  {
+    "alert_id": "alert_fcd64d45535f",
+    "created_at": "2026-10-07T20:38:38.700998Z",
+    "domain_id": "synthesis",
+    "event_type": "SIGNAL_UNAVAILABLE",
+    "experimental": 0,
+    "level": "CRITICAL",
+    "message": "Synthesis: UNAVAILABLE. Kritisk domän saknas: sweden",
+    "run_id": "sig_synthesis_1998-12_a50b20f39255"
+  },
+  {
+    "alert_id": "alert_fbf35b9e8bb4",
+    "created_at": "2026-10-07T20:38:38.700998Z",
+    "domain_id": "global",
+    "event_type": "STATE_CHANGED",
+    "experimental": 0,
+    "level": "INFO",
+    "message": "Global: NEUTRAL. Kompositscore 0.30; tremånadersmomentum faller. Bredden är 79%.",
+    "run_id": "sig_global_2004-05_7ebe72bc4617"
+  },
+  {
+    "alert_id": "alert_f9bbe0aba9d3",
+    "created_at": "2026-10-07T20:38:38.700998Z",
+    "domain_id": "synthesis",
+    "event_type": "SIGNAL_UNAVAILABLE",
+    "experimental": 0,
+    "level": "CRITICAL",
+    "message": "Synthesis: UNAVAILABLE. Kritisk domän saknas: sweden",
+    "run_id": "sig_synthesis_1999-04_007caa3351eb"
+  },
+  {
+    "alert_id": "alert_f9049d780935",
+    "created_at": "2026-10-07T20:38:38.700998Z",
+    "domain_id": "global",
+    "event_type": "SIGNAL_UNAVAILABLE",
+    "experimental": 0,
+    "level": "CRITICAL",
+    "message": "Global: UNAVAILABLE. Global kan inte publiceras eftersom kritisk data saknas.",
+    "run_id": "sig_global_1995-08_b0d2ebdf6ef0"
+  },
+  {
+    "alert_id": "alert_f8f687e0d191",
+    "created_at": "2026-10-07T20:38:38.700998Z",
+    "domain_id": "synthesis",
+    "event_type": "STATE_CHANGED",
+    "experimental": 0,
+    "level": "INFO",
+    "message": "Synthesis: RISK_OFF. Viktad syntes av tre kontinuerliga domänscore",
+    "run_id": "sig_synthesis_2020-04_f84afbf44634"
+  },
+  {
+    "alert_id": "alert_f7fe1e9f61c2",
+    "created_at": "2026-10-07T20:38:38.700998Z",
+    "domain_id": "global",
+    "event_type": "STATE_CHANGED",
+    "experimental": 0,
+    "level": "INFO",
+    "message": "Global: RISK_ON. Kompositscore 0.65; tremånadersmomentum stiger. Bredden är 71%.",
+    "run_id": "sig_global_2005-12_7c23fa34331e"
+  },
+  {
+    "alert_id": "alert_f6b3b14d3031",
+    "created_at": "2026-10-07T20:38:38.700998Z",
+    "domain_id": "synthesis",
+    "event_type": "SIGNAL_UNAVAILABLE",
+    "experimental": 0,
+    "level": "CRITICAL",
+    "message": "Synthesis: UNAVAILABLE. Kritisk domän saknas: sweden",
+    "run_id": "sig_synthesis_1998-06_8485e26e55db"
+  },
+  {
+    "alert_id": "alert_f57771e4d748",
+    "created_at": "2026-10-07T20:38:38.700998Z",
     "domain_id": "synthesis",
     "event_type": "STATE_CHANGED",
     "experimental": 0,
     "level": "INFO",
     "message": "Synthesis: NEUTRAL. Viktad syntes av tre kontinuerliga domänscore",
-    "run_id": "sig_synthesis_2009-07_e18bf0dd84bc"
+    "run_id": "sig_synthesis_2006-06_c8a27e2a2709"
+  },
+  {
+    "alert_id": "alert_f30b6062e9a1",
+    "created_at": "2026-10-07T20:38:38.700998Z",
+    "domain_id": "synthesis",
+    "event_type": "STATE_CHANGED",
+    "experimental": 0,
+    "level": "INFO",
+    "message": "Synthesis: NEUTRAL. Viktad syntes av tre kontinuerliga domänscore",
+    "run_id": "sig_synthesis_2000-07_df33c65f203e"
+  },
+  {
+    "alert_id": "alert_f21ed8019dfc",
+    "created_at": "2026-10-07T20:38:38.700998Z",
+    "domain_id": "global",
+    "event_type": "STATE_CHANGED",
+    "experimental": 0,
+    "level": "INFO",
+    "message": "Global: NEUTRAL. Kompositscore 0.15; tremånadersmomentum faller. Bredden är 57%.",
+    "run_id": "sig_global_2000-09_a24fa47af87d"
+  },
+  {
+    "alert_id": "alert_f159e2600c47",
+    "created_at": "2026-10-07T20:38:38.700998Z",
+    "domain_id": "global",
+    "event_type": "STATE_CHANGED",
+    "experimental": 0,
+    "level": "INFO",
+    "message": "Global: NEUTRAL. Kompositscore -0.07; tremånadersmomentum stiger. Bredden är 43%.",
+    "run_id": "sig_global_2009-06_c10c67987b11"
+  },
+  {
+    "alert_id": "alert_ef93bdd7fe88",
+    "created_at": "2026-10-07T20:38:38.700998Z",
+    "domain_id": "synthesis",
+    "event_type": "SIGNAL_UNAVAILABLE",
+    "experimental": 0,
+    "level": "CRITICAL",
+    "message": "Synthesis: UNAVAILABLE. Kritisk domän saknas: sweden",
+    "run_id": "sig_synthesis_1999-09_7f0626038ecd"
+  },
+  {
+    "alert_id": "alert_ee7b567f6303",
+    "created_at": "2026-10-07T20:38:38.700998Z",
+    "domain_id": "synthesis",
+    "event_type": "STATE_CHANGED",
+    "experimental": 0,
+    "level": "INFO",
+    "message": "Synthesis: DEFENSIVE. Viktad syntes av tre kontinuerliga domänscore",
+    "run_id": "sig_synthesis_2001-01_56f953726d98"
+  },
+  {
+    "alert_id": "alert_ebe08ad4f8b6",
+    "created_at": "2026-10-07T20:38:38.700998Z",
+    "domain_id": "synthesis",
+    "event_type": "STATE_CHANGED",
+    "experimental": 0,
+    "level": "INFO",
+    "message": "Synthesis: NEUTRAL. Viktad syntes av tre kontinuerliga domänscore",
+    "run_id": "sig_synthesis_2021-12_2c7f0a70f553"
   }
 ]
