@@ -1,5 +1,16 @@
 [
   {
+    "domain_id": "global",
+    "issue_id": "revision_summary_20af0f38b320242b",
+    "message": "oecd_cli_global_usa: 376 observationsperioder med ändrat värde.",
+    "observation_count": 376,
+    "opened_at": "2026-10-07T17:56:31.371128Z",
+    "resolved_at": null,
+    "severity": "INFO",
+    "source_id": "oecd_cli_global_usa",
+    "status": "OPEN"
+  },
+  {
     "domain_id": "sweden",
     "issue_id": "revision_summary_ea606dd09cdac544",
     "message": "ki_hushall: 64 observationsperioder med ändrat värde.",
@@ -211,8 +222,8 @@
   {
     "domain_id": "global",
     "issue_id": "revision_summary_c80d870a810b16dd",
-    "message": "oecd_cli_global_usa: 375 observationsperioder med ändrat värde.",
-    "observation_count": 375,
+    "message": "oecd_cli_global_usa: 4 observationsperioder med ändrat värde.",
+    "observation_count": 4,
     "opened_at": "2026-09-11T19:02:46.678234Z",
     "resolved_at": null,
     "severity": "INFO",
