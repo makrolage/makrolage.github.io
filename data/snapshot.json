@@ -243541,11 +243541,11 @@
     "cards": [
       {
         "above": "BNP ökade under månaden",
-        "age_days": 69,
+        "age_days": 39,
         "below": "BNP minskade under månaden",
-        "change": -0.6000000000000001,
+        "change": 1.8,
         "change_unit": "procentenheter",
-        "compare_period": "2026-06",
+        "compare_period": "2026-07",
         "dimension": "Aktivitet",
         "error": null,
         "first_collection": false,
@@ -243553,26 +243553,26 @@
         "id": "sweden_gdp",
         "label": "Sverige · BNP-indikator",
         "lag": 1,
-        "last_attempt_status": "UNCHANGED",
+        "last_attempt_status": "OK",
         "latest": {
-          "period": "2026-07",
-          "value": -0.8
+          "period": "2026-08",
+          "value": 1.1
         },
-        "level": "BNP minskade under månaden",
+        "level": "BNP ökade under månaden",
         "max_age_days": 75,
-        "new_observations": 0,
+        "new_observations": 1,
         "note": "Säsongrensad volymförändring. Preliminära och reviderbara data. En månads rörelse fastställer inte konjunkturfasen.",
         "provider": "SCB",
-        "revised_observations": 0,
+        "revised_observations": 29,
         "source_url": "https://www.statistikdatabasen.scb.se/pxweb/sv/ssd/START__NR__NR9999__NR9999A/NR9999ENS2010BNPIndN/",
         "status": "CURRENT",
         "unit": "% mot föregående månad",
-        "verified_at": "2026-10-08T20:42:29.630348Z",
-        "vintage_id": "4fbac484ae66c7a5d694c0604be59ee3cc2f42eb4d59b77993fc2b3a029b18a6"
+        "verified_at": "2026-10-09T17:32:06.580471Z",
+        "vintage_id": "b18a7948b5dc0c98d8f3d6527a1021255d78279cd3a333719f827aeecd2970df"
       },
       {
         "above": "Aktivitet över historiskt genomsnitt",
-        "age_days": 5,
+        "age_days": 6,
         "below": "Aktivitet under historiskt genomsnitt",
         "change": 0.0505026354782768,
         "compare_period": "2026-09-05",
@@ -243597,12 +243597,12 @@
         "source_url": "https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/ads",
         "status": "CURRENT",
         "unit": "index, genomsnitt 0",
-        "verified_at": "2026-10-08T20:42:31.417408Z",
+        "verified_at": "2026-10-09T17:32:07.803239Z",
         "vintage_id": "d6474c50b51161178dd14fb3d08d3f004a2ff81c8486781678a3b0f58e1b1e92"
       },
       {
         "above": "Stramare än genomsnittet",
-        "age_days": 6,
+        "age_days": 7,
         "below": "Lättare än genomsnittet",
         "change": 0.051000000000000045,
         "compare_period": "2026-09-04",
@@ -243627,12 +243627,12 @@
         "source_url": "https://www.chicagofed.org/research/data/nfci/current-data",
         "status": "CURRENT",
         "unit": "index, genomsnitt 0",
-        "verified_at": "2026-10-08T20:42:31.795821Z",
+        "verified_at": "2026-10-09T17:32:08.114930Z",
         "vintage_id": "a4addfa7fd319812229a8a9ecf0ca7a961ef1b841bb5658debc1aa313f908fd2"
       },
       {
         "above": "Stramare än väntat givet ekonomin",
-        "age_days": 6,
+        "age_days": 7,
         "below": "Lättare än väntat givet ekonomin",
         "change": 0.05700000000000005,
         "compare_period": "2026-09-04",
@@ -243657,12 +243657,12 @@
         "source_url": "https://www.chicagofed.org/research/data/nfci/current-data",
         "status": "CURRENT",
         "unit": "justerat index",
-        "verified_at": "2026-10-08T20:42:31.795821Z",
+        "verified_at": "2026-10-09T17:32:08.114930Z",
         "vintage_id": "a4addfa7fd319812229a8a9ecf0ca7a961ef1b841bb5658debc1aa313f908fd2"
       },
       {
         "above": "Inflation över 2 procent",
-        "age_days": 38,
+        "age_days": 39,
         "below": "Inflation under 2 procent",
         "change": 0.0,
         "change_unit": "procentenheter",
@@ -243689,14 +243689,14 @@
         "source_url": "https://www.scb.se/PR0101",
         "status": "CURRENT",
         "unit": "% mot samma månad föregående år",
-        "verified_at": "2026-10-08T20:42:33.868608Z",
+        "verified_at": "2026-10-09T17:32:11.612030Z",
         "vintage_id": "de2d5ba86adf0cf046b8f205d0621202480880b91761c29a63179e6cff5eff54"
       },
       {
         "age_days": 1,
-        "change": 0.07699999999999996,
+        "change": 0.002000000000000224,
         "change_unit": "procentenheter",
-        "compare_period": "2026-09-09",
+        "compare_period": "2026-09-10",
         "dimension": "Ränta och valuta",
         "error": null,
         "first_collection": false,
@@ -243704,29 +243704,29 @@
         "id": "sweden_yield",
         "label": "Sverige · tioårsränta",
         "lag": 28,
-        "last_attempt_status": "UNCHANGED",
+        "last_attempt_status": "OK",
         "latest": {
-          "period": "2026-10-07",
-          "value": 3.227
+          "period": "2026-10-08",
+          "value": 3.229
         },
         "level": "Statsobligationsränta med tio års löptid",
         "level_text": "Statsobligationsränta med tio års löptid",
         "max_age_days": 7,
-        "new_observations": 0,
+        "new_observations": 1,
         "note": "Visar räntenivå och egen beräkning av förändringen, inte obligationsavkastning. En högre ränta har flera möjliga orsaker.",
         "provider": "Sveriges riksbank (underliggande räntedata: Refinitiv)",
         "revised_observations": 0,
         "source_url": "https://www.riksbank.se/sv/statistik/rantor-och-valutakurser/",
         "status": "CURRENT",
         "unit": "%",
-        "verified_at": "2026-10-08T20:42:35.159649Z",
-        "vintage_id": "df5078c1ac722c795069d4cc3b37dd20bae9d9153b1ea6704556cc599849dc03"
+        "verified_at": "2026-10-09T17:32:13.027531Z",
+        "vintage_id": "538d574ad087d010471c8ecc43f7e23fcf5a91887cd0239b655bd4cf836360ba"
       },
       {
         "age_days": 0,
-        "change": -0.005499999999999616,
+        "change": -0.06979999999999897,
         "change_unit": "SEK",
-        "compare_period": "2026-09-10",
+        "compare_period": "2026-09-11",
         "dimension": "Ränta och valuta",
         "error": null,
         "first_collection": false,
@@ -243734,28 +243734,28 @@
         "id": "sweden_fx",
         "label": "Sverige · EUR/SEK",
         "lag": 28,
-        "last_attempt_status": "UNCHANGED",
+        "last_attempt_status": "OK",
         "latest": {
-          "period": "2026-10-08",
-          "value": 11.194
+          "period": "2026-10-09",
+          "value": 11.1675
         },
         "level": "Högre kurs betyder svagare krona mot euron",
         "level_text": "Högre kurs betyder svagare krona mot euron",
         "max_age_days": 7,
-        "new_observations": 0,
+        "new_observations": 1,
         "note": "Indikativ valutakurs, inte transaktionskurs. Förändringen är Makroläges egen beräkning. Kronans rörelse har olika betydelse för olika sektorer.",
         "provider": "Sveriges riksbank",
         "revised_observations": 0,
         "source_url": "https://www.riksbank.se/sv/statistik/rantor-och-valutakurser/",
         "status": "CURRENT",
         "unit": "SEK per EUR",
-        "verified_at": "2026-10-08T20:42:36.230947Z",
-        "vintage_id": "ce6246ceb2693c4222d978f1a31ab6920a6d6f329bf0015ecd9c86eed938c31a"
+        "verified_at": "2026-10-09T17:32:14.110557Z",
+        "vintage_id": "ffe449daa5cb51f085cfe33766acf7b21e340d3680da32d5553907b98432d14b"
       },
       {
         "age_days": 1,
-        "change": -0.019172646706810726,
-        "compare_period": "2026-09-09",
+        "change": -0.018719179885887522,
+        "compare_period": "2026-09-10",
         "dimension": "Finansiell stress",
         "error": null,
         "first_collection": false,
@@ -243763,27 +243763,27 @@
         "id": "euro_stress",
         "label": "Euroområdet · NEW CISS",
         "lag": 28,
-        "last_attempt_status": "UNCHANGED",
+        "last_attempt_status": "OK",
         "latest": {
-          "period": "2026-10-07",
-          "value": 0.01679079881407085
+          "period": "2026-10-08",
+          "value": 0.016791219605616744
         },
         "level": "Högre index betyder mer finansiell stress",
         "level_text": "Högre index betyder mer finansiell stress",
         "max_age_days": 7,
-        "new_observations": 0,
+        "new_observations": 1,
         "note": "ECB:s nya CISS-metod. Nivån är inte en sannolikhet. Serien blandas inte med den äldre CISS-serien.",
         "provider": "Europeiska centralbanken",
-        "revised_observations": 0,
+        "revised_observations": 13,
         "source_url": "https://data.ecb.europa.eu/data/datasets/CISS",
         "status": "CURRENT",
         "unit": "index 0–1",
-        "verified_at": "2026-10-08T20:42:39.199314Z",
-        "vintage_id": "50526c1661711243173264c28dd9f3927ffa05d8fa2c74682aa1dfcaf5d1d7ed"
+        "verified_at": "2026-10-09T17:32:16.360888Z",
+        "vintage_id": "a07901e1a11d23812645d600cac4929814febd6a659c5a2ff626e3b32f2804fd"
       },
       {
         "above": "Tryck över historiskt genomsnitt",
-        "age_days": 8,
+        "age_days": 9,
         "below": "Tryck under historiskt genomsnitt",
         "change": 0.08000000000000007,
         "compare_period": "2026-08",
@@ -243808,11 +243808,11 @@
         "source_url": "https://www.newyorkfed.org/research/policy/gscpi",
         "status": "CURRENT",
         "unit": "standardavvikelser från genomsnittet",
-        "verified_at": "2026-10-08T20:42:39.527193Z",
+        "verified_at": "2026-10-09T17:32:16.799803Z",
         "vintage_id": "98aad77bbc4cedfe4c1c700531324b03f2c677d793e2d5e5fddeae92f61009ae"
       }
     ],
-    "generated_at": "2026-10-08T20:43:47.622404Z",
+    "generated_at": "2026-10-09T17:33:03.967865Z",
     "mode": "DESCRIPTIVE_LATEST_VINTAGE",
     "version": "context@1.0.1"
   },
@@ -243970,20 +243970,20 @@
       "failed_fetches": 1,
       "observation_vintages": 26322,
       "raw_artifacts": 55,
-      "successful_fetches": 1367,
-      "unchanged_fetches": 1330
+      "successful_fetches": 1386,
+      "unchanged_fetches": 1349
     },
-    "data_verified_at": "2026-10-08T20:42:08.950697Z",
+    "data_verified_at": "2026-10-09T17:31:41.055034Z",
     "freshness_policy": "Snapshot expires after 96 hours, including weekends; source periods are separate.",
-    "generated_at": "2026-10-08T20:43:47.622404Z",
+    "generated_at": "2026-10-09T17:33:03.967865Z",
     "mode": "STATIC_SNAPSHOT",
     "notice": "Analysstöd; inte individuell finansiell rådgivning.",
     "public_data": "derived_only",
     "schema_version": "2.2.0",
     "signal_engine_version": "2.0.0",
-    "snapshot_sha256": "70d634460e8de893b290ea2623381e790e2a4a25ef322df273a9d1f6cc801c6f",
+    "snapshot_sha256": "f5d0bb48c69288130dd1c6db570af359443243331df3ec31bb711ae5d532c528",
     "tda_quality_status": null,
-    "valid_until": "2026-10-12T20:43:47.622404Z"
+    "valid_until": "2026-10-13T17:33:03.967865Z"
   },
   "policy": {
     "id": "illustrative_standard",
@@ -428555,30 +428555,30 @@
   },
   "structure_research": {
     "affects_synthesis": false,
-    "data_age_days": 38,
-    "generated_at": "2026-10-08T20:43:47.622404Z",
+    "data_age_days": 39,
+    "generated_at": "2026-10-09T17:33:03.967865Z",
     "last_attempt_status": "OK",
     "latest": {
       "affects_synthesis": false,
       "changes": {
-        "effective_rank": 0.2772549644331548,
+        "effective_rank": 0.2772549644331477,
         "equal_weight_volatility": -0.0031436489986495786,
         "h1_count": -2,
         "h1_total_persistence": 0.058204054832458496,
         "h1_weighted_birth": -0.030229915149543096,
-        "mean_correlation": -0.0015172747141109222,
-        "pc1_share": 0.008077830416466814
+        "mean_correlation": -0.0015172747141108944,
+        "pc1_share": 0.008077830416466758
       },
       "contract_sha256": "4227f5deb7909ba480a921b3b757f3f963e5798d2e203681bcecfa0f12b2dc7d",
       "correlation_rms_change": 0.06024847455728388,
       "current": {
-        "effective_rank": 19.355792261004737,
+        "effective_rank": 19.35579226100473,
         "equal_weight_volatility": 0.1160907290212688,
         "h1_count": 15,
         "h1_total_persistence": 0.7031205892562866,
         "h1_weighted_birth": 1.0771640561283813,
         "mean_correlation": 0.137630434242843,
-        "pc1_share": 0.23534360389853062
+        "pc1_share": 0.23534360389853057
       },
       "h1_bottleneck": 0.051116108894348145,
       "input_end": "2026-08-31",
@@ -428596,12 +428596,12 @@
         "h1_count": 17,
         "h1_total_persistence": 0.6449165344238281,
         "h1_weighted_birth": 1.1073939712779244,
-        "mean_correlation": 0.1391477089569539,
+        "mean_correlation": 0.13914770895695389,
         "pc1_share": 0.2272657734820638
       },
       "previous_window_end": "2026-08-03",
       "quality_status": "RESEARCH",
-      "source_observed_at": "2026-10-01T17:46:30.579148Z",
+      "source_observed_at": "2026-10-09T13:25:29.890433Z",
       "source_sha256": "8f394fe34bea54d41b9aafed410425ee8f8e252ede3c71a7c1cd20bab83040de",
       "source_url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/Data_Library/det_49_ind_port.html",
       "stress_probability": null,

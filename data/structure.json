@@ -1,29 +1,29 @@
 {
   "affects_synthesis": false,
-  "data_age_days": 38,
-  "generated_at": "2026-10-08T20:43:47.622404Z",
+  "data_age_days": 39,
+  "generated_at": "2026-10-09T17:33:03.967865Z",
   "last_attempt_status": "OK",
   "latest": {
     "affects_synthesis": false,
     "changes": {
-      "effective_rank": 0.2772549644331548,
+      "effective_rank": 0.2772549644331477,
       "equal_weight_volatility": -0.0031436489986495786,
       "h1_count": -2,
       "h1_total_persistence": 0.058204054832458496,
       "h1_weighted_birth": -0.030229915149543096,
-      "mean_correlation": -0.0015172747141109222,
-      "pc1_share": 0.008077830416466814
+      "mean_correlation": -0.0015172747141108944,
+      "pc1_share": 0.008077830416466758
     },
     "contract_sha256": "4227f5deb7909ba480a921b3b757f3f963e5798d2e203681bcecfa0f12b2dc7d",
     "correlation_rms_change": 0.06024847455728388,
     "current": {
-      "effective_rank": 19.355792261004737,
+      "effective_rank": 19.35579226100473,
       "equal_weight_volatility": 0.1160907290212688,
       "h1_count": 15,
       "h1_total_persistence": 0.7031205892562866,
       "h1_weighted_birth": 1.0771640561283813,
       "mean_correlation": 0.137630434242843,
-      "pc1_share": 0.23534360389853062
+      "pc1_share": 0.23534360389853057
     },
     "h1_bottleneck": 0.051116108894348145,
     "input_end": "2026-08-31",
@@ -41,12 +41,12 @@
       "h1_count": 17,
       "h1_total_persistence": 0.6449165344238281,
       "h1_weighted_birth": 1.1073939712779244,
-      "mean_correlation": 0.1391477089569539,
+      "mean_correlation": 0.13914770895695389,
       "pc1_share": 0.2272657734820638
     },
     "previous_window_end": "2026-08-03",
     "quality_status": "RESEARCH",
-    "source_observed_at": "2026-10-01T17:46:30.579148Z",
+    "source_observed_at": "2026-10-09T13:25:29.890433Z",
     "source_sha256": "8f394fe34bea54d41b9aafed410425ee8f8e252ede3c71a7c1cd20bab83040de",
     "source_url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/Data_Library/det_49_ind_port.html",
     "stress_probability": null,
