@@ -1,6 +1,28 @@
 [
   {
     "domain_id": "global",
+    "issue_id": "revision_summary_cb34ba9d57d3e004",
+    "message": "oecd_cli_global_can: 360 observationsperioder med ändrat värde.",
+    "observation_count": 360,
+    "opened_at": "2026-10-12T20:24:47.929212Z",
+    "resolved_at": null,
+    "severity": "INFO",
+    "source_id": "oecd_cli_global_can",
+    "status": "OPEN"
+  },
+  {
+    "domain_id": "usa",
+    "issue_id": "revision_summary_07a6009382b74575",
+    "message": "oecd_bci_usa: 356 observationsperioder med ändrat värde.",
+    "observation_count": 356,
+    "opened_at": "2026-10-12T20:24:33.885332Z",
+    "resolved_at": null,
+    "severity": "INFO",
+    "source_id": "oecd_bci_usa",
+    "status": "OPEN"
+  },
+  {
+    "domain_id": "global",
     "issue_id": "revision_summary_086d17567f869969",
     "message": "oecd_cli_global_zaf: 368 observationsperioder med ändrat värde.",
     "observation_count": 368,
@@ -332,8 +354,8 @@
   {
     "domain_id": "global",
     "issue_id": "revision_summary_c4091ffc2632af34",
-    "message": "oecd_cli_global_can: 378 observationsperioder med ändrat värde.",
-    "observation_count": 378,
+    "message": "oecd_cli_global_can: 20 observationsperioder med ändrat värde.",
+    "observation_count": 20,
     "opened_at": "2026-09-11T19:02:47.493132Z",
     "resolved_at": null,
     "severity": "INFO",
@@ -365,8 +387,8 @@
   {
     "domain_id": "usa",
     "issue_id": "revision_summary_43154412eadf4c9f",
-    "message": "oecd_bci_usa: 378 observationsperioder med ändrat värde.",
-    "observation_count": 378,
+    "message": "oecd_bci_usa: 24 observationsperioder med ändrat värde.",
+    "observation_count": 24,
     "opened_at": "2026-09-11T19:02:41.461974Z",
     "resolved_at": null,
     "severity": "INFO",
