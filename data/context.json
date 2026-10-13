@@ -29,7 +29,7 @@
       "source_url": "https://www.statistikdatabasen.scb.se/pxweb/sv/ssd/START__NR__NR9999__NR9999A/NR9999ENS2010BNPIndN/",
       "status": "CURRENT",
       "unit": "% mot föregående månad",
-      "verified_at": "2026-10-13T18:28:11.345496Z",
+      "verified_at": "2026-10-13T20:41:53.920636Z",
       "vintage_id": "b18a7948b5dc0c98d8f3d6527a1021255d78279cd3a333719f827aeecd2970df"
     },
     {
@@ -59,7 +59,7 @@
       "source_url": "https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/ads",
       "status": "CURRENT",
       "unit": "index, genomsnitt 0",
-      "verified_at": "2026-10-13T18:28:13.153015Z",
+      "verified_at": "2026-10-13T20:41:55.976154Z",
       "vintage_id": "d6474c50b51161178dd14fb3d08d3f004a2ff81c8486781678a3b0f58e1b1e92"
     },
     {
@@ -89,7 +89,7 @@
       "source_url": "https://www.chicagofed.org/research/data/nfci/current-data",
       "status": "CURRENT",
       "unit": "index, genomsnitt 0",
-      "verified_at": "2026-10-13T18:28:13.846625Z",
+      "verified_at": "2026-10-13T20:41:56.651531Z",
       "vintage_id": "a4addfa7fd319812229a8a9ecf0ca7a961ef1b841bb5658debc1aa313f908fd2"
     },
     {
@@ -119,7 +119,7 @@
       "source_url": "https://www.chicagofed.org/research/data/nfci/current-data",
       "status": "CURRENT",
       "unit": "justerat index",
-      "verified_at": "2026-10-13T18:28:13.846625Z",
+      "verified_at": "2026-10-13T20:41:56.651531Z",
       "vintage_id": "a4addfa7fd319812229a8a9ecf0ca7a961ef1b841bb5658debc1aa313f908fd2"
     },
     {
@@ -151,7 +151,7 @@
       "source_url": "https://www.scb.se/PR0101",
       "status": "CURRENT",
       "unit": "% mot samma månad föregående år",
-      "verified_at": "2026-10-13T18:28:16.558630Z",
+      "verified_at": "2026-10-13T20:41:59.381447Z",
       "vintage_id": "de2d5ba86adf0cf046b8f205d0621202480880b91761c29a63179e6cff5eff54"
     },
     {
@@ -166,7 +166,7 @@
       "id": "sweden_yield",
       "label": "Sverige · tioårsränta",
       "lag": 28,
-      "last_attempt_status": "OK",
+      "last_attempt_status": "UNCHANGED",
       "latest": {
         "period": "2026-10-12",
         "value": 3.178
@@ -174,14 +174,14 @@
       "level": "Statsobligationsränta med tio års löptid",
       "level_text": "Statsobligationsränta med tio års löptid",
       "max_age_days": 7,
-      "new_observations": 1,
+      "new_observations": 0,
       "note": "Visar räntenivå och egen beräkning av förändringen, inte obligationsavkastning. En högre ränta har flera möjliga orsaker.",
       "provider": "Sveriges riksbank (underliggande räntedata: Refinitiv)",
       "revised_observations": 0,
       "source_url": "https://www.riksbank.se/sv/statistik/rantor-och-valutakurser/",
       "status": "CURRENT",
       "unit": "%",
-      "verified_at": "2026-10-13T18:28:18.141581Z",
+      "verified_at": "2026-10-13T20:42:01.136289Z",
       "vintage_id": "342076c8754f424d98f4d94143e86fd176a9d19a9ae0e3dddcaa015b76736e88"
     },
     {
@@ -196,7 +196,7 @@
       "id": "sweden_fx",
       "label": "Sverige · EUR/SEK",
       "lag": 28,
-      "last_attempt_status": "OK",
+      "last_attempt_status": "UNCHANGED",
       "latest": {
         "period": "2026-10-13",
         "value": 11.1698
@@ -204,14 +204,14 @@
       "level": "Högre kurs betyder svagare krona mot euron",
       "level_text": "Högre kurs betyder svagare krona mot euron",
       "max_age_days": 7,
-      "new_observations": 1,
+      "new_observations": 0,
       "note": "Indikativ valutakurs, inte transaktionskurs. Förändringen är Makroläges egen beräkning. Kronans rörelse har olika betydelse för olika sektorer.",
       "provider": "Sveriges riksbank",
       "revised_observations": 0,
       "source_url": "https://www.riksbank.se/sv/statistik/rantor-och-valutakurser/",
       "status": "CURRENT",
       "unit": "SEK per EUR",
-      "verified_at": "2026-10-13T18:28:19.734250Z",
+      "verified_at": "2026-10-13T20:42:02.550164Z",
       "vintage_id": "a805261f6456032ce150120fdc0bc11e017700ed53ab834abe98a9cbd4ca241c"
     },
     {
@@ -240,7 +240,7 @@
       "source_url": "https://data.ecb.europa.eu/data/datasets/CISS",
       "status": "CURRENT",
       "unit": "index 0–1",
-      "verified_at": "2026-10-13T18:28:23.290967Z",
+      "verified_at": "2026-10-13T20:42:05.606505Z",
       "vintage_id": "05cfd50d7d158711f8104adeb64ad3d58292ea52cce2003bdab217016e9aec03"
     },
     {
@@ -270,11 +270,11 @@
       "source_url": "https://www.newyorkfed.org/research/policy/gscpi",
       "status": "CURRENT",
       "unit": "standardavvikelser från genomsnittet",
-      "verified_at": "2026-10-13T18:28:23.664176Z",
+      "verified_at": "2026-10-13T20:42:05.927359Z",
       "vintage_id": "98aad77bbc4cedfe4c1c700531324b03f2c677d793e2d5e5fddeae92f61009ae"
     }
   ],
-  "generated_at": "2026-10-13T18:29:31.943079Z",
+  "generated_at": "2026-10-13T20:43:15.576379Z",
   "mode": "DESCRIPTIVE_LATEST_VINTAGE",
   "version": "context@1.0.1"
 }

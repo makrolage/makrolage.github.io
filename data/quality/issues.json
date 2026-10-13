@@ -1,5 +1,49 @@
 [
   {
+    "domain_id": "sweden",
+    "issue_id": "revision_summary_e12a0cb9eb10fba7",
+    "message": "ki_handel: 84 observationsperioder med ändrat värde.",
+    "observation_count": 84,
+    "opened_at": "2026-10-13T20:41:22.094055Z",
+    "resolved_at": null,
+    "severity": "INFO",
+    "source_id": "ki_handel",
+    "status": "OPEN"
+  },
+  {
+    "domain_id": "sweden",
+    "issue_id": "revision_summary_c383b18e0900fdf3",
+    "message": "ki_bygg: 57 observationsperioder med ändrat värde.",
+    "observation_count": 57,
+    "opened_at": "2026-10-13T20:41:22.094055Z",
+    "resolved_at": null,
+    "severity": "INFO",
+    "source_id": "ki_bygg",
+    "status": "OPEN"
+  },
+  {
+    "domain_id": "sweden",
+    "issue_id": "revision_summary_79e3b671188dfc1e",
+    "message": "ki_tjanster: 82 observationsperioder med ändrat värde.",
+    "observation_count": 82,
+    "opened_at": "2026-10-13T20:41:22.094055Z",
+    "resolved_at": null,
+    "severity": "INFO",
+    "source_id": "ki_tjanster",
+    "status": "OPEN"
+  },
+  {
+    "domain_id": "sweden",
+    "issue_id": "revision_summary_06df2f6f116fddfa",
+    "message": "ki_tillverkning: 151 observationsperioder med ändrat värde.",
+    "observation_count": 151,
+    "opened_at": "2026-10-13T20:41:22.094055Z",
+    "resolved_at": null,
+    "severity": "INFO",
+    "source_id": "ki_tillverkning",
+    "status": "OPEN"
+  },
+  {
     "domain_id": "global",
     "issue_id": "revision_summary_cb34ba9d57d3e004",
     "message": "oecd_cli_global_can: 360 observationsperioder med ändrat värde.",
@@ -211,8 +255,8 @@
   {
     "domain_id": "sweden",
     "issue_id": "revision_summary_d8ee8d4fe48b546b",
-    "message": "ki_handel: 134 observationsperioder med ändrat värde.",
-    "observation_count": 134,
+    "message": "ki_handel: 122 observationsperioder med ändrat värde.",
+    "observation_count": 122,
     "opened_at": "2026-09-29T16:58:54.599467Z",
     "resolved_at": null,
     "severity": "INFO",
@@ -222,8 +266,8 @@
   {
     "domain_id": "sweden",
     "issue_id": "revision_summary_81704c0aa2e23d65",
-    "message": "ki_tjanster: 82 observationsperioder med ändrat värde.",
-    "observation_count": 82,
+    "message": "ki_tjanster: 76 observationsperioder med ändrat värde.",
+    "observation_count": 76,
     "opened_at": "2026-09-29T16:58:54.599467Z",
     "resolved_at": null,
     "severity": "INFO",
@@ -244,8 +288,8 @@
   {
     "domain_id": "sweden",
     "issue_id": "revision_summary_300d186820abff00",
-    "message": "ki_tillverkning: 75 observationsperioder med ändrat värde.",
-    "observation_count": 75,
+    "message": "ki_tillverkning: 64 observationsperioder med ändrat värde.",
+    "observation_count": 64,
     "opened_at": "2026-09-29T16:58:54.599467Z",
     "resolved_at": null,
     "severity": "INFO",
@@ -255,8 +299,8 @@
   {
     "domain_id": "sweden",
     "issue_id": "revision_summary_1ccb6736ebf0db99",
-    "message": "ki_bygg: 64 observationsperioder med ändrat värde.",
-    "observation_count": 64,
+    "message": "ki_bygg: 55 observationsperioder med ändrat värde.",
+    "observation_count": 55,
     "opened_at": "2026-09-29T16:58:54.599467Z",
     "resolved_at": null,
     "severity": "INFO",
@@ -420,8 +464,8 @@
   {
     "domain_id": "sweden",
     "issue_id": "revision_summary_7e70b970496d6cd2",
-    "message": "ki_handel: 153 observationsperioder med ändrat värde.",
-    "observation_count": 153,
+    "message": "ki_handel: 133 observationsperioder med ändrat värde.",
+    "observation_count": 133,
     "opened_at": "2026-09-11T19:02:34.867205Z",
     "resolved_at": null,
     "severity": "INFO",
@@ -442,8 +486,8 @@
   {
     "domain_id": "sweden",
     "issue_id": "revision_summary_439564c1e93ae145",
-    "message": "ki_tillverkning: 67 observationsperioder med ändrat värde.",
-    "observation_count": 67,
+    "message": "ki_tillverkning: 55 observationsperioder med ändrat värde.",
+    "observation_count": 55,
     "opened_at": "2026-09-11T19:02:34.867205Z",
     "resolved_at": null,
     "severity": "INFO",
@@ -453,8 +497,8 @@
   {
     "domain_id": "sweden",
     "issue_id": "revision_summary_3ecbbfdf5136104d",
-    "message": "ki_tjanster: 47 observationsperioder med ändrat värde.",
-    "observation_count": 47,
+    "message": "ki_tjanster: 44 observationsperioder med ändrat värde.",
+    "observation_count": 44,
     "opened_at": "2026-09-11T19:02:34.867205Z",
     "resolved_at": null,
     "severity": "INFO",
@@ -464,8 +508,8 @@
   {
     "domain_id": "sweden",
     "issue_id": "revision_summary_094915ea8ffb3d74",
-    "message": "ki_bygg: 40 observationsperioder med ändrat värde.",
-    "observation_count": 40,
+    "message": "ki_bygg: 39 observationsperioder med ändrat värde.",
+    "observation_count": 39,
     "opened_at": "2026-09-11T19:02:34.867205Z",
     "resolved_at": null,
     "severity": "INFO",
