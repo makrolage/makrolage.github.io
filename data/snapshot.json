@@ -243591,7 +243591,7 @@
         "source_url": "https://www.statistikdatabasen.scb.se/pxweb/sv/ssd/START__NR__NR9999__NR9999A/NR9999ENS2010BNPIndN/",
         "status": "CURRENT",
         "unit": "% mot föregående månad",
-        "verified_at": "2026-10-15T15:42:26.758855Z",
+        "verified_at": "2026-10-15T19:08:54.770856Z",
         "vintage_id": "b18a7948b5dc0c98d8f3d6527a1021255d78279cd3a333719f827aeecd2970df"
       },
       {
@@ -243607,21 +243607,21 @@
         "id": "usa_activity",
         "label": "USA · ADS",
         "lag": 28,
-        "last_attempt_status": "OK",
+        "last_attempt_status": "UNCHANGED",
         "latest": {
           "period": "2026-10-10",
           "value": -0.20609153973350747
         },
         "level": "Aktivitet under historiskt genomsnitt",
         "max_age_days": 14,
-        "new_observations": 7,
+        "new_observations": 0,
         "note": "Daglig modellskattning från underlag med olika frekvens. Nya observationer är inte nya oberoende dagsmätningar.",
         "provider": "Federal Reserve Bank of Philadelphia",
-        "revised_observations": 24323,
+        "revised_observations": 0,
         "source_url": "https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/ads",
         "status": "CURRENT",
         "unit": "index, genomsnitt 0",
-        "verified_at": "2026-10-15T15:42:28.085467Z",
+        "verified_at": "2026-10-15T19:08:56.329145Z",
         "vintage_id": "26e58f3d40f329cabe088da589180593fc7ba58f02132ced898784cf542121f5"
       },
       {
@@ -243637,21 +243637,21 @@
         "id": "usa_conditions",
         "label": "USA · NFCI",
         "lag": 4,
-        "last_attempt_status": "OK",
+        "last_attempt_status": "UNCHANGED",
         "latest": {
           "period": "2026-10-09",
           "value": -0.499
         },
         "level": "Lättare än genomsnittet",
         "max_age_days": 14,
-        "new_observations": 2,
+        "new_observations": 0,
         "note": "Högre värde betyder stramare finansiering. Förändring jämförs med fyra veckor tidigare i samma vintage.",
         "provider": "Federal Reserve Bank of Chicago",
-        "revised_observations": 3586,
+        "revised_observations": 0,
         "source_url": "https://www.chicagofed.org/research/data/nfci/current-data",
         "status": "CURRENT",
         "unit": "index, genomsnitt 0",
-        "verified_at": "2026-10-15T15:42:28.542587Z",
+        "verified_at": "2026-10-15T19:08:56.595189Z",
         "vintage_id": "6e05fed2d39ec1e61e98471f392efde197955b05b58baaca760174ac975f8630"
       },
       {
@@ -243667,21 +243667,21 @@
         "id": "usa_adjusted_conditions",
         "label": "USA · ANFCI",
         "lag": 4,
-        "last_attempt_status": "OK",
+        "last_attempt_status": "UNCHANGED",
         "latest": {
           "period": "2026-10-09",
           "value": -0.485
         },
         "level": "Lättare än väntat givet ekonomin",
         "max_age_days": 14,
-        "new_observations": 2,
+        "new_observations": 0,
         "note": "Justerat för ekonomiska förhållanden. Alternativ till NFCI, inte en oberoende röst i en sammanvägning.",
         "provider": "Federal Reserve Bank of Chicago",
-        "revised_observations": 3586,
+        "revised_observations": 0,
         "source_url": "https://www.chicagofed.org/research/data/nfci/current-data",
         "status": "CURRENT",
         "unit": "justerat index",
-        "verified_at": "2026-10-15T15:42:28.542587Z",
+        "verified_at": "2026-10-15T19:08:56.595189Z",
         "vintage_id": "6e05fed2d39ec1e61e98471f392efde197955b05b58baaca760174ac975f8630"
       },
       {
@@ -243713,7 +243713,7 @@
         "source_url": "https://www.scb.se/PR0101",
         "status": "CURRENT",
         "unit": "% mot samma månad föregående år",
-        "verified_at": "2026-10-15T15:42:31.044797Z",
+        "verified_at": "2026-10-15T19:08:59.003924Z",
         "vintage_id": "4bb4ad66695efb7a084419ca0deb9dfc7d363d52c2e18e05bc0b4bddcc62818c"
       },
       {
@@ -243728,7 +243728,7 @@
         "id": "sweden_yield",
         "label": "Sverige · tioårsränta",
         "lag": 28,
-        "last_attempt_status": "OK",
+        "last_attempt_status": "UNCHANGED",
         "latest": {
           "period": "2026-10-14",
           "value": 3.201
@@ -243736,14 +243736,14 @@
         "level": "Statsobligationsränta med tio års löptid",
         "level_text": "Statsobligationsränta med tio års löptid",
         "max_age_days": 7,
-        "new_observations": 1,
+        "new_observations": 0,
         "note": "Visar räntenivå och egen beräkning av förändringen, inte obligationsavkastning. En högre ränta har flera möjliga orsaker.",
         "provider": "Sveriges riksbank (underliggande räntedata: Refinitiv)",
         "revised_observations": 0,
         "source_url": "https://www.riksbank.se/sv/statistik/rantor-och-valutakurser/",
         "status": "CURRENT",
         "unit": "%",
-        "verified_at": "2026-10-15T15:42:32.213440Z",
+        "verified_at": "2026-10-15T19:08:59.958792Z",
         "vintage_id": "18789e27a52076807886fe3635327fc0d7fa1112448f12ab67a14d383ad63c8f"
       },
       {
@@ -243758,7 +243758,7 @@
         "id": "sweden_fx",
         "label": "Sverige · EUR/SEK",
         "lag": 28,
-        "last_attempt_status": "OK",
+        "last_attempt_status": "UNCHANGED",
         "latest": {
           "period": "2026-10-15",
           "value": 11.1765
@@ -243766,14 +243766,14 @@
         "level": "Högre kurs betyder svagare krona mot euron",
         "level_text": "Högre kurs betyder svagare krona mot euron",
         "max_age_days": 7,
-        "new_observations": 1,
+        "new_observations": 0,
         "note": "Indikativ valutakurs, inte transaktionskurs. Förändringen är Makroläges egen beräkning. Kronans rörelse har olika betydelse för olika sektorer.",
         "provider": "Sveriges riksbank",
         "revised_observations": 0,
         "source_url": "https://www.riksbank.se/sv/statistik/rantor-och-valutakurser/",
         "status": "CURRENT",
         "unit": "SEK per EUR",
-        "verified_at": "2026-10-15T15:42:33.002789Z",
+        "verified_at": "2026-10-15T19:09:00.912172Z",
         "vintage_id": "20a6a129398503720daa285d16746b293c59eb6e09904dae6d20e3a04db93a70"
       },
       {
@@ -243787,7 +243787,7 @@
         "id": "euro_stress",
         "label": "Euroområdet · NEW CISS",
         "lag": 28,
-        "last_attempt_status": "OK",
+        "last_attempt_status": "UNCHANGED",
         "latest": {
           "period": "2026-10-14",
           "value": 0.010407961750544691
@@ -243795,14 +243795,14 @@
         "level": "Högre index betyder mer finansiell stress",
         "level_text": "Högre index betyder mer finansiell stress",
         "max_age_days": 7,
-        "new_observations": 1,
+        "new_observations": 0,
         "note": "ECB:s nya CISS-metod. Nivån är inte en sannolikhet. Serien blandas inte med den äldre CISS-serien.",
         "provider": "Europeiska centralbanken",
-        "revised_observations": 13,
+        "revised_observations": 0,
         "source_url": "https://data.ecb.europa.eu/data/datasets/CISS",
         "status": "CURRENT",
         "unit": "index 0–1",
-        "verified_at": "2026-10-15T15:42:35.277422Z",
+        "verified_at": "2026-10-15T19:09:02.532612Z",
         "vintage_id": "67286b68c2deaf8e3bb65031eeb76c3defd14821af897ea80850b7bf698570dd"
       },
       {
@@ -243832,11 +243832,11 @@
         "source_url": "https://www.newyorkfed.org/research/policy/gscpi",
         "status": "CURRENT",
         "unit": "standardavvikelser från genomsnittet",
-        "verified_at": "2026-10-15T15:42:35.682849Z",
+        "verified_at": "2026-10-15T19:09:02.864297Z",
         "vintage_id": "98aad77bbc4cedfe4c1c700531324b03f2c677d793e2d5e5fddeae92f61009ae"
       }
     ],
-    "generated_at": "2026-10-15T15:43:43.386129Z",
+    "generated_at": "2026-10-15T19:10:13.343175Z",
     "mode": "DESCRIPTIVE_LATEST_VINTAGE",
     "version": "context@1.0.1"
   },
@@ -243990,20 +243990,20 @@
       "failed_fetches": 1,
       "observation_vintages": 29284,
       "raw_artifacts": 58,
-      "successful_fetches": 1538,
-      "unchanged_fetches": 1498
+      "successful_fetches": 1557,
+      "unchanged_fetches": 1517
     },
-    "data_verified_at": "2026-10-15T15:42:07.751475Z",
+    "data_verified_at": "2026-10-15T19:08:35.273294Z",
     "freshness_policy": "Snapshot expires after 96 hours, including weekends; source periods are separate.",
-    "generated_at": "2026-10-15T15:43:43.386129Z",
+    "generated_at": "2026-10-15T19:10:13.343175Z",
     "mode": "STATIC_SNAPSHOT",
     "notice": "Analysstöd; inte individuell finansiell rådgivning.",
     "public_data": "derived_only",
     "schema_version": "2.2.0",
     "signal_engine_version": "2.0.0",
-    "snapshot_sha256": "f00d15b0beeb540f7cacf6cbf14aaa432c4ff5696c70fd8b19826832f2f29883",
+    "snapshot_sha256": "4f24d940b624d6552fb76cbe0e538ec5a6a1f95908056d116e4e604f5d679ae3",
     "tda_quality_status": null,
-    "valid_until": "2026-10-19T15:43:43.386129Z"
+    "valid_until": "2026-10-19T19:10:13.343175Z"
   },
   "policy": {
     "id": "illustrative_standard",
@@ -428638,7 +428638,7 @@
   "structure_research": {
     "affects_synthesis": false,
     "data_age_days": 45,
-    "generated_at": "2026-10-15T15:43:43.386129Z",
+    "generated_at": "2026-10-15T19:10:13.343175Z",
     "last_attempt_status": "OK",
     "latest": {
       "affects_synthesis": false,
