@@ -1,7 +1,7 @@
 {
   "affects_synthesis": false,
-  "data_age_days": 45,
-  "generated_at": "2026-10-15T19:10:13.343175Z",
+  "data_age_days": 46,
+  "generated_at": "2026-10-16T15:30:45.517072Z",
   "last_attempt_status": "OK",
   "latest": {
     "affects_synthesis": false,
@@ -46,7 +46,7 @@
     },
     "previous_window_end": "2026-08-03",
     "quality_status": "RESEARCH",
-    "source_observed_at": "2026-10-09T13:25:29.890433Z",
+    "source_observed_at": "2026-10-16T11:33:20.503851Z",
     "source_sha256": "8f394fe34bea54d41b9aafed410425ee8f8e252ede3c71a7c1cd20bab83040de",
     "source_url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/Data_Library/det_49_ind_port.html",
     "stress_probability": null,
