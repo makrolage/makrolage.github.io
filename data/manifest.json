@@ -3,18 +3,18 @@
     "failed_fetches": 1,
     "observation_vintages": 29284,
     "raw_artifacts": 58,
-    "successful_fetches": 1728,
-    "unchanged_fetches": 1688
+    "successful_fetches": 1747,
+    "unchanged_fetches": 1707
   },
-  "data_verified_at": "2026-10-22T15:59:33.298298Z",
+  "data_verified_at": "2026-10-22T19:13:34.646251Z",
   "freshness_policy": "Snapshot expires after 96 hours, including weekends; source periods are separate.",
-  "generated_at": "2026-10-22T16:01:17.510999Z",
+  "generated_at": "2026-10-22T19:15:18.032448Z",
   "mode": "STATIC_SNAPSHOT",
   "notice": "Analysstöd; inte individuell finansiell rådgivning.",
   "public_data": "derived_only",
   "schema_version": "2.2.0",
   "signal_engine_version": "2.0.0",
-  "snapshot_sha256": "b6cf081ae874a37dfc8abb03338e38cea5957bc1f3503bd385d06392bafea246",
+  "snapshot_sha256": "aa833b2f67c9f03725dd86cd0c10307c4f4d72184274c7885228076a96636e1d",
   "tda_quality_status": null,
-  "valid_until": "2026-10-26T16:01:17.510999Z"
+  "valid_until": "2026-10-26T19:15:18.032448Z"
 }
