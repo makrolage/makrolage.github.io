@@ -7,7 +7,7 @@
     {
       "contribution": 0.011947,
       "effective_weight": 0.028571,
-      "id": 13888,
+      "id": 13894,
       "indicator_score": 0.418148,
       "label": "CLI ITA",
       "original_weight": 0.028571,
@@ -21,7 +21,7 @@
     {
       "contribution": 0.004132,
       "effective_weight": 0.028571,
-      "id": 13887,
+      "id": 13893,
       "indicator_score": 0.144608,
       "label": "CLI FRA",
       "original_weight": 0.028571,
@@ -35,7 +35,7 @@
     {
       "contribution": 0.001908,
       "effective_weight": 0.028571,
-      "id": 13893,
+      "id": 13899,
       "indicator_score": 0.066777,
       "label": "CLI KOR",
       "original_weight": 0.028571,
@@ -49,7 +49,7 @@
     {
       "contribution": 0.001846,
       "effective_weight": 0.028571,
-      "id": 13885,
+      "id": 13891,
       "indicator_score": 0.064603,
       "label": "CLI GBR",
       "original_weight": 0.028571,
@@ -63,7 +63,7 @@
     {
       "contribution": -2.4e-05,
       "effective_weight": 0.028571,
-      "id": 13891,
+      "id": 13897,
       "indicator_score": -0.000843,
       "label": "CLI IND",
       "original_weight": 0.028571,
@@ -77,7 +77,7 @@
     {
       "contribution": -0.002434,
       "effective_weight": 0.028571,
-      "id": 13896,
+      "id": 13902,
       "indicator_score": -0.085196,
       "label": "CLI ZAF",
       "original_weight": 0.028571,
@@ -91,7 +91,7 @@
     {
       "contribution": -0.003292,
       "effective_weight": 0.028571,
-      "id": 13889,
+      "id": 13895,
       "indicator_score": -0.115221,
       "label": "CLI JPN",
       "original_weight": 0.028571,
@@ -105,7 +105,7 @@
     {
       "contribution": -0.004208,
       "effective_weight": 0.028571,
-      "id": 13886,
+      "id": 13892,
       "indicator_score": -0.147267,
       "label": "CLI DEU",
       "original_weight": 0.028571,
@@ -119,7 +119,7 @@
     {
       "contribution": -0.005604,
       "effective_weight": 0.028571,
-      "id": 13890,
+      "id": 13896,
       "indicator_score": -0.19615,
       "label": "CLI CHN",
       "original_weight": 0.028571,
@@ -133,7 +133,7 @@
     {
       "contribution": -0.007487,
       "effective_weight": 0.028571,
-      "id": 13894,
+      "id": 13900,
       "indicator_score": -0.262034,
       "label": "CLI MEX",
       "original_weight": 0.028571,
@@ -147,7 +147,7 @@
     {
       "contribution": -0.01362,
       "effective_weight": 0.028571,
-      "id": 13883,
+      "id": 13889,
       "indicator_score": -0.47671,
       "label": "CLI USA",
       "original_weight": 0.028571,
@@ -161,7 +161,7 @@
     {
       "contribution": -0.015631,
       "effective_weight": 0.028571,
-      "id": 13895,
+      "id": 13901,
       "indicator_score": -0.547091,
       "label": "CLI IDN",
       "original_weight": 0.028571,
@@ -175,7 +175,7 @@
     {
       "contribution": -0.023358,
       "effective_weight": 0.028571,
-      "id": 13884,
+      "id": 13890,
       "indicator_score": -0.817528,
       "label": "CLI CAN",
       "original_weight": 0.028571,
@@ -189,7 +189,7 @@
     {
       "contribution": -0.03763,
       "effective_weight": 0.028571,
-      "id": 13892,
+      "id": 13898,
       "indicator_score": -1.317053,
       "label": "CLI BRA",
       "original_weight": 0.028571,
@@ -203,7 +203,7 @@
     {
       "contribution": -0.227355,
       "effective_weight": 0.6,
-      "id": 13882,
+      "id": 13888,
       "indicator_score": -0.378925,
       "label": "CLI G20",
       "original_weight": 0.6,
