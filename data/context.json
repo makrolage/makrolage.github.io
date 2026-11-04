@@ -3,7 +3,7 @@
   "cards": [
     {
       "above": "BNP ökade under månaden",
-      "age_days": 34,
+      "age_days": 35,
       "below": "BNP minskade under månaden",
       "change": -1.9,
       "change_unit": "procentenheter",
@@ -29,12 +29,12 @@
       "source_url": "https://www.statistikdatabasen.scb.se/pxweb/sv/ssd/START__NR__NR9999__NR9999A/NR9999ENS2010BNPIndN/",
       "status": "CURRENT",
       "unit": "% mot föregående månad",
-      "verified_at": "2026-11-03T21:48:19.782708Z",
+      "verified_at": "2026-11-04T19:59:09.725335Z",
       "vintage_id": "c6e3101c92b0963f51acf6bcbbcd33eb607f1e7c58beb906b4d61cdc0220b585"
     },
     {
       "above": "Aktivitet över historiskt genomsnitt",
-      "age_days": 10,
+      "age_days": 11,
       "below": "Aktivitet under historiskt genomsnitt",
       "change": 0.022285390160100282,
       "compare_period": "2026-09-26",
@@ -59,15 +59,15 @@
       "source_url": "https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/ads",
       "status": "CURRENT",
       "unit": "index, genomsnitt 0",
-      "verified_at": "2026-11-03T21:48:21.233993Z",
+      "verified_at": "2026-11-04T19:59:10.924955Z",
       "vintage_id": "a5fd511ac719469731e579deff5ae50c319d9315285a52377e3db01c25e3d504"
     },
     {
       "above": "Stramare än genomsnittet",
-      "age_days": 11,
+      "age_days": 5,
       "below": "Lättare än genomsnittet",
-      "change": 0.031000000000000028,
-      "compare_period": "2026-09-25",
+      "change": 0.03899999999999998,
+      "compare_period": "2026-10-02",
       "dimension": "Finansiella förhållanden",
       "error": null,
       "first_collection": false,
@@ -75,29 +75,29 @@
       "id": "usa_conditions",
       "label": "USA · NFCI",
       "lag": 4,
-      "last_attempt_status": "UNCHANGED",
+      "last_attempt_status": "OK",
       "latest": {
-        "period": "2026-10-23",
-        "value": -0.487
+        "period": "2026-10-30",
+        "value": -0.459
       },
       "level": "Lättare än genomsnittet",
       "max_age_days": 14,
-      "new_observations": 0,
+      "new_observations": 2,
       "note": "Högre värde betyder stramare finansiering. Förändring jämförs med fyra veckor tidigare i samma vintage.",
       "provider": "Federal Reserve Bank of Chicago",
-      "revised_observations": 0,
+      "revised_observations": 5502,
       "source_url": "https://www.chicagofed.org/research/data/nfci/current-data",
       "status": "CURRENT",
       "unit": "index, genomsnitt 0",
-      "verified_at": "2026-11-03T21:48:21.827274Z",
-      "vintage_id": "f6328aa5ce7eb01f4e46a3099e7819387babacafbf19986308989361571a469d"
+      "verified_at": "2026-11-04T19:59:11.332992Z",
+      "vintage_id": "6dccfc661261e95d823f4b07a8b96e9848860d7c6b7cfc9ab99e8b30a7b716f9"
     },
     {
       "above": "Stramare än väntat givet ekonomin",
-      "age_days": 11,
+      "age_days": 5,
       "below": "Lättare än väntat givet ekonomin",
-      "change": 0.04200000000000004,
-      "compare_period": "2026-09-25",
+      "change": 0.03899999999999998,
+      "compare_period": "2026-10-02",
       "dimension": "Finansiella förhållanden",
       "error": null,
       "first_collection": false,
@@ -105,26 +105,26 @@
       "id": "usa_adjusted_conditions",
       "label": "USA · ANFCI",
       "lag": 4,
-      "last_attempt_status": "UNCHANGED",
+      "last_attempt_status": "OK",
       "latest": {
-        "period": "2026-10-23",
-        "value": -0.501
+        "period": "2026-10-30",
+        "value": -0.435
       },
       "level": "Lättare än väntat givet ekonomin",
       "max_age_days": 14,
-      "new_observations": 0,
+      "new_observations": 2,
       "note": "Justerat för ekonomiska förhållanden. Alternativ till NFCI, inte en oberoende röst i en sammanvägning.",
       "provider": "Federal Reserve Bank of Chicago",
-      "revised_observations": 0,
+      "revised_observations": 5502,
       "source_url": "https://www.chicagofed.org/research/data/nfci/current-data",
       "status": "CURRENT",
       "unit": "justerat index",
-      "verified_at": "2026-11-03T21:48:21.827274Z",
-      "vintage_id": "f6328aa5ce7eb01f4e46a3099e7819387babacafbf19986308989361571a469d"
+      "verified_at": "2026-11-04T19:59:11.332992Z",
+      "vintage_id": "6dccfc661261e95d823f4b07a8b96e9848860d7c6b7cfc9ab99e8b30a7b716f9"
     },
     {
       "above": "Inflation över 2 procent",
-      "age_days": 34,
+      "age_days": 35,
       "below": "Inflation under 2 procent",
       "change": 0.8,
       "change_unit": "procentenheter",
@@ -151,14 +151,14 @@
       "source_url": "https://www.scb.se/PR0101",
       "status": "CURRENT",
       "unit": "% mot samma månad föregående år",
-      "verified_at": "2026-11-03T21:48:23.780446Z",
+      "verified_at": "2026-11-04T19:59:13.872197Z",
       "vintage_id": "4bb4ad66695efb7a084419ca0deb9dfc7d363d52c2e18e05bc0b4bddcc62818c"
     },
     {
       "age_days": 1,
-      "change": -0.07899999999999974,
+      "change": -0.06799999999999962,
       "change_unit": "procentenheter",
-      "compare_period": "2026-10-05",
+      "compare_period": "2026-10-06",
       "dimension": "Ränta och valuta",
       "error": null,
       "first_collection": false,
@@ -166,29 +166,29 @@
       "id": "sweden_yield",
       "label": "Sverige · tioårsränta",
       "lag": 28,
-      "last_attempt_status": "UNCHANGED",
+      "last_attempt_status": "OK",
       "latest": {
-        "period": "2026-11-02",
-        "value": 3.076
+        "period": "2026-11-03",
+        "value": 3.107
       },
       "level": "Statsobligationsränta med tio års löptid",
       "level_text": "Statsobligationsränta med tio års löptid",
       "max_age_days": 7,
-      "new_observations": 0,
+      "new_observations": 1,
       "note": "Visar räntenivå och egen beräkning av förändringen, inte obligationsavkastning. En högre ränta har flera möjliga orsaker.",
       "provider": "Sveriges riksbank (underliggande räntedata: Refinitiv)",
       "revised_observations": 0,
       "source_url": "https://www.riksbank.se/sv/statistik/rantor-och-valutakurser/",
       "status": "CURRENT",
       "unit": "%",
-      "verified_at": "2026-11-03T21:48:24.924238Z",
-      "vintage_id": "a92ffe43b61d85d50f7bbb8200ac073de9ef47be8325d5e3a79192999ef7522b"
+      "verified_at": "2026-11-04T19:59:15.197091Z",
+      "vintage_id": "ba2b46992b1ba7d8eac830bcb937af83d1dac06e7f449877e5d7308383b88200"
     },
     {
       "age_days": 0,
-      "change": -0.29100000000000037,
+      "change": -0.2522000000000002,
       "change_unit": "SEK",
-      "compare_period": "2026-10-06",
+      "compare_period": "2026-10-07",
       "dimension": "Ränta och valuta",
       "error": null,
       "first_collection": false,
@@ -196,28 +196,28 @@
       "id": "sweden_fx",
       "label": "Sverige · EUR/SEK",
       "lag": 28,
-      "last_attempt_status": "UNCHANGED",
+      "last_attempt_status": "OK",
       "latest": {
-        "period": "2026-11-03",
-        "value": 10.9515
+        "period": "2026-11-04",
+        "value": 10.9718
       },
       "level": "Högre kurs betyder svagare krona mot euron",
       "level_text": "Högre kurs betyder svagare krona mot euron",
       "max_age_days": 7,
-      "new_observations": 0,
+      "new_observations": 1,
       "note": "Indikativ valutakurs, inte transaktionskurs. Förändringen är Makroläges egen beräkning. Kronans rörelse har olika betydelse för olika sektorer.",
       "provider": "Sveriges riksbank",
       "revised_observations": 0,
       "source_url": "https://www.riksbank.se/sv/statistik/rantor-och-valutakurser/",
       "status": "CURRENT",
       "unit": "SEK per EUR",
-      "verified_at": "2026-11-03T21:48:25.813423Z",
-      "vintage_id": "a54f22391c2cf341f28e85bb2dc8f13e2731a4bb763bb2c8e7f708e541fb32f0"
+      "verified_at": "2026-11-04T19:59:16.132049Z",
+      "vintage_id": "9425147c6cd4e9830998893b645fa8561b36b13282837114775f921dd24a52e6"
     },
     {
       "age_days": 1,
-      "change": -0.01157364672687741,
-      "compare_period": "2026-10-05",
+      "change": -0.00826555945279683,
+      "compare_period": "2026-10-06",
       "dimension": "Finansiell stress",
       "error": null,
       "first_collection": false,
@@ -225,27 +225,27 @@
       "id": "euro_stress",
       "label": "Euroområdet · NEW CISS",
       "lag": 28,
-      "last_attempt_status": "UNCHANGED",
+      "last_attempt_status": "OK",
       "latest": {
-        "period": "2026-11-02",
-        "value": 0.009884770796645867
+        "period": "2026-11-03",
+        "value": 0.007824543524021323
       },
       "level": "Högre index betyder mer finansiell stress",
       "level_text": "Högre index betyder mer finansiell stress",
       "max_age_days": 7,
-      "new_observations": 0,
+      "new_observations": 1,
       "note": "ECB:s nya CISS-metod. Nivån är inte en sannolikhet. Serien blandas inte med den äldre CISS-serien.",
       "provider": "Europeiska centralbanken",
       "revised_observations": 0,
       "source_url": "https://data.ecb.europa.eu/data/datasets/CISS",
       "status": "CURRENT",
       "unit": "index 0–1",
-      "verified_at": "2026-11-03T21:48:27.899056Z",
-      "vintage_id": "53d74a4162f056b049e0c985661212f289000d2765419635c55f6253853792dc"
+      "verified_at": "2026-11-04T19:59:19.065524Z",
+      "vintage_id": "12f5ef01f3a590b845375dcd476bef748219c7543cfb2974f002655d75e61553"
     },
     {
       "above": "Tryck över historiskt genomsnitt",
-      "age_days": 34,
+      "age_days": 35,
       "below": "Tryck under historiskt genomsnitt",
       "change": 0.08000000000000007,
       "compare_period": "2026-08",
@@ -270,11 +270,11 @@
       "source_url": "https://www.newyorkfed.org/research/policy/gscpi",
       "status": "CURRENT",
       "unit": "standardavvikelser från genomsnittet",
-      "verified_at": "2026-11-03T21:48:28.114904Z",
+      "verified_at": "2026-11-04T19:59:19.368265Z",
       "vintage_id": "98aad77bbc4cedfe4c1c700531324b03f2c677d793e2d5e5fddeae92f61009ae"
     }
   ],
-  "generated_at": "2026-11-03T21:49:39.411490Z",
+  "generated_at": "2026-11-04T20:00:05.026197Z",
   "mode": "DESCRIPTIVE_LATEST_VINTAGE",
   "version": "context@1.0.1"
 }
