@@ -1,29 +1,29 @@
 {
   "affects_synthesis": false,
-  "data_age_days": 36,
-  "generated_at": "2026-11-05T22:00:50.554986Z",
+  "data_age_days": 37,
+  "generated_at": "2026-11-06T19:40:14.812644Z",
   "last_attempt_status": "OK",
   "latest": {
     "affects_synthesis": false,
     "changes": {
       "effective_rank": 3.038166584499045,
-      "equal_weight_volatility": -0.00926966877085808,
+      "equal_weight_volatility": -0.009269668770858067,
       "h1_count": 2,
       "h1_total_persistence": -0.2557893395423889,
       "h1_weighted_birth": -0.014718478374268207,
       "mean_correlation": -0.0006125212436705052,
-      "pc1_share": -0.02163514262278385
+      "pc1_share": -0.021635142622783737
     },
     "contract_sha256": "4227f5deb7909ba480a921b3b757f3f963e5798d2e203681bcecfa0f12b2dc7d",
     "correlation_rms_change": 0.08223828470942535,
     "current": {
       "effective_rank": 22.5015543528919,
-      "equal_weight_volatility": 0.10541463394102496,
+      "equal_weight_volatility": 0.10541463394102497,
       "h1_count": 17,
       "h1_total_persistence": 0.35568690299987793,
       "h1_weighted_birth": 1.0791250898692646,
       "mean_correlation": 0.14045001403431345,
-      "pc1_share": 0.20973834362661256
+      "pc1_share": 0.20973834362661262
     },
     "h1_bottleneck": 0.0424724817276001,
     "input_end": "2026-09-30",
@@ -42,11 +42,11 @@
       "h1_total_persistence": 0.6114762425422668,
       "h1_weighted_birth": 1.0938435682435328,
       "mean_correlation": 0.14106253527798396,
-      "pc1_share": 0.2313734862493964
+      "pc1_share": 0.23137348624939635
     },
     "previous_window_end": "2026-09-01",
     "quality_status": "RESEARCH",
-    "source_observed_at": "2026-10-30T14:17:17.433560Z",
+    "source_observed_at": "2026-11-06T15:09:29.061648Z",
     "source_sha256": "b9d36d571e968d71f7b03207e7fed6398554f953719b8c1bf3ee3ad8d00e7520",
     "source_url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/Data_Library/det_49_ind_port.html",
     "stress_probability": null,
