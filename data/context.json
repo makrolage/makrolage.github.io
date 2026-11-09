@@ -29,7 +29,7 @@
       "source_url": "https://www.statistikdatabasen.scb.se/pxweb/sv/ssd/START__NR__NR9999__NR9999A/NR9999ENS2010BNPIndN/",
       "status": "CURRENT",
       "unit": "% mot föregående månad",
-      "verified_at": "2026-11-09T17:44:35.992728Z",
+      "verified_at": "2026-11-09T22:39:32.287759Z",
       "vintage_id": "c6e3101c92b0963f51acf6bcbbcd33eb607f1e7c58beb906b4d61cdc0220b585"
     },
     {
@@ -59,7 +59,7 @@
       "source_url": "https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/ads",
       "status": "CURRENT",
       "unit": "index, genomsnitt 0",
-      "verified_at": "2026-11-09T17:44:37.367363Z",
+      "verified_at": "2026-11-09T22:39:33.778236Z",
       "vintage_id": "fb351dc21b7c09c44f3417e795b1bacfb8bc3f93d34199e4536ba99de39e953a"
     },
     {
@@ -89,7 +89,7 @@
       "source_url": "https://www.chicagofed.org/research/data/nfci/current-data",
       "status": "CURRENT",
       "unit": "index, genomsnitt 0",
-      "verified_at": "2026-11-09T17:44:37.750196Z",
+      "verified_at": "2026-11-09T22:39:34.461584Z",
       "vintage_id": "6dccfc661261e95d823f4b07a8b96e9848860d7c6b7cfc9ab99e8b30a7b716f9"
     },
     {
@@ -119,7 +119,7 @@
       "source_url": "https://www.chicagofed.org/research/data/nfci/current-data",
       "status": "CURRENT",
       "unit": "justerat index",
-      "verified_at": "2026-11-09T17:44:37.750196Z",
+      "verified_at": "2026-11-09T22:39:34.461584Z",
       "vintage_id": "6dccfc661261e95d823f4b07a8b96e9848860d7c6b7cfc9ab99e8b30a7b716f9"
     },
     {
@@ -151,7 +151,7 @@
       "source_url": "https://www.scb.se/PR0101",
       "status": "CURRENT",
       "unit": "% mot samma månad föregående år",
-      "verified_at": "2026-11-09T17:44:41.100904Z",
+      "verified_at": "2026-11-09T22:39:36.242686Z",
       "vintage_id": "4bb4ad66695efb7a084419ca0deb9dfc7d363d52c2e18e05bc0b4bddcc62818c"
     },
     {
@@ -181,7 +181,7 @@
       "source_url": "https://www.riksbank.se/sv/statistik/rantor-och-valutakurser/",
       "status": "CURRENT",
       "unit": "%",
-      "verified_at": "2026-11-09T17:44:42.084271Z",
+      "verified_at": "2026-11-09T22:39:38.009474Z",
       "vintage_id": "df347fd6cc0ac38356b065e31f62b74b3d4696e2ccaceb8c995cc62d12b2b3b2"
     },
     {
@@ -196,7 +196,7 @@
       "id": "sweden_fx",
       "label": "Sverige · EUR/SEK",
       "lag": 28,
-      "last_attempt_status": "OK",
+      "last_attempt_status": "UNCHANGED",
       "latest": {
         "period": "2026-11-09",
         "value": 10.996
@@ -204,20 +204,20 @@
       "level": "Högre kurs betyder svagare krona mot euron",
       "level_text": "Högre kurs betyder svagare krona mot euron",
       "max_age_days": 7,
-      "new_observations": 1,
+      "new_observations": 0,
       "note": "Indikativ valutakurs, inte transaktionskurs. Förändringen är Makroläges egen beräkning. Kronans rörelse har olika betydelse för olika sektorer.",
       "provider": "Sveriges riksbank",
       "revised_observations": 0,
       "source_url": "https://www.riksbank.se/sv/statistik/rantor-och-valutakurser/",
       "status": "CURRENT",
       "unit": "SEK per EUR",
-      "verified_at": "2026-11-09T17:44:42.995831Z",
+      "verified_at": "2026-11-09T22:39:39.521462Z",
       "vintage_id": "2626bc7ed3d2ce81b41b0fa600b4439a1822d7f82c5f7ccb5d6a5edc311c3c70"
     },
     {
-      "age_days": 4,
-      "change": -0.009878276061035368,
-      "compare_period": "2026-10-08",
+      "age_days": 3,
+      "change": -0.009024497228483218,
+      "compare_period": "2026-10-09",
       "dimension": "Finansiell stress",
       "error": null,
       "first_collection": false,
@@ -227,21 +227,21 @@
       "lag": 28,
       "last_attempt_status": "FAILED",
       "latest": {
-        "period": "2026-11-05",
-        "value": 0.006819400023660197
+        "period": "2026-11-06",
+        "value": 0.005469029059745524
       },
       "level": "Högre index betyder mer finansiell stress",
       "level_text": "Högre index betyder mer finansiell stress",
       "max_age_days": 7,
-      "new_observations": 0,
+      "new_observations": 1,
       "note": "ECB:s nya CISS-metod. Nivån är inte en sannolikhet. Serien blandas inte med den äldre CISS-serien.",
       "provider": "Europeiska centralbanken",
-      "revised_observations": 0,
+      "revised_observations": 15,
       "source_url": "https://data.ecb.europa.eu/data/datasets/CISS",
       "status": "STALE",
       "unit": "index 0–1",
-      "verified_at": "2026-11-07T23:16:43.207889Z",
-      "vintage_id": "08791d07dabfc42df4e959b7937d028b05b98b57a72bd7d7b46844332cc9f60f"
+      "verified_at": "2026-11-09T21:43:47.857296Z",
+      "vintage_id": "f2d47e05a54e17af3da849559fc5a84b06be836e04adfb8db6996d94b2a130ac"
     },
     {
       "above": "Tryck över historiskt genomsnitt",
@@ -274,7 +274,7 @@
       "vintage_id": "98aad77bbc4cedfe4c1c700531324b03f2c677d793e2d5e5fddeae92f61009ae"
     }
   ],
-  "generated_at": "2026-11-09T17:46:22.503407Z",
+  "generated_at": "2026-11-09T22:41:40.489725Z",
   "mode": "DESCRIPTIVE_LATEST_VINTAGE",
   "version": "context@1.0.1"
 }

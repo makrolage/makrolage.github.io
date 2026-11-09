@@ -7,7 +7,7 @@
     {
       "contribution": -0.103852,
       "effective_weight": 0.3,
-      "id": 9751,
+      "id": 9753,
       "indicator_score": -0.346174,
       "label": "Consumer confidence USA",
       "original_weight": 0.3,
@@ -21,7 +21,7 @@
     {
       "contribution": -0.374714,
       "effective_weight": 0.3,
-      "id": 9750,
+      "id": 9752,
       "indicator_score": -1.249046,
       "label": "Business confidence USA",
       "original_weight": 0.3,
@@ -35,7 +35,7 @@
     {
       "contribution": -0.580451,
       "effective_weight": 0.4,
-      "id": 9749,
+      "id": 9751,
       "indicator_score": -1.451127,
       "label": "CLI USA",
       "original_weight": 0.4,
