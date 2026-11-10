@@ -29,7 +29,7 @@
       "source_url": "https://www.statistikdatabasen.scb.se/pxweb/sv/ssd/START__NR__NR9999__NR9999A/NR9999ENS2010BNPIndN/",
       "status": "CURRENT",
       "unit": "% mot föregående månad",
-      "verified_at": "2026-11-10T00:15:22.937030Z",
+      "verified_at": "2026-11-10T21:49:07.281018Z",
       "vintage_id": "c6e3101c92b0963f51acf6bcbbcd33eb607f1e7c58beb906b4d61cdc0220b585"
     },
     {
@@ -59,7 +59,7 @@
       "source_url": "https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/ads",
       "status": "CURRENT",
       "unit": "index, genomsnitt 0",
-      "verified_at": "2026-11-10T00:15:24.648817Z",
+      "verified_at": "2026-11-10T21:49:08.790699Z",
       "vintage_id": "fb351dc21b7c09c44f3417e795b1bacfb8bc3f93d34199e4536ba99de39e953a"
     },
     {
@@ -89,7 +89,7 @@
       "source_url": "https://www.chicagofed.org/research/data/nfci/current-data",
       "status": "CURRENT",
       "unit": "index, genomsnitt 0",
-      "verified_at": "2026-11-10T00:15:25.196737Z",
+      "verified_at": "2026-11-10T21:49:09.220320Z",
       "vintage_id": "6dccfc661261e95d823f4b07a8b96e9848860d7c6b7cfc9ab99e8b30a7b716f9"
     },
     {
@@ -119,7 +119,7 @@
       "source_url": "https://www.chicagofed.org/research/data/nfci/current-data",
       "status": "CURRENT",
       "unit": "justerat index",
-      "verified_at": "2026-11-10T00:15:25.196737Z",
+      "verified_at": "2026-11-10T21:49:09.220320Z",
       "vintage_id": "6dccfc661261e95d823f4b07a8b96e9848860d7c6b7cfc9ab99e8b30a7b716f9"
     },
     {
@@ -151,14 +151,14 @@
       "source_url": "https://www.scb.se/PR0101",
       "status": "CURRENT",
       "unit": "% mot samma månad föregående år",
-      "verified_at": "2026-11-10T00:15:27.201475Z",
+      "verified_at": "2026-11-10T21:49:13.373716Z",
       "vintage_id": "4bb4ad66695efb7a084419ca0deb9dfc7d363d52c2e18e05bc0b4bddcc62818c"
     },
     {
-      "age_days": 4,
-      "change": -0.22299999999999986,
+      "age_days": 1,
+      "change": -0.22399999999999975,
       "change_unit": "procentenheter",
-      "compare_period": "2026-10-09",
+      "compare_period": "2026-10-12",
       "dimension": "Ränta och valuta",
       "error": null,
       "first_collection": false,
@@ -168,8 +168,8 @@
       "lag": 28,
       "last_attempt_status": "UNCHANGED",
       "latest": {
-        "period": "2026-11-06",
-        "value": 2.974
+        "period": "2026-11-09",
+        "value": 2.954
       },
       "level": "Statsobligationsränta med tio års löptid",
       "level_text": "Statsobligationsränta med tio års löptid",
@@ -181,14 +181,14 @@
       "source_url": "https://www.riksbank.se/sv/statistik/rantor-och-valutakurser/",
       "status": "CURRENT",
       "unit": "%",
-      "verified_at": "2026-11-10T00:15:29.112643Z",
-      "vintage_id": "df347fd6cc0ac38356b065e31f62b74b3d4696e2ccaceb8c995cc62d12b2b3b2"
+      "verified_at": "2026-11-10T21:49:15.341884Z",
+      "vintage_id": "04c1c5178e4667c702df9f13381988f06045b4434bb6009cc24dd8da62552ea4"
     },
     {
-      "age_days": 1,
-      "change": -0.2004999999999999,
+      "age_days": 0,
+      "change": -0.17880000000000074,
       "change_unit": "SEK",
-      "compare_period": "2026-10-12",
+      "compare_period": "2026-10-13",
       "dimension": "Ränta och valuta",
       "error": null,
       "first_collection": false,
@@ -198,8 +198,8 @@
       "lag": 28,
       "last_attempt_status": "UNCHANGED",
       "latest": {
-        "period": "2026-11-09",
-        "value": 10.996
+        "period": "2026-11-10",
+        "value": 10.991
       },
       "level": "Högre kurs betyder svagare krona mot euron",
       "level_text": "Högre kurs betyder svagare krona mot euron",
@@ -211,13 +211,13 @@
       "source_url": "https://www.riksbank.se/sv/statistik/rantor-och-valutakurser/",
       "status": "CURRENT",
       "unit": "SEK per EUR",
-      "verified_at": "2026-11-10T00:15:30.496452Z",
-      "vintage_id": "2626bc7ed3d2ce81b41b0fa600b4439a1822d7f82c5f7ccb5d6a5edc311c3c70"
+      "verified_at": "2026-11-10T21:49:16.809006Z",
+      "vintage_id": "62996335a4b8ac0e06a2b02c153ca297c7adf31126e1536b3edf65d3cf7560ce"
     },
     {
-      "age_days": 4,
-      "change": -0.009024497228483218,
-      "compare_period": "2026-10-09",
+      "age_days": 1,
+      "change": -0.0069156553883054,
+      "compare_period": "2026-10-12",
       "dimension": "Finansiell stress",
       "error": null,
       "first_collection": false,
@@ -227,8 +227,8 @@
       "lag": 28,
       "last_attempt_status": "UNCHANGED",
       "latest": {
-        "period": "2026-11-06",
-        "value": 0.005469029059745524
+        "period": "2026-11-09",
+        "value": 0.00575020047452717
       },
       "level": "Högre index betyder mer finansiell stress",
       "level_text": "Högre index betyder mer finansiell stress",
@@ -240,8 +240,8 @@
       "source_url": "https://data.ecb.europa.eu/data/datasets/CISS",
       "status": "CURRENT",
       "unit": "index 0–1",
-      "verified_at": "2026-11-10T00:15:32.515988Z",
-      "vintage_id": "f2d47e05a54e17af3da849559fc5a84b06be836e04adfb8db6996d94b2a130ac"
+      "verified_at": "2026-11-10T21:49:18.975834Z",
+      "vintage_id": "7dab7445a99d66f18e06f93d9bcc66414c742156275c791d73cc82af6bed1cc8"
     },
     {
       "above": "Tryck över historiskt genomsnitt",
@@ -274,7 +274,7 @@
       "vintage_id": "98aad77bbc4cedfe4c1c700531324b03f2c677d793e2d5e5fddeae92f61009ae"
     }
   ],
-  "generated_at": "2026-11-10T00:16:49.606067Z",
+  "generated_at": "2026-11-10T21:50:24.785519Z",
   "mode": "DESCRIPTIVE_LATEST_VINTAGE",
   "version": "context@1.0.1"
 }
